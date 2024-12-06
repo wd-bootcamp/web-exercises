@@ -32,7 +32,7 @@ Download the required [Icons](https://lucide.dev/icons/) and save them in an "as
 
 ## Deploying Your Project
 
-🚀 Project Deployment to GitHub Pages is required: Please adhere to the deployment guidelines outlined in your [repository's documentation](https://github.com/wd-bootcamp/cohort-template/blob/main/docs/deployment-github-pages.md) for detailed instructions.
+🚀 Project Deployment to GitHub Pages is required: Please adhere to the deployment guidelines outlined in your repository's documentation (`docs/deployment-github-pages.md`) for detailed instructions.
 
 ## Tasks
 
@@ -67,7 +67,7 @@ might want to look up the "hidden" attribute.)
 
 The second page is the bookmarks page.
 
-- Create a new file called 'bookmarks.html'.
+- Create a new file called `bookmarks.html`.
 - Add content to the page. You can copy content of the `index.html` to save time.
 - Make sure that only bookmarked questions are on this page.
 - Update the navbar so that the bookmark icon is highlighted.
