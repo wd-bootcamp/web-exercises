@@ -1,0 +1,19 @@
+{
+  "name": "react-basics_demo-js-vanilla-end",
+  "version": "0.0.0-unreleased",
+  "description": "react-basics: demo-js-vanilla-end",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx -y live-server@latest --port=3000",
+    "lint": "npx -y eslint@latest ."
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "eslint": "^8.43.0"
+  },
+  "nf": {
+    "template": "js"
+  },
+  "private": true
+}
