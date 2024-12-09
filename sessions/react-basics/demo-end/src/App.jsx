@@ -1,10 +1,10 @@
 export default function App() {
   return (
-    <div>
+    <main>
       <Button />
       <Button />
       <Button />
-    </div>
+    </main>
   );
 }
 
