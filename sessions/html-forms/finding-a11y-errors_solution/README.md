@@ -1,25 +1,37 @@
-# Forms and A11y
+# HTML Forms: Forms and A11y
 
-This challenge offers a form where the user can submit some information.
+In this challenge, we’ll work on improving the accessibility of a form that allows users to submit information.
 
-Unfortunately, the form is not accessible because there are some issues in the HTML.
+Currently, the form has several accessibility issues that need to be addressed.
 
 ## Tasks
 
-Switch to the [`index.html`](./index.html) file and make the form accessible!
+Open the `index.html` file and make the form accessible.
 
-## Questions to guide you:
+The following hints may guide you:
 
-- How do you connect a form with its headline?
-- How do you link a description to a specific <fieldset> element?
-- Do all interactive fields have their own label?
-- Are all labels linked to their interactive fields with the help of the correct attributes?
-- Does this connections works correctly?
-  - To check this, go to your browser and click on the label; the corresponding input field should now be focused.
-  - If not, did we make a spelling mistake?
-- Do we need the given placeholder?
+- How can you associate the form with its headline for better accessibility?
+- How can you link a description to a specific `<fieldset>` element?
+- Does every interactive field have its own label?
+- Are all labels properly linked to their interactive fields using the correct attributes?
+- Do these connections work as expected?
+  - Test it by clicking on the label in your browser. Does the corresponding input field get focused?
+  - If not, could there be a spelling mistake?
+- Is the provided placeholder necessary for accessibility, or could it cause confusion?
+
+## Notes
+
+- You only have to touch the `index.html` file.
 
 ## Development
 
-Use the Live Preview Extension for Visual Studio Code to view this project in the browser.  
-Select the HTML file you want to view, press <kbd>⇧</kbd><kbd>⌘</kbd><kbd>P</kbd>, search for `Live Preview: Show Preview` and confirm with <kbd>Enter</kbd>.
+Run `npm run start` to start a development server and open [localhost:3000](http://localhost:3000) in a browser.
+
+> Alternatively you can use the Live Preview Extension for Visual Studio Code to view this project.  
+> Select the HTML file you want to view, press <kbd>⇧</kbd><kbd>⌘</kbd><kbd>P</kbd>, search for `Live Preview: Show Preview` and confirm with <kbd>Enter</kbd>.
+
+### Scripts
+
+You can use the following command:
+
+- `npm run start` to start a development server

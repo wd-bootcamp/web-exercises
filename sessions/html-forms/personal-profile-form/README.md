@@ -1,22 +1,34 @@
-# Personal Profile Form
+# HTML Forms: Personal Profile Form
 
 Let's create our first form!
 
-In the images folder, you find a screenshot how the form should look like:
+In the `images` folder, you’ll find a screenshot showing how the completed form should look:
 ![Personal Profile Form](./images/final_result.png)
 
 ## Tasks
 
-Go to [`index.html`](./index.html) file. Inside the section element, build the form as shown in the screenshot.
+Open the `index.html` file. Inside the `<body>` element, build the form to match the layout in the screenshot.
+
+Hints:
+
+- You’ll need an input field with the type “color”. Look up how to set its default value to #E5430F.
+- Not sure what options to include in the “Favourite Pets” dropdown menu? Try “Agra Cadabra”, “Chicken Turtle”, “Fried Egg Jellyfish”
 
 ## Notes
 
-- It should not be necessary to change any styling inside of the [`css/styles.css`](./css/styles.css) file.
-- There is no need to write classes here. CSS styling corresponds with the correct HTML elements of the form.
-- You might need the input type called "color". Look up how you set the default value for this field to #E5430F.
-- Need some hints what to add as an option for favourite pets? Try "Agra cadabra", "Chicken Turtle", or "Fried Egg Jellyfish".
+- You only have to touch the `index.html` file.
+- There’s no need to modify the `css/styles.css` file.
+- You don’t need to add any classes. The CSS is already written to target the correct HTML elements for the form.
 
 ## Development
 
-Use the Live Preview Extension for Visual Studio Code to view this project in the browser.  
-Select the HTML file you want to view, press <kbd>⇧</kbd><kbd>⌘</kbd><kbd>P</kbd>, search for `Live Preview: Show Preview` and confirm with <kbd>Enter</kbd>.
+Run `npm run start` to start a development server and open [localhost:3000](http://localhost:3000) in a browser.
+
+> Alternatively you can use the Live Preview Extension for Visual Studio Code to view this project.  
+> Select the HTML file you want to view, press <kbd>⇧</kbd><kbd>⌘</kbd><kbd>P</kbd>, search for `Live Preview: Show Preview` and confirm with <kbd>Enter</kbd>.
+
+### Scripts
+
+You can use the following command:
+
+- `npm run start` to start a development server
