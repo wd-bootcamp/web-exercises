@@ -6,10 +6,10 @@ function App() {
   const appContainer = document.createElement("main");
   appContainer.classList.add("App");
 
-  const button1 = Button();
-  const button2 = Button();
+  const buttonOne = Button();
+  const buttonTwo = Button();
 
-  appContainer.append(button1, button2);
+  appContainer.append(buttonOne, buttonTwo);
 
   return appContainer;
 }
