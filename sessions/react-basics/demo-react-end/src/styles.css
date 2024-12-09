@@ -26,7 +26,7 @@ button {
   cursor: pointer;
 }
 
-.App {
+main {
   display: flex;
   flex-direction: column;
   border: 1px solid rgb(37, 36, 36);

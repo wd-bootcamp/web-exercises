@@ -1,3 +1,3 @@
 export default function App() {
-  return <main className="App">Add JSX here</main>;
+  return <div className="App">Add JSX here</div>;
 }
