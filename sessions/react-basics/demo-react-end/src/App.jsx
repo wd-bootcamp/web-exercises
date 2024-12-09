@@ -1,6 +1,6 @@
 export default function App() {
   return (
-    <main>
+    <main className="App">
       <Button />
       <Button />
       <Button />
