@@ -14,7 +14,7 @@ const animals = [
   { id: "9", name: "Deer", habitat: "Forest", emoji: "🦌" },
   { id: "10", name: "Hedgehog", habitat: "Forest", emoji: "🦔" },
 
-  { id: "11", name: "Wale", habitat: "Ocean", emoji: "🐋" },
+  { id: "11", name: "Whale", habitat: "Ocean", emoji: "🐋" },
   { id: "12", name: "Dolphin", habitat: "Ocean", emoji: "🐬" },
   { id: "13", name: "Crab", habitat: "Ocean", emoji: "🦀" },
   { id: "14", name: "Lobster", habitat: "Ocean", emoji: "🦞" },
