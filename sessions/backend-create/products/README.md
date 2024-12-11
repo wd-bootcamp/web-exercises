@@ -24,44 +24,39 @@ Run `npm run dev` and open [localhost:3000](http://localhost:3000) in your brows
 
 Have a look around:
 
-- there is an overview page with a form to add a new fish and a list of all products below that form;
-- when clicking a product in the list, you'll be redirected to a details page;
+- there is an overview page with a form to add a new fish and a list of all products below that form.
+- when clicking a product in the list, you'll be redirected to a details page.
 - note that submitting the form does not do anything right now.
 
 Your task is to refactor the app so that submitting the form creates a new entry in your MongoDB and refreshes the page to show all products (including the new one).
 
 ### Add a `POST` route
 
-Switch to `./pages/api/products/index.js` and write the code for the `request.method` `POST` :
+Switch to `/pages/api/products/index.js` and write the code for the `request.method` `POST` :
 
-- Use a `try...catch` block.
-- Try to:
-  - Save the product data submitted by the form - accessible in `request.body` - to a variable called `productData`.
-  - use `Product.create` with the `productData` to create a new document in our collection.
-  - _Wait_ until the new product was saved.
-  - Respond with a status `201` and the message `{ status: "Product created." }`.
-- If an error occurs:
-  - Log the error to the console.
-  - Respond with a status `400` and the message `{ error: error.message }`.
+- Save the product data submitted by the form - accessible in `request.body` - to a variable called `productData`.
+- use `Product.create` with the `productData` to create a new document in our collection.
+- _Wait_ until the new product was saved.
+- Respond with a status `201` and the message `{ status: "Product created." }`.
 
 Submitting the form will not yet work because the form does not know that you've created a `POST` route it can use.
 
 ### Send a `POST` request
 
-Switch to `./components/ProductForm/index.js`:
+Switch to `/components/ProductForm/index.js`:
 
 - There already is a `handleSubmit` function which creates a `productData` object with all relevant data.
 
-Your task is to fetch your new `POST` route and send the data to your database. After that use `mutate` from `useSWR` to refetch the data from the database.
+Your task is to fetch your new `POST` route and send the data to your database. After that, use `mutate` from `useSWR` to refetch the data from the database.
 
 - call `useSWR` in your `ProductForm` component with the API endpoint and destructure the `mutate` method.
 - inside the handleSubmit function:
   > 💡 Hint: have a look at the handout if you get stuck here.
-- send a "POST" request with `fetch` using the following options as the second argument
+- send a "POST" request with `fetch` using the following options as the second argument.
 
 ```js
 {
-  method: "POST",
+method: "POST",
 headers: {
   "Content-Type": "application/json",
   },
@@ -69,8 +64,8 @@ body: JSON.stringify(???),
 }
 ```
 
-- use the productData from the form input as the body of the request
-- await the response of the fetch, if the fetch was successful, call the `mutate` method to trigger a data revalidation of the useSWR hooks
+- use the `productData` from the form input as the body of the request.
+- await the response of the fetch, if the fetch was successful, call the `mutate` method to trigger a data revalidation of the useSWR hooks.
 
 Open [`localhost:3000/`](http://localhost:3000/) in your browser, submit a new fish and be happy about your shop being expanded!
 
