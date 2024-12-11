@@ -173,34 +173,6 @@ Users want the ability to add additional information to each art piece. Consider
 
 In Next.js, the recommended place to store data or states that need to be accessed across the app is in `_app.js`.
 
-It’s best practice to consolidate related information into a single state. However, if you're not comfortable with this approach, you can use separate states. Just ensure you can clearly identify which information corresponds to each art piece—consider saving a unique identifier, such as a slug, within each state for clarity.
-
-**Example:**
-
-- **Using a Single State:**
-
-   ```js
-   const [carInfo, setCarInfo] = useState([
-      { model: "vw-taos", colors: ["red", "blue", "white"], automatic: true }, 
-      { model: "vw-golf", colors: [ "black", "white"], automatic: false }
-      ]);
-   ```
-
-- **Separate States per information:**
-
-   ```js
-   const [carColors, setCarColors] = useState([
-      { model: "vw-taos", colors: "red"},
-      { model: "vw-taos", colors: "blue" }, 
-      { model: "vw-golf", colors: "black" }
-      ]);
-   
-   const [carAutomatic, setCarAutomatic] = useState([
-       "vw-taos", 
-       "vw-golf",
-      ]);
-   ```
-
 </details>
 
 #### Value Proposition
@@ -281,6 +253,35 @@ As developers, we aim to avoid repetitive manual testing by automating component
 ### 7. Comments for Art Pieces
 
 To enhance user engagement, we’ll add a commenting feature that allows users to write and view comments on each art piece. A comment section will be displayed on the details page, showing comments specifically for the art piece being viewed.
+
+<details>
+<summary>Hint ✨</summary>
+It’s best practice to consolidate related information into a single state. However, if you're not comfortable with this approach, you can use separate states. Just ensure you can clearly identify which information corresponds to each art piece—consider saving a unique identifier, such as a slug, within each state for clarity.
+
+**Example:**
+
+- **Using a Single State:**
+
+  ```js
+  const [carInfo, setCarInfo] = useState([
+    { model: "vw-taos", colors: ["red", "blue", "white"], automatic: true },
+    { model: "vw-golf", colors: ["black", "white"], automatic: false },
+  ]);
+  ```
+
+- **Separate States per information:**
+
+  ```js
+  const [carColors, setCarColors] = useState([
+    { model: "vw-taos", colors: "red" },
+    { model: "vw-taos", colors: "blue" },
+    { model: "vw-golf", colors: "black" },
+  ]);
+
+  const [carAutomatic, setCarAutomatic] = useState(["vw-taos", "vw-golf"]);
+  ```
+
+  </details>
 
 #### Value Proposition
 
