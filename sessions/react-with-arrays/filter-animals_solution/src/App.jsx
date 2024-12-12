@@ -52,7 +52,10 @@ export default function App() {
       <ul>
         {fitleredAnimals.map((animal) => (
           <li key={animal.id}>
-            <span role="img" aria-label={`${animal.name} emoji`}>{animal.emoji}</span>
+            {animal.name}{" "}
+            <span role="img" aria-label={`${animal.name} emoji`}>
+              {animal.emoji}
+            </span>
           </li>
         ))}
       </ul>
