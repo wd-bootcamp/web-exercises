@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>HTML Forms: Demo End</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1>🎈 Let's celebrate! 🎁</h1>
+    <h2 id="title">Private Birthday Party Picker</h2>
+    <p id="description">
+      Let's celebrate - it's my birthday! Please give me your name, email, your
+      preferred party date and how many friends you will bring to my birthday
+      party.
+    </p>
+    <form aria-labelledby="title" aria-describedby="description">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="input-name">Name:</label>
+        <input id="input-name" type="text" required />
+        <label for="input-email">Email:</label>
+        <input id="input-email" type="email" required minlength="4" />
+      </fieldset>
+
+      <label for="input-date">Your favorite date:</label>
+      <input id="input-date" type="date" />
+      <label for="select-guests">How many friends will join you?</label>
+      <select id="select-guests">
+        <option value="">--Please choose an option--</option>
+        <option value="none">I will come alone.</option>
+        <option value="one">I will bring one friend.</option>
+        <option value="few">I will bring a few friends.</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 350px;
+  font-family: system-ui;
+  padding: 20px;
+  background-color: darkseagreen;
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+form,
+fieldset {
+  display: grid;
+  gap: 10px;
+}
+
+button {
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: darkslategray;
+  font-weight: 500;
+  color: white;
+}
