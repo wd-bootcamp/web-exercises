@@ -15,7 +15,10 @@ Ensure that the user provides all the necessary information in the correct forma
 
 Switch to the `index.html` file and implement form validation based on these requirements!
 
-> 💡 Note: By default, the browser reloads a page when a form is submitted. In this challenge, this behavior is disabled using JavaScript (see `js/index.js`). We’ll cover this functionality in more detail during the session on JS Forms.
+## Notes
+
+- You only have to touch the `index.html` file.
+- By default, the browser reloads a page when a form is submitted. In this challenge, this behavior is disabled using JavaScript (see `js/index.js`). We’ll cover this functionality in more detail during the session on JS Forms.
 
 ## Development
 
