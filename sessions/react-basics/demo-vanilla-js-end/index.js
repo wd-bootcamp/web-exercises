@@ -8,8 +8,9 @@ function App() {
 
   const buttonOne = Button();
   const buttonTwo = Button();
+  const buttonThree = Button();
 
-  appContainer.append(buttonOne, buttonTwo);
+  appContainer.append(buttonOne, buttonTwo, buttonThree);
 
   return appContainer;
 }
