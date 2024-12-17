@@ -1,3 +1,5 @@
+import { Button } from "./components/Button";
+
 export default function App() {
   return (
     <main>
@@ -5,14 +7,5 @@ export default function App() {
       <Button />
       <Button />
     </main>
-  );
-}
-
-function Button() {
-  const buttonText = "click with React";
-  return (
-    <button type="button" onClick={() => console.log("Hello React World")}>
-      {buttonText}
-    </button>
   );
 }
