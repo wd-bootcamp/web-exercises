@@ -1,7 +1,7 @@
-import Introduction from "../../components/Introduction";
-import Main from "../../components/Main";
-import Section from "../../components/Section";
-import VolumeList from "../../components/VolumeList";
+import Introduction from "../components/Introduction/Introduction";
+import Main from "../components/Main/Main";
+import Section from "../components/Section/Section";
+import VolumeList from "../components/VolumeList/VolumeList";
 import { introduction, volumes } from "../../lib/data";
 
 export default function Volumes() {

@@ -1,5 +1,5 @@
-import CounterStats from "../components/CounterStats";
-import Link from "../components/Link";
+import CounterStats from "../components/CounterStats/CounterStats";
+import Link from "../components/Link/Link";
 
 export default function HomePage() {
   return (

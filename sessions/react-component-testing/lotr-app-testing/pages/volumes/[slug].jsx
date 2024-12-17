@@ -1,10 +1,10 @@
 import { useRouter } from "next/router";
-import AllVolumesNavigation from "../../components/AllVolumesNavigation";
-import Books from "../../components/Books";
-import ColoredBox from "../../components/ColoredBox";
-import Introduction from "../../components/Introduction";
-import Main from "../../components/Main";
-import VolumeNavigation from "../../components/VolumeNavigation";
+import AllVolumesNavigation from "../components/AllVolumesNavigation/AllVolumesNavigation";
+import Books from "../components/Books/Books";
+import ColoredBox from "../components/ColoredBox/ColoredBox";
+import Introduction from "../components/Introduction/Introduction";
+import Main from "../components/Main/Main";
+import VolumeNavigation from "../components/VolumeNavigation/VolumeNavigation";
 import { volumes } from "../../lib/data";
 
 export default function VolumeDetail() {

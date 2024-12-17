@@ -1,5 +1,5 @@
-import Card from "../../components/Card";
-import Layout from "../../components/Layout";
+import Card from "../components/Card/Card";
+import Layout from "../components/Layout/Layout";
 import useSWR from "swr";
 import { useRouter } from "next/router";
 

@@ -1,5 +1,5 @@
-import GameForm from "../components/GameForm";
-import Navigation from "../components/Navigation";
+import GameForm from "../components/GameForm/GameForm";
+import Navigation from "../components/Navigation/Navigation";
 
 export default function App({ onCreateGame, players }) {
   return (

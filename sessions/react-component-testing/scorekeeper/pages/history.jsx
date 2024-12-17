@@ -1,5 +1,5 @@
-import HistoryEntry from "../components/HistoryEntry";
-import Navigation from "../components/Navigation";
+import HistoryEntry from "../components/HistoryEntry/HistoryEntry";
+import Navigation from "../components/Navigation/Navigation";
 
 export default function HistoryPage({ history, players }) {
   return (

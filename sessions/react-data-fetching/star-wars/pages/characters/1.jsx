@@ -1,5 +1,5 @@
-import Card from "../../components/Card";
-import Layout from "../../components/Layout";
+import Card from "../components/Card/Card";
+import Layout from "../components/Layout/Layout";
 
 export default function Character() {
   const id = 1;

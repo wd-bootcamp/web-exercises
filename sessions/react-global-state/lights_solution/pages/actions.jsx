@@ -1,5 +1,5 @@
-import Link from "../components/Link";
-import QuickActions from "../components/QuickActions";
+import Link from "../components/Link/Link";
+import QuickActions from "../components/QuickActions/QuickActions";
 
 export default function Actions({
   lights,

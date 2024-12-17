@@ -1,6 +1,6 @@
-import Button from "../components/Button";
-import Navigation from "../components/Navigation";
-import Player from "../components/Player";
+import Button from "../components/Button/Button";
+import Navigation from "../components/Navigation/Navigation";
+import Player from "../components/Player/Player";
 
 export default function GamePage({
   nameOfGame,

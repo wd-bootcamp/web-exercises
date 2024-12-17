@@ -1,5 +1,5 @@
-import Link from "../components/Link";
-import Lights from "../components/Lights";
+import Link from "../components/Link/Link";
+import Lights from "../components/Lights/Lights";
 
 export default function Rooms({ lights, toggleLight }) {
   return (
