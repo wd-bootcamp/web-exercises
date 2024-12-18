@@ -2,7 +2,7 @@ console.clear();
 
 /*
 EXERCISE 1
-Extract only the course name from the company object.
+Extract only the course name from the `company` object.
 Make sure to export your variable as shown in the example below for the tests to work.
 */
 
