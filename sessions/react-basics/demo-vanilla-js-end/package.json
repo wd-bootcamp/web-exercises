@@ -1,7 +1,7 @@
 {
-  "name": "react-basics_demo-js-vanilla-end",
+  "name": "react-basics_demo-vanilla-js-end",
   "version": "0.0.0-unreleased",
-  "description": "react-basics: demo-js-vanilla-end",
+  "description": "react-basics_demo-vanilla-js-end",
   "main": "index.js",
   "type": "module",
   "scripts": {
