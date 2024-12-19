@@ -1,3 +1,21 @@
+@import './buttons.css';
+@import './toast.css';
+
+:root {
+  --primary-dark: #2e016d;
+  --primary: #3f0097;
+  --primary-light: #8336ff7b;
+  --secondary-dark: #943215;
+  --secondary: #ff4a11;
+  --secondary-light: #f6997d64;
+  --accent: #ffd15d;
+  --black-light: #252629;
+  --black: #000000;
+  --white: #ffffff;
+  --grey-dark: #b6b9c2;
+  --grey-light: #f5f6f6;
+}
+
 *,
 *::before,
 *::after {
@@ -8,42 +26,5 @@
 
 body {
   font-family: system-ui;
-}
-
-.buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  padding: 1rem;
-  max-width: 15rem;
-}
-
-.toast-container {
-  display: flex;
-  flex-direction: column-reverse;
-  gap: 1rem;
-  width: 25rem;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  list-style: none;
-  overflow: hidden;
-  padding: 2rem;
-}
-
-.toast-container__message {
-  background-color: #fff;
-  padding: 1rem;
-  border-radius: 6px;
-  box-shadow: 0 0 1rem rgba(133, 133, 133, 0.3);
-  animation: slideIn 500ms forwards;
-}
-
-@keyframes slideIn {
-  0% {
-    transform: translateX(200%);
-  }
-  100% {
-    transform: translateX(0);
-  }
+  background-color: var(--secondary-light);
 }

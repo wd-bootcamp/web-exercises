@@ -1,0 +1,30 @@
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    max-width: 15rem;
+}
+
+.buttons button {
+    height: 50px;
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 5px;
+    border: 1px solid var(--primary-dark);
+}
+
+.toast-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+    width: 25rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    list-style: none;
+    overflow: hidden;
+    padding: 2rem;
+}
