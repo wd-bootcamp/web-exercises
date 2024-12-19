@@ -2,7 +2,7 @@ const rootElement = document.querySelector("[data-js='root']");
 
 function App() {
   const appContainer = document.createElement("main");
-  appContainer.classList.add("App");
+  appContainer.classList.add("app");
 
   const button = document.createElement("button");
   button.type = "button";
