@@ -48,7 +48,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100dvh;
   background: var(--primary);
   background-image: var(--bg-gradient);
 }
