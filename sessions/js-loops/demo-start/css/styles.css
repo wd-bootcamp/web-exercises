@@ -43,7 +43,8 @@
 }
 
 body {
-  margin: 0;
+  max-width: 650px;
+  margin-inline: auto;
   font-family: system-ui;
   display: flex;
   justify-content: center;
