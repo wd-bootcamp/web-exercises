@@ -56,9 +56,8 @@ body {
 }
 
 main {
-  width: 50%;
   min-width: 300px;
-  padding: 10%;
+  padding: 16px;
   background-color: var(--white);
   border-radius: 8px;
   text-align: center;
