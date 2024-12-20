@@ -45,7 +45,6 @@
 body {
   max-width: 650px;
   margin-inline: auto;
-  margin: 0;
   font-family: system-ui;
   display: flex;
   justify-content: center;
