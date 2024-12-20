@@ -1,3 +1,18 @@
+:root {
+  --primary-dark: #2e016d;
+  --primary: #3f0097;
+  --primary-light: #8336ff7b;
+  --secondary-dark: #943215;
+  --secondary: #ff4a11;
+  --secondary-light: #f6997d64;
+  --accent: #ffd15d;
+  --black-light: #252629;
+  --black: #000000;
+  --white: #ffffff;
+  --grey-dark: #b6b9c2;
+  --grey-light: #f5f6f6;
+}
+
 *,
 *::before,
 *::after {
@@ -7,10 +22,15 @@
 body {
   margin: 0;
   font-family: system-ui;
+  background-color: var(--grey-light);
 }
 
 main {
+  background-color: var(--secondary);
+  border-bottom: 2px solid var(--primary-dark);
+
   display: flex;
+  justify-content: space-between;
   gap: 0.5em;
   padding: 20px;
 }
@@ -25,5 +45,5 @@ li {
 }
 
 a {
-  color: black;
+  color: var(--white);
 }
