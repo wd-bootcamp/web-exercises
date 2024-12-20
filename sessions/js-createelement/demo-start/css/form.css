@@ -1,0 +1,31 @@
+form {
+    font-size: 20px;
+    color: var(--primary);
+}
+
+form input {
+    border: none;
+    border-bottom: 2px solid var(--primary);
+    /* background-color: var(--secondary-light); */
+    background-color: var(--grey-light);
+    font-size: 20px;
+
+}
+
+form button {
+    padding: 15px;
+    padding: 0.5rem 1rem;
+
+    background-color: var(--primary-dark);
+
+    color: var(--white);
+    font-weight: bold;
+
+    border: 2px solid var(--primary-light);
+    border-radius: 12px;
+}
+
+form button:hover {
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
+}
