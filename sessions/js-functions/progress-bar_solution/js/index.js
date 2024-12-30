@@ -10,20 +10,20 @@ function calculateScrollPercentage() {
 }
 
 document.addEventListener("scroll", () => {
-  const scrollPositionInPercentage = calculateScrollPercentage();
-  progressBar.style.width = scrollPositionInPercentage + "%";
+  const scrollPosition = calculateScrollPercentage();
+  progressBar.style.width = `${scrollPosition}%`;
 });
 
-// Alternative:
+// Alternative
 
 /*
-document.addEventListener("scroll", () => {
-  progressBar.style.width = calculateScrollPercentage() + "%";
-});
-
 function calculateScrollPercentage() {
   const scrollPercentage =
     (window.scrollY / (document.body.clientHeight - window.innerHeight)) * 100;
   return scrollPercentage;
 }
+  
+document.addEventListener("scroll", () => {
+  progressBar.style.width = calculateScrollPercentage() + "%";
+});
 */
