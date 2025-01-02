@@ -36,7 +36,7 @@ We will fetch all character information from a REST API specifically designed fo
 
 ## Tasks
 
-### Character Card Component
+### 1. Character Card Component
 
 For now you have only one hard coded character card for Rick Sanchez in your HTML. We want to create
 them dynamically in our JavaScript.
@@ -52,7 +52,7 @@ them dynamically in our JavaScript.
 - Think about which input parameter(s) this function will need.
 - The function finally returns the created `li` HTML element.
 
-### Fetch the Data
+### 2. Fetch the Data
 
 Now we can fetch the character data from the API and generate our cards with it.
 
@@ -66,7 +66,7 @@ Now we can fetch the character data from the API and generate our cards with it.
   use `innerHTML = ''` for that).
 - Call the function inside the `index.js`. Now you should see 20 cards in your app.
 
-### Pagination
+### 3. Pagination
 
 Great Job! But we want to see not only 20 characters, we want all of them! So lets implement the
 pagination.
@@ -82,7 +82,7 @@ pagination.
 - Update the pagination display each time characters are fetched to show the current page index and
   the current max page index.
 
-### The Search Bar
+### 4. The Search Bar
 
 Now we want even more functionality in our app. We want to find individual characters by typing
 their name into the search bar.
@@ -100,7 +100,7 @@ their name into the search bar.
 
 ## Bonus
 
-### Refactoring your Code
+### 5. Refactoring your Code
 
 You've done it: your app is working as expected. 🚀✨
 
@@ -119,7 +119,7 @@ However, we want to tidy up our code so that not everything is written in a sing
 - Append the created components at the right places in your HTML. All container elements are already
   available in the `index.js`.
 
-### Style Your Project
+### 6. Style Your Project
 
 Congratulations on getting your project up and running! Now, let's take it to the next level by adding some flair and personality through styling. The bonus feature focuses on enhancing the visual appeal of your page with creative design elements. Follow these steps to give your project that extra touch:
 

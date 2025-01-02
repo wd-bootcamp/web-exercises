@@ -9,18 +9,15 @@ const outputSection = document.querySelector('[data-js="output-section"]');
 const output = document.querySelector('[data-js="output"]');
 
 pizzaInput1.addEventListener("input", () => {
-  // write your code here
+  // Write your code here
 });
 
 pizzaInput2.addEventListener("input", () => {
-  // write your code here
+  // Write your code here
 });
 
-// Task 1
-// define the function calculatePizzaGain here
+// Task 1: Define the function `calculatePizzaGain` here
 
-// Task 2
-// define the function updatePizzaDisplay here
+// Task 2: Define the function `updatePizzaDisplay` here
 
-// Task 3
-// define the function updateOutputColor here
+// Task 3: Define the function `updateOutputColor` here

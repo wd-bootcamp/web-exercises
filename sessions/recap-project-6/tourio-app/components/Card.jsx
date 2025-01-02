@@ -15,6 +15,7 @@ const ImageContainer = styled.div`
 `;
 
 const Figure = styled.figure`
+  color: black;
   position: relative;
   margin: 0;
   padding: 0;

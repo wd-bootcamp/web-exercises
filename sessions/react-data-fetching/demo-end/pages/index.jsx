@@ -1,4 +1,5 @@
 import { useState } from "react";
+import useSWR from "swr";
 
 const fetcher = (url) => fetch(url).then((response) => response.json());
 
@@ -40,6 +41,8 @@ export default function HomePage() {
   if (error || !joke) {
     return <h1>Error</h1>;
   }
+
+  const isFunny = funnyJokeIds.includes(id);
 
   return (
     <>

@@ -2,7 +2,7 @@ console.clear();
 
 /*
 EXERCISE 1
-Extract only the course name from the company object.
+Extract only the course name from the `company` object.
 Make sure to export your variable as shown in the example below for the tests to work.
 */
 
@@ -65,11 +65,7 @@ export function logInfo(city) {
   return `${name} is in ${country} and has ${numPeople} inhabitants in it.`;
 }
 
-<<<<<<< HEAD
-// This is how you call it:
-=======
 // Usage example:
->>>>>>> main
 console.log(
   logInfo({ name: "Marseille", country: "France", population: 861635 })
 );
