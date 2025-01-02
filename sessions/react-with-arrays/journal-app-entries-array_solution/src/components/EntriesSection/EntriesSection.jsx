@@ -1,9 +1,9 @@
 import "./EntriesSection.css";
-import Divider from "../Divider";
-import Entry from "../Entry";
-import Tabs from "../Tabs";
-import Tab from "../Tab";
-import Badge from "../Badge";
+import Divider from "../Divider/Divider";
+import Entry from "../Entry/Entry";
+import Tabs from "../Tabs/Tabs";
+import Tab from "../Tab/Tab";
+import Badge from "../Badge/Badge";
 
 const entries = [
   {
