@@ -44,7 +44,7 @@ Download the required [Icons](https://lucide.dev/icons/) and save them in an "as
 
 If you are using the template, you will need to deploy you project.
 
-🚀 Project Deployment to GitHub Pages is required: Please adhere to the deployment guidelines outlined in your [repository's documentation](https://github.com/wd-bootcamp/cohort-template/blob/main/docs/deployment-github-pages.md) for detailed instructions.
+🚀 Project Deployment to GitHub Pages is required: Please adhere to the deployment guidelines outlined in your repository's documentation (`docs/deployment-github-pages.md`) for detailed instructions.
 
 ## Tasks
 
@@ -54,7 +54,7 @@ You have successfully built your **card** component in your Quiz App. But curren
 **can't** interact with it. Now we want to implement a toggle functionality for the bookmark and the
 answer button.
 
-> ❗️ All functionality applies to the first card and the first bookmark only. Applying the
+> ❗️ All functionality applies to the **first card** and the **first bookmark** only. Applying the
 > functionality to all cards and bookmarks will be discussed later in the bootcamp.
 
 #### Bookmark button
