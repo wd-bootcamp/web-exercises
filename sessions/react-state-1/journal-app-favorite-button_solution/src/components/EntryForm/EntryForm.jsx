@@ -1,5 +1,5 @@
 import "./EntryForm.css";
-import Button from "../Button";
+import Button from "../Button/Button";
 
 export default function EntryForm() {
   return (
