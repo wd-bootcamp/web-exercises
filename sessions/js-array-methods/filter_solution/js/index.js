@@ -24,17 +24,17 @@ const cards = [
 ];
 
 const onlyCardWithIdTwo = cards.filter((card) => card.id === "2");
-console.log(onlyCardWithIdTwo);
+console.log("onlyCardWithIdTwo", onlyCardWithIdTwo);
 
 const allCardsWith3Tags = cards.filter((card) => card.tags.length === 3);
-console.log(allCardsWith3Tags);
+console.log("allCardsWith3Tags", allCardsWith3Tags);
 
 const allCardsThatAreNotBookmarked = cards.filter((card) => !card.isBookmarked);
-console.log(allCardsThatAreNotBookmarked);
+console.log("allCardsThatAreNotBookmarked", allCardsThatAreNotBookmarked);
 
 const allCardsWithTagsHTMLOrJSThatAreBookmarked = cards.filter(
   (card) =>
     card.isBookmarked &&
-    (card.tags.includes("html") || card.tags.includes("js")),
+    (card.tags.includes("html") || card.tags.includes("js"))
 );
-console.log(allCardsWithTagsHTMLOrJSThatAreBookmarked);
+console.log("allCardsWithTagsHTMLOrJSThatAreBookmarked", allCardsWithTagsHTMLOrJSThatAreBookmarked);
