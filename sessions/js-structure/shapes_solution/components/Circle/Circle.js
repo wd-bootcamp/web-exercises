@@ -1,4 +1,4 @@
-import { getRandomColor } from "../../utils/randomColor";
+import { getRandomColor } from "../../utils/randomColor.js";
 
 export default function Circle() {
   const circle = document.createElement("div");
