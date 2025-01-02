@@ -14,7 +14,7 @@ import styled from "styled-components";
 ```
 
 - Apply new styles to the `PrimaryButton`, such as a different background color and font color.
-- Use the `PrimaryButton` styled component in your `App.js`.
+- Use the `PrimaryButton` styled component in your `App.jsx`.
 
 ## Development
 
