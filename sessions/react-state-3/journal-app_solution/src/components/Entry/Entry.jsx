@@ -1,4 +1,4 @@
-import FavoriteButton from "../FavoriteButton";
+import FavoriteButton from "../FavoriteButton/FavoriteButton";
 import "./Entry.css";
 
 export default function Entry({
