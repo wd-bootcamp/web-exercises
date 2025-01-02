@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import ProductList from "@/components/ProductList";
-import ProductForm from "@/components/ProductForm";
+import ProductList from "@/components/ProductList/ProductList";
+import ProductForm from "@/components/ProductForm/ProductForm";
 
 export default function HomePage() {
   return (
