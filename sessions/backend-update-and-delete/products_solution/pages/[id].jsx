@@ -2,9 +2,9 @@ import { useState } from "react";
 import useSWR from "swr";
 import { useRouter } from "next/router";
 import styled from "styled-components";
-import StyledLink from "@/components/Link/";
-import Comments from "@/components/Comments";
-import ProductForm from "@/components/ProductForm";
+import StyledLink from "@/components/Link";
+import Comments from "@/components/Comments/Comments";
+import ProductForm from "@/components/ProductForm/ProductForm";
 import StyledButton from "@/components/Button";
 
 export default function Product() {
