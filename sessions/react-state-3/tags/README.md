@@ -1,8 +1,8 @@
 # React State 3: Tags
 
-In the `./src/App.jsx` file, there is a `tags` state passed to the [`List`](./src/components/List/index.jsx) component. Each tag has a delete button.
+In the `./src/App.jsx` file, there is a `tags` state passed to the [`List`](./src/components/List/List.jsx) component. Each tag has a delete button.
 
-There is also a [`Form`](./src/components/Form/index.jsx) component which already handles the submit event and the data.
+There is also a [`Form`](./src/components/Form/Form.jsx) component which already handles the submit event and the data.
 
 Currently, it's not possible to add or remove a tag from state.
 
