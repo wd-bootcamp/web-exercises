@@ -1,7 +1,23 @@
+@import './variables.css';
+@import './form.css';
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--primary);
+  text-shadow: 2px 2px 2px var(--secondary);
+  margin: 1rem 0px;
 }
 
 .employee-list {
@@ -9,9 +25,10 @@
   flex-wrap: wrap;
   gap: 1.5em;
 }
+
 .card {
   width: 200px;
-  background-color: #f2b738;
+  background-color: var(--primary-light);
   padding: 0.5em;
   text-align: center;
   border-radius: 5px;
@@ -19,20 +36,12 @@
   font-size: 0.8em;
   margin-top: 0.5em;
 }
-h1 {
-  text-align: center;
+
+.card h2 {
+  color: var(--primary-dark);
 }
-input {
-  padding: 0.4em;
-}
-form {
-  display: flex;
-  justify-content: baseline;
-  align-items: center;
-  gap: 1em;
-  flex-wrap: wrap;
-}
-label {
-  font-size: 1em;
-  align-self: center;
+
+
+hr {
+  border-color: var(--secondary);
 }
