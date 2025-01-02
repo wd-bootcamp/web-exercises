@@ -1,11 +1,4 @@
-:root {
-  /* Color Variables */
-
-  --color-nemo: #ff4a11;
-  --color-granite: #252629;
-  --color-water-10: #f3f5f9;
-  --color-foam: #ffffff;
-}
+@import './variables.css';
 
 *,
 *::before,
@@ -15,22 +8,17 @@
 
 body {
   margin: 0;
+  min-height: 100vh;
   font-family: system-ui;
-
-  background-color: var(--color-foam);
+  background-color: var(--secondary-light);
   padding: 20px;
 }
 
 h1 {
   margin: 0;
   font-size: 3rem;
-  color: var(--color-nemo);
+  color: var(--primary);
   text-align: center;
-}
-
-h2 {
-  margin: 0;
-  color: var(--color-granite);
 }
 
 ul {
@@ -55,7 +43,5 @@ form {
 
 img {
   border-radius: 14px;
-  width: 300px;
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
-    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  width: 70px;
 }
