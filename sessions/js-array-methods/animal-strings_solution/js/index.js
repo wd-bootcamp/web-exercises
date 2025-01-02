@@ -27,7 +27,7 @@ const hippoExists = animalStrings.includes("hippo");
 const catStartingFromIndexFiveExists = animalStrings.includes("cat", 5);
 // Hint: Besides the array method, check out the string method `startsWith()`.
 const firstAnimalStartingWithLetterP = animalStrings.find((animal) =>
-  animal.startsWith("p"),
+  animal.startsWith("p")
 );
 
 const indexOfGiraffe = animalStrings.indexOf("giraffe");
@@ -47,11 +47,11 @@ const animalsSortedAlphabetically = animalStrings.toSorted((a, b) => {
 
 // Hint: Guess what? There is a string method called `endsWith()`.
 const anyAnimalEndsWithLetterZ = animalStrings.some((animal) =>
-  animal.endsWith("z"),
+  animal.endsWith("z")
 );
 
 const everyAnimalHasMoreThanTwoLetters = animalStrings.every(
-  (animal) => animal.length > 2,
+  (animal) => animal.length > 2
 );
 
 // Hint: There are several ways to go here. Let's focus on two options:
@@ -62,7 +62,7 @@ const sumOfAllAnimalCharacters = animalStrings
   .map((animal) => animal.length)
   .reduce((sum, item) => sum + item, 0);
 
-console.log(sumOfAllAnimalCharacters);
+console.log("sumOfAllAnimalCharacters: ", sumOfAllAnimalCharacters);
 export {
   hippoExists,
   catStartingFromIndexFiveExists,
