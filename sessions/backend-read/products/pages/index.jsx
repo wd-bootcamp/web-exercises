@@ -1,4 +1,4 @@
-import ProductList from "@/components/ProductList";
+import ProductList from "@/components/ProductList/ProductList";
 import styled from "styled-components";
 
 export default function HomePage() {
