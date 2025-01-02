@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  font-family: system-ui;
+  color: #252629;
+  line-height: 1.5;
+}
+
+.infobox {
+  max-width: 80%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #e8eaf6;
+}
+
+.infobox__bookmark {
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  background-color: #252629;
+}
+
+.header {
+  color: #ffff;
+  background-color: #5c6bc0;
+  padding: 0 10px;
+}
+
+.to-top {
+  text-decoration: none;
+  color: #ffff;
+  padding: 12px 18px;
+  border-radius: 3px;
+  background-color: #5c6bc0;
+}
+
+.cta-box {
+  color: #ffff;
+  padding: 10px;
+  background-color: #252629;
+}
