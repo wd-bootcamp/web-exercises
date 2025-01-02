@@ -1,6 +1,6 @@
 import { StyledImage } from "../StyledImage.js";
 import styled from "styled-components";
-import FavoriteButton from "../FavoriteButton/index.js";
+import FavoriteButton from "../FavoriteButton/FavoriteButton.jsx";
 
 const ImageContainer = styled.div`
   position: relative;

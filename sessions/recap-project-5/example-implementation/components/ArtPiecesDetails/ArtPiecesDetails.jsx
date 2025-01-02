@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import FavoriteButton from "../FavoriteButton";
+import FavoriteButton from "../FavoriteButton/FavoriteButton";
 import Image from "next/image.js";
-import CommentForm from "../CommentForm/index.js";
-import Comments from "../Comments/index.js";
+import CommentForm from "../CommentForm/CommentForm";
+import Comments from "../Comments/Comments";
 import { List } from "../List.js";
 
 const Wrapper = styled.section`

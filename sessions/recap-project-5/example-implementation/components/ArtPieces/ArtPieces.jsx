@@ -1,4 +1,4 @@
-import ArtPiecePreview from "../ArtPiecePreview";
+import ArtPiecePreview from "../ArtPiecePreview/ArtPiecePreview";
 import styled from "styled-components";
 
 const List = styled.ul`

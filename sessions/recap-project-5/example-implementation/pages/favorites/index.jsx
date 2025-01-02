@@ -1,4 +1,4 @@
-import ArtPieces from "../../components/ArtPieces";
+import ArtPieces from "../../components/ArtPieces/ArtPieces";
 
 export default function FavoritesPage({
   pieces,

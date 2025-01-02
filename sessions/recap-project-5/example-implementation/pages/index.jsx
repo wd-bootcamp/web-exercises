@@ -1,5 +1,5 @@
 import Head from "next/head.js";
-import Spotlight from "../components/Spotlight/index.js";
+import Spotlight from "../components/Spotlight/Spotlight";
 import { useState, useEffect } from "react";
 
 export default function SpotlightPage({

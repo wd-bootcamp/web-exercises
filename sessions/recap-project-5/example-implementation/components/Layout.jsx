@@ -1,4 +1,4 @@
-import Navigation from "./Navigation/index.js";
+import Navigation from "./Navigation/Navigation";
 import styled from "styled-components";
 import Head from "next/head.js";
 
