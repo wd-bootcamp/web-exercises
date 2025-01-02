@@ -1,4 +1,4 @@
-import BoxWithClassName from "../components/BoxWithClassName/BoxWithClassName.js";
+import BoxWithClassName from "../components/BoxWithClassName/BoxWithClassName";
 
 export default function HomePage() {
   return (

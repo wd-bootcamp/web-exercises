@@ -1,5 +1,5 @@
 import BoxWithStyledComponents from "@/components/BoxWIhtStyledComponents.js";
-import BoxWithClassName from "../components/BoxWithClassName/BoxWithClassName.js";
+import BoxWithClassName from "../components/BoxWithClassName/BoxWithClassName";
 import styled from "styled-components";
 export default function HomePage() {
   return (
