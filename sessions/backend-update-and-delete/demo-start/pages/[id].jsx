@@ -2,7 +2,7 @@ import useSWR from "swr";
 import { useState } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import JokeForm from "@/components/JokeForm";
+import JokeForm from "@/components/JokeForm/JokeForm";
 
 export default function Joke() {
   const [showEditForm, setShowEditForm] = useState(false);
