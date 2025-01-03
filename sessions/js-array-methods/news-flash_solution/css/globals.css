@@ -1,11 +1,4 @@
-:root {
-  /* Color Variables */
-
-  --color-nemo: #ff4a11;
-  --color-granite: #252629;
-  --color-water-10: #f3f5f9;
-  --color-foam: #ffffff;
-}
+@import './variables.css';
 
 *,
 *::before,
@@ -16,8 +9,7 @@
 body {
   margin: 0;
   font-family: system-ui;
-
-  background-color: var(--color-foam);
+  background-color: var(--secondary-light);
   padding: 20px;
 }
 
@@ -29,12 +21,14 @@ main {
 h1 {
   margin: 0;
   font-size: 3rem;
-  color: var(--color-nemo);
+  color: var(--primary);
+  letter-spacing: .2rem;
+  text-align: center;
 }
 
 h2 {
   margin: 0;
-  color: var(--color-granite);
+  color: var(--black-light);
 }
 
 ul {

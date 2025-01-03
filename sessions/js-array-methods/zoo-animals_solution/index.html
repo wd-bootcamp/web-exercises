@@ -6,19 +6,21 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <link rel="shortcut icon" href="./public/favicon.png" type="image/x-icon" />
     <title>JS Array Methods: Zoo Animals</title>
     <link rel="stylesheet" href="./css/styles.css" />
     <script src="./js/index.js" type="module"></script>
   </head>
   <body>
-    <h1>Our zoo has a lot of animals. What animal are you looking for?</h1>
+    <h1>Our zoo has a lot of animals.</h1>
+    <h2>What animal are you looking for?</h2>
     <form data-js="animalForm">
       <label for="searchQuery">Search for an animal:</label>
       <input type="text" id="searchQuery" name="searchQuery" />
       <button data.js="searchAnimal">🔍 Search</button>
     </form>
-    <div class="output" data-js="output"></div>
-    <p>Our animals:</p>
+    <section class="output" data-js="output"></section>
+    <h2>Our animals:</h2>
     <ul data-js="animalList"></ul>
   </body>
 </html>

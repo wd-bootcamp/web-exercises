@@ -8,6 +8,7 @@ queryInput.addEventListener("input", (event) => {
   container.innerHTML = "";
 
   const searchString = event.target.value;
+  console.log("searchString: ", searchString);
 
   // PART 1
   // const foundCountry = countries.find((country) =>
@@ -19,8 +20,10 @@ queryInput.addEventListener("input", (event) => {
   // }
 
   const foundCountries = countries.filter((country) =>
-    country.name.startsWith(searchString)
+    country.name.toUpperCase().startsWith(searchString.toUpperCase())
   );
+
+  console.log("foundCountries: ", foundCountries);
 
   if (foundCountries.length > 0) {
     foundCountries.forEach((country) => {

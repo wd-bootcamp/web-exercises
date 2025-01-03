@@ -36,17 +36,17 @@ const recipes = [
 */
 
 const onlyTitles = recipes.map((recipe) => recipe.title); // ['Crepes', ...]
-console.log(onlyTitles);
+console.log("onlyTitles: ", onlyTitles);
 
 const titlesWithDuration = recipes.map(
-  (recipe) => `${recipe.title} (${recipe.duration}min)`,
+  (recipe) => `${recipe.title} (${recipe.duration}min)`
 ); // ['Crepes (60min)', ...]
-console.log(titlesWithDuration);
+console.log("titlesWithDuration: ", titlesWithDuration);
 
 const timePerServing = recipes.map(
-  (recipe) => recipe.duration / recipe.servings,
+  (recipe) => recipe.duration / recipe.servings
 );
-console.log(timePerServing);
+console.log("timePerServing: ", timePerServing);
 
 // [20, 10, 432, 12]
 
@@ -56,7 +56,7 @@ console.log(timePerServing);
 // myArray.map(...).join(', ');
 
 const allTitlesInOneString = recipes.map((recipe) => recipe.title).join(", "); // 'Crepes, Scrambled Eggs, ...'
-console.log(allTitlesInOneString);
+console.log("allTitlesInOneString: ", allTitlesInOneString);
 // For more information how to join an array,
 // see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join#joining_an_array_four_different_ways
 
@@ -65,16 +65,25 @@ console.log(allTitlesInOneString);
 */
 
 const recipesThatOnlyTake60minutesOrLess = recipes.filter(
-  (recipe) => recipe.duration <= 60,
+  (recipe) => recipe.duration <= 60
 );
-console.log(recipesThatOnlyTake60minutesOrLess);
+console.log(
+  "recipesThatOnlyTake60minutesOrLess: ",
+  recipesThatOnlyTake60minutesOrLess
+);
 
 const allRecipesWithMoreThan2Servings = recipes.filter(
-  (recipe) => recipe.servings > 2,
+  (recipe) => recipe.servings > 2
 );
-console.log(allRecipesWithMoreThan2Servings);
+console.log(
+  "allRecipesWithMoreThan2Servings: ",
+  allRecipesWithMoreThan2Servings
+);
 
 const allRecipesWithTitlesLongerThan12Characters = recipes.filter(
-  (recipe) => recipe.title.length > 12,
+  (recipe) => recipe.title.length > 12
 );
-console.log(allRecipesWithTitlesLongerThan12Characters);
+console.log(
+  "allRecipesWithTitlesLongerThan12Characters: ",
+  allRecipesWithTitlesLongerThan12Characters
+);

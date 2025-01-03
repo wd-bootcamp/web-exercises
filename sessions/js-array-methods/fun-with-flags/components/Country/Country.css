@@ -1,6 +1,12 @@
 .country {
+  width: 8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
+}
+
+.country p {
+  text-align: center;
+  margin: 0.3rem 0px;
 }

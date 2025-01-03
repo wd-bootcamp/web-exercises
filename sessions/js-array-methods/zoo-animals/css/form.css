@@ -1,0 +1,25 @@
+button {
+    border-radius: 0.5em;
+    font-size: 0.8em;
+    padding: 0 0.2em;
+}
+
+input {
+    border-radius: 0.5em;
+    padding: 0.3em;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--secondary);
+
+}
