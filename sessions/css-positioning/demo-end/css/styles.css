@@ -20,7 +20,7 @@ h1 {
   color: #ffff;
   background-color: #5c6bc0;
   padding: 0 10px;
-
+  width: 100%;
   position: fixed;
   top: 0;
   z-index: 10;
