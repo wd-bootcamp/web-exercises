@@ -4,9 +4,49 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-dark: #2e016d;
+  --primary: #3f0097;
+  --primary-light: #8336ff7b;
+  --secondary-dark: #943215;
+  --secondary: #ff4a11;
+  --secondary-light: #f6997d64;
+  --accent: #ffd15d;
+  --black-light: #252629;
+  --black: #000000;
+  --white: #ffffff;
+  --grey-dark: #b6b9c2;
+  --grey-light: #f5f6f6;
+  --bg-gradient: linear-gradient(
+    120deg,
+    hsl(265deg 100% 30%) 1%,
+    hsl(265deg 64% 39%) 33%,
+    hsl(266deg 48% 46%) 42%,
+    hsl(267deg 41% 52%) 46%,
+    hsl(268deg 41% 59%) 49%,
+    hsl(269deg 42% 66%) 50%,
+    hsl(270deg 42% 72%) 51%,
+    hsl(271deg 43% 79%) 51%,
+    hsl(271deg 43% 86%) 51%,
+    hsl(272deg 44% 93%) 50%,
+    hsl(0deg 0% 100%) 50%,
+    hsl(19deg 100% 95%) 50%,
+    hsl(19deg 100% 90%) 49%,
+    hsl(18deg 100% 86%) 49%,
+    hsl(18deg 100% 81%) 49%,
+    hsl(17deg 100% 77%) 50%,
+    hsl(17deg 100% 72%) 51%,
+    hsl(16deg 100% 68%) 54%,
+    hsl(15deg 100% 64%) 58%,
+    hsl(15deg 100% 59%) 67%,
+    hsl(14deg 100% 53%) 99%
+  );
+}
+
 body {
   margin: 0;
-  background-color: white;
+  padding-top: 50px;
+  background-color: #f9f9f9;
   font-family: system-ui;
   color: #252629;
   line-height: 1.5;
@@ -17,8 +57,8 @@ h1 {
 }
 
 .header {
-  color: #ffff;
-  background-color: #5c6bc0;
+  color: #f9f9f9;
+  background-color: #2e016d;
   padding: 0 10px;
   width: 100%;
   position: fixed;
@@ -30,7 +70,7 @@ h1 {
   max-width: 80%;
   margin: 30px auto;
   padding: 20px;
-  background-color: #e8eaf6;
+  background-color: #8336ff7b;
 
   position: relative;
 }
@@ -39,7 +79,8 @@ h1 {
   width: 50px;
   height: 50px;
   font-size: 1.5rem;
-  background-color: #252629;
+  background-color: #ff4a11;
+  border: 1px solid #943215;
 
   position: absolute;
   top: 20px;
@@ -47,7 +88,7 @@ h1 {
 }
 
 .cta-box {
-  color: #ffff;
+  color: #f9f9f9;
   padding: 10px;
   background-color: #252629;
 
@@ -58,10 +99,10 @@ h1 {
 
 .to-top {
   text-decoration: none;
-  color: #ffff;
-  padding: 12px 18px;
-  border-radius: 3px;
-  background-color: #5c6bc0;
+  color: #f9f9f9;
+  padding: 12px 24px;
+  border-radius: 5px;
+  background-color: #ff4a11;
 
   position: fixed;
   bottom: 20px;
