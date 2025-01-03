@@ -1,3 +1,5 @@
+@import './variables.css';
+
 *,
 *::before,
 *::after {
@@ -8,9 +10,22 @@ body {
   margin: 0;
   padding: 1rem;
   font-family: system-ui;
+  min-height: 100vh;
+  background: var(--primary);
+  background-image: var(--bg-gradient);
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--white);
 }
 
 form {
+  background-color: var(--white);
+  padding: 2rem;
+  min-width: 720px;
+  width: 50%;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -23,7 +38,22 @@ form * {
   padding: 0 0.5rem;
 }
 
+form button {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 .error {
+  min-width: 720px;
+  width: 50%;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  background-color: var(--white);
   color: red;
   line-height: 3rem;
   font-weight: bold;
