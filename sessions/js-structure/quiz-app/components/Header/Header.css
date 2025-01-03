@@ -5,10 +5,11 @@
   left: 0;
   width: 100%;
   padding: 2rem 0;
-  background: var(--primary);
+  background: var(--primary-dark);
   border-bottom: 1px solid var(--black);
 }
 
 .header__title {
   text-align: center;
+  color: var(--white);
 }
