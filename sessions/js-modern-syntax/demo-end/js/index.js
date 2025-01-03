@@ -49,26 +49,26 @@ const animals = ["Lion", "Tiger", "Penguin", "Bear", "Whale"];
 
 // Rest syntax in array destructuring
 const [lion, tiger, penguin, ...rest] = animals;
-console.log(lion);
-console.log(tiger);
-console.log(rest[1]);
+console.log("lion: ", lion);
+console.log("tiger: ", tiger);
+console.log("rest[1]: ", rest[1]);
 
 /* ---------------- Rest Syntax ----------------- */
 
 function showZooAnimals(...allAnimals) {
-  console.log(allAnimals);
+  console.log("allAnimals: ", allAnimals);
   return `My zoo consists of the following animals: ${allAnimals.join(", ")}.`;
 }
 
-console.log(showZooAnimals("Monkey", "Crocodil", "Pig"));
+console.log("showZooAnimals: ", showZooAnimals("Monkey", "Crocodil", "Pig"));
 
 /* ---------------- Spread Syntax ----------------- */
 
-console.log(showZooAnimals(lion, tiger, ...rest));
+console.log("showZooAnimals: ", showZooAnimals(lion, tiger, ...rest));
 
 const newAnimals = ["Whale", "Dolphin", "Wolf"];
 
-console.log(showZooAnimals(...newAnimals));
+console.log("showZooAnimals: ", showZooAnimals(...newAnimals));
 
 // Add another value
 
@@ -78,12 +78,12 @@ const newAnimalFood = "Fish";
 
 const allAnimalFood = [...animalFood, newAnimalFood];
 
-console.log(allAnimalFood);
+console.log("allAnimalFood: ", allAnimalFood);
 
 // Spread for concatenating two arrays
 
 const allMyAnimals = [...newAnimals, ...animals];
 
-console.log(allMyAnimals);
+console.log("allMyAnimals: ", allMyAnimals);
 
-console.log(showZooAnimals(...allMyAnimals));
+console.log("showZooAnimals: ", showZooAnimals(...allMyAnimals));
