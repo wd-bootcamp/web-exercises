@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  background-color: white;
+  background-color: #f9f9f9;
   font-family: system-ui;
   color: #252629;
   line-height: 1.5;
@@ -17,35 +17,37 @@ h1 {
 }
 
 .header {
-  color: #ffff;
-  background-color: #5c6bc0;
+  color: #f9f9f9;
+  background-color: #2e016d;
   padding: 0 10px;
+  width: 100%;
 }
 
 .infobox {
   max-width: 80%;
   margin: 30px auto;
   padding: 20px;
-  background-color: #e8eaf6;
+  background-color: #8336ff7b;
 }
 
 .infobox__bookmark {
   width: 50px;
   height: 50px;
   font-size: 1.5rem;
-  background-color: #252629;
+  background-color: #ff4a11;
+  border: 1px solid #943215;
 }
 
 .cta-box {
-  color: #ffff;
+  color: #f9f9f9;
   padding: 10px;
   background-color: #252629;
 }
 
 .to-top {
   text-decoration: none;
-  color: #ffff;
-  padding: 12px 18px;
-  border-radius: 3px;
-  background-color: #5c6bc0;
+  color: #f9f9f9;
+  padding: 12px 24px;
+  border-radius: 5px;
+  background-color: #ff4a11;
 }
