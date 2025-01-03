@@ -1,6 +1,6 @@
 import GlobalStyle from "../styles";
 import useSWR from "swr";
-import Layout from "../components/Layout.js";
+import Layout from "../components/Layout.jsx";
 import useLocalStorageState from "use-local-storage-state";
 
 const fetcher = async (...args) => {

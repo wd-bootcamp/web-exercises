@@ -47,7 +47,7 @@ You have now prepared two api routes: let's use them to display the data on two 
 
 #### All Listings Page
 
-- Create the file `/pages/products/index.js`.
+- Create the file `/pages/products/index.jsx`.
 - Import the `useSWR` hook, create a fetcher and fetch `/api/products`.
 - Map over the fetched `data` object to create a list of all products where you display their information.
 - Switch to the browser and open `/products`: you should now see a (rarely styled) list of all products.
@@ -58,7 +58,7 @@ You have now prepared two api routes: let's use them to display the data on two 
 
 The details page works quite similar to the All Listings Page, but there are some minor adaptions:
 
-- Create the file `/pages/products/[id].js`.
+- Create the file `/pages/products/[id].jsx`.
 - Use the `useRouter` hook to access the `id` query parameter from `router.query`.
 - Fetch from `/api/products/[id]` (you need to interpolate the query `id` accordingly).
 - The return statement does not return a list, but a single product.

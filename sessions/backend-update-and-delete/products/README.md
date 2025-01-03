@@ -63,7 +63,7 @@ Switch back to `./components/ProductForm/index.js` and
 
 #### Send a `PUT` request
 
-Switch to `components/Product/index.js.js`.
+Switch to `pages/[id].jsx`.
 
 You will need the `mutate` method to revalidate the product data after a successful update:
 

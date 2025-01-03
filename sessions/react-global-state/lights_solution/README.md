@@ -4,7 +4,7 @@
 
 ## Notes
 
-- You only have to touch the `./pages/index.js` file.
+- You only have to touch the `./pages/index.jsx` file.
 
 ## Development
 

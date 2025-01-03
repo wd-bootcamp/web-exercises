@@ -1,5 +1,5 @@
-import { D6Button } from "./components/D6Button";
-import History from "./components/History";
+import { D6Button } from "./components/D6Button/D6Button";
+import History from "./components/History/History";
 import "./styles.css";
 
 export default function App() {

@@ -62,7 +62,7 @@ Switch to `pages/api/products/index.js`:
   - use the `Product` model to find all products and
   - return them as a response.
 
-Switch to `components/ProductList` and adapt the frontend:
+Switch to `components/ProductList/ProductList` and adapt the frontend:
 
 - replace all instances of `product.id` with `product._id`.
 
@@ -106,7 +106,7 @@ Switch to `pages/api/products/[id].js` and use the `.populate` method to integra
 
 Finally, update the frontend to display the reviews:
 
-- Switch to `components/Product/index.js`.
+- Switch to `pages/[id].jsx`.
 - Inside of the return statement, check whether the fetched `data` contain any reviews and if so, display them.
 - Feel free to decide which part of the review data you want to display.
 

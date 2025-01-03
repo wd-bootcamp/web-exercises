@@ -1,9 +1,9 @@
 import { useState } from "react";
 import "./App.css";
-import EntriesSection from "./components/EntriesSection";
-import EntryForm from "./components/EntryForm";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import EntriesSection from "./components/EntriesSection/EntriesSection";
+import EntryForm from "./components/EntryForm/EntryForm";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
 import { uid } from "uid";
 import useLocalStorageState from "use-local-storage-state";
 

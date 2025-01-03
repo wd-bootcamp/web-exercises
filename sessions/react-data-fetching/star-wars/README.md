@@ -7,7 +7,7 @@ In this challenge, you will fetch a character from the [Star Wars API](https://s
 - Start the development server and make yourself familiar with the application.
 - Open the browser: there are links to four characters, but only the first one (Luke Skywalker) currently works.
 - Click the link to Luke ([localhost:3000/characters/1](localhost:3000/characters/1)): there is a character displayed together with some information.
-- In your Code editor, switch to `pages/characters/1.js`: it renders the `Card` component, but uses hard coded data.
+- In your Code editor, switch to `pages/characters/1.jsx`: it renders the `Card` component, but uses hard coded data.
 
 ### Fetching with `SWR`
 
@@ -16,7 +16,7 @@ Your task is to fetch a character from the [Star Wars API](https://swapi.py4e.co
 You can use the following hints as guideline:
 
 - `SWR` is already installed, so you just have to import it.
-- Switch to `./pages/characters/1.js`:
+- Switch to `./pages/characters/1.jsx`:
   - fetch only the first character using https://swapi.py4e.com/api/people/1;
   - instead of the hard coded `/1`, interpolate the `id` variable.
   - implement a loading state;
@@ -31,7 +31,7 @@ You can use the following hints as guideline:
 
 By now, there is only one static route `/1` fetching one static character. Let's use a dynamic route to fetch different characters based on the query parameter!
 
-- Rename the `/pages/characters/1.js` file into `/pages/characters/[id].js`.
+- Rename the `/pages/characters/1.jsx` file into `/pages/characters/[id].jsx`.
 - Replace the variable `const id = 1`: use the `useRouter` hook to access the `id` from `router.query`.
 - Check the browser again: `localhost:3000/characters/1` should now return Luke Skywalker as well, while changing the `id` parameter should return a different character.
 - Go back to the overview page [`pages/index.js](./pages/index.js): now, all links should fetch and display the correct character.
@@ -39,8 +39,8 @@ By now, there is only one static route `/1` fetching one static character. Let's
 ## Notes
 
 - You only have to touch the following files:
-  - `./pages/index.js`,
-  - `./pages/characters/1.js`.
+  - `./pages/index.jsx`,
+  - `./pages/characters/1.jsx`.
 
 ## Development
 
