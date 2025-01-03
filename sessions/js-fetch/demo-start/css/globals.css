@@ -1,11 +1,4 @@
-:root {
-  --color-nemo: #ff4a11;
-  --color-granite: #252629;
-  --color-water-10: #f3f5f9;
-  --color-foam: #ffffff;
-
-  --gap: 20px;
-}
+@import 'variables.css';
 
 *,
 *::before,
@@ -17,10 +10,18 @@
 
 body {
   font-family: system-ui;
+  background-color: var(--secondary-light);
 }
 
-h1 {
-  color: var(--color-nemo);
-  text-shadow: 2px 2px var(--color-granite);
-  margin: 0.5rem 0 0 0.5rem;
+
+header {
+  width: 100%;
+  background-color: var(--primary);
+  padding: 0.5rem 0.5rem;
+  border-bottom: .1rem solid var(--secondary);
+}
+
+header h1 {
+  color: var(--secondary);
+  /* text-shadow: 2px 2px var(--secondary-light); */
 }
