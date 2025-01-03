@@ -1,9 +1,4 @@
-:root {
-  --color-nemo: #ff4a11;
-  --color-granite: #252629;
-  --color-water-10: #f3f5f9;
-  --color-foam: #ffffff;
-}
+@import './variables.css';
 
 *,
 *::before,
@@ -18,18 +13,19 @@ body {
 
 button {
   border: none;
-  background-color: var(--color-nemo);
-  color: var(--color-foam);
+  background-color: var(--secondary);
+  color: var(--white);
   padding: 0.5rem;
 }
 
 button:not(:disabled):hover {
-  background-color: var(--color-granite);
-  color: var(--color-water-10);
+  background-color: var(--primary);
+  color: var(--grey-light);
 }
 
 button:disabled {
   opacity: 0.5;
+  /* background-color: var(--primary-light); */
 }
 
 h1,

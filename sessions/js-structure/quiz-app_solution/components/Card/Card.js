@@ -27,15 +27,14 @@ export function Card(props) {
 
   props.tags.forEach((tag) => {
     const tagElement = document.createElement("li");
-    tagElement.classList.add("card__tag");
+    tagElement.classList.add("card__tag-list-item");
     tagElement.textContent = "#" + tag;
     tags.append(tagElement);
   });
 
   function handleBookmarkButtonClick(event) {
-    cards.find(
-      (card) => card.question === props.question
-    ).isBookmarked = !props.isBookmarked;
+    cards.find((card) => card.question === props.question).isBookmarked =
+      !props.isBookmarked;
     // To prevent the need to rerender, we can just toggle the class here
     event.currentTarget.classList.toggle("bookmark--active");
   }

@@ -1,13 +1,8 @@
 @import "../components/Circle/Circle.css";
 @import "../components/Square/Square.css";
 @import "../components/Pentagon/Pentagon.css";
+@import './variables.css';
 
-:root {
-  --color-nemo: #ff4a11;
-  --color-granite: #252629;
-  --color-water-10: #f0f0f7;
-  --color-foam: #ffffff;
-}
 
 *,
 *::before,

@@ -1,4 +1,4 @@
-import { getRandomColor } from "../../utils/randomColor";
+import { getRandomColor } from "../../utils/randomColor.js";
 
 export default function Pentagon() {
   const pentagon = document.createElement("div");
