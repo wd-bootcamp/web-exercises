@@ -1,6 +1,6 @@
 .card {
-  background-color: var(--primary);
-  border: 1px solid var(--black);
+  background-color: var(--white);
+  border: 1px solid var(--primary-dark);
   padding: 2rem;
   text-align: center;
   position: relative;
@@ -12,7 +12,7 @@
 
 .card__button-answer {
   background: var(--secondary);
-  color: var(--primary);
+  color: var(--white);
   border: none;
   display: block;
   margin: 0 auto 2rem auto;
@@ -20,6 +20,7 @@
 }
 
 .card__button-answer:hover {
+  background-color: var(--primary-light);
   opacity: 0.75;
   cursor: pointer;
 }
@@ -49,7 +50,7 @@
 
 .card__tag-list-item {
   background-color: var(--secondary);
-  color: var(--primary);
+  color: var(--white);
   border-radius: 4px;
   padding: 0 5px;
 }
