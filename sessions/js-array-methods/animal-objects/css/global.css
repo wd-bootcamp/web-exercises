@@ -15,17 +15,15 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: radial-gradient(circle at center, var(--primary-light), var(--secondary));
-    animation: rotateGradient 20s linear infinite;
-    background-size: 180% 180%;
-    backdrop-filter: blur(25px);
+    background: var(--primary);
+    background-image: var(--bg-gradient);
 }
 
 main {
     width: 50%;
     min-width: 300px;
     padding: 10%;
-    color: var(--white);
+    background-color: var(--white);
     border-radius: 8px;
     text-align: center;
 }
@@ -36,22 +34,4 @@ h1 {
 
 p {
     font-size: 1.7rem;
-}
-
-@keyframes rotateGradient {
-    0% {
-        background-position: 0% 0%;
-    }
-    25% {
-        background-position: 100% 0%;
-    }
-    50% {
-        background-position: 100% 100%;
-    }
-    75% {
-        background-position: 0% 100%;
-    }
-    100% {
-        background-position: 0% 0%;
-    }
 }
