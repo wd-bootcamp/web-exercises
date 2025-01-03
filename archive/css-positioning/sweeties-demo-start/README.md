@@ -1,6 +1,6 @@
-# CSS Positioning: Demo End
+# CSS Positioning: Demo Start
 
-This is the end version of the CSS Positioning demo.
+This is the starter version of the CSS Positioning demo.
 
 ## Tasks
 

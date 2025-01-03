@@ -5,10 +5,12 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  margin: 80px 0 45px 0;
   font-family: system-ui;
+  line-height: 1.5;
+  color: #252629;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 100px 0;
 }
 
 /**
@@ -17,15 +19,15 @@ body {
  * document is scrolled.
  */
 .header {
-  background: #140523;
+  background: #370182;
   color: #ffffff;
-  height: 80px;
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
-  padding: 10px;
+  padding: 10px 30px;
 }
 
-.header__text {
+.header__subheading {
   color: #ff4a11;
+  margin: 0;
 }
 
 .header__heading {
@@ -38,9 +40,9 @@ body {
  * document is scrolled.
  */
 .footer {
-  background: #140523;
-  color: #ffffff;
   height: 48px;
+  color: #ffffff;
+  background: #370182;
 }
 
 /**
@@ -48,14 +50,17 @@ body {
  * Define the card as the reference frame for its descendant elements that require absolute positioning.
  */
 .card {
-  margin: 20px 10%;
-  border: 5px solid #252629;
-  padding: 3% 10%;
-  scroll-margin-top: 100px;
-  border-radius: 2rem;
+  max-width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  color: #555;
+  background-color: #ebddfa;
+  scroll-margin-top: 150px;
+  border-radius: 5px;
 }
 
 .card__heading {
+  color: #333;
   margin: 0 0 10px 0;
 }
 
@@ -63,7 +68,8 @@ body {
  * Place the bookmark in the top-right corner of each card.
  */
 .card__bookmark {
-  border: 2px solid #ff4a11;
+  border: 1px solid #2e016d;
+  background-color: #3f0097;
   font-size: 2em;
   padding: 6px 12px;
   border-radius: 50%;
@@ -75,16 +81,10 @@ body {
  * and remains fixed in place when the document is scrolled.
  */
 .goto-top {
-  width: 48px;
-  height: 48px;
-  padding: 8px;
-  border-radius: 50%;
-  background: #ff4a11;
-  color: white;
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
   text-decoration: none;
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: #f9f9f9;
+  padding: 12px 24px;
+  border-radius: 5px;
+  background-color: #ff4a11;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
 }
