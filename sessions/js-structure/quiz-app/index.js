@@ -158,7 +158,7 @@ function Card(props) {
 
   props.tags.forEach((tag) => {
     const tagElement = document.createElement("li");
-    tagElement.classList.add("card__tag");
+    tagElement.classList.add("card__tag-list-item");
     tagElement.textContent = "#" + tag;
     tags.append(tagElement);
   });

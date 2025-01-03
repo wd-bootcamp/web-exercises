@@ -34,4 +34,7 @@
             hsl(15deg 100% 59%) 67%,
             hsl(14deg 100% 53%) 99%);
 
+    --ff-primary: sans-serif;
+    --ff-serif: serif;
+
 }
