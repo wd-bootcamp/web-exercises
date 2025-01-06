@@ -15,7 +15,6 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: var(--primary);
     background-image: var(--bg-gradient);
 }
 
