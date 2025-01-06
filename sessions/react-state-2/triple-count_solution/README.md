@@ -12,6 +12,9 @@ Fortunately, there is another solution!
 
 Fix the `handleIncrement` function so that it increments the `count` state by 3. For this challenge, ensure that `setCount` is still called three times, incrementing the value by 1 each time. How can you update state based on the previous state?
 
+> 💡 Hint: Have a look at the React Docs: [Queueing a Series of State Updates](https://react.dev/learn/queueing-a-series-of-state-updates)
+
+
 ## Notes
 
 - You only have to touch the `./src/components/Counter.jsx` file.
