@@ -1,16 +1,17 @@
 # React State 1: Journal App with Favorite Button State
 
-In this challenge, you will start building a journal app. We will continue to expand on this app in the upcoming sessions. In this first part, you will implement our _favorite_ feature: a button that allows you to mark an entry as a favorite.
+In this challenge, you will begin building a journal app, which will be expanded in future sessions. In this part, you’ll implement a favorite button to mark entries as favorites.
 
 ## Tasks
 
-Locate the component with the favorite button, called `FavoriteButton`.
+- Locate the `FavoriteButton` component.
+- Replace the `isFavorite` boolean variable with a state variable.
+  - Hint: Use the `useState` React hook to manage the state.
+- Update the state to toggle when the favorite button is clicked.
+  - Hint: Use the dispatcher function (setter function) returned by useState to toggle the current value.
+  - Remember: You can toggle a boolean using the NOT operator `!`.
 
-The component currently uses an `isFavorite` boolean variable to determine whether the star icon should be filled or not.
-
-- Convert `isFavorite` into a state variable.
-- Ensure this state variable is toggled when the user clicks the favorite button.
-- Happy hacking!
+Happy hacking!
 
 ## Development
 
