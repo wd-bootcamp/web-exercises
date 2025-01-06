@@ -10,6 +10,8 @@ Fix the error in the `./src/App.jsx` file to prevent the crash. If you need help
 
 Ensure the hidden message is correctly displayed when the button is clicked.
 
+> 💡 Hint: Have a look at the React Docs: [Rules of Hooks](https://react.dev/reference/rules/rules-of-hooks)
+
 ## Notes
 
 - If you're questioning your solution: yes, it really is that simple!
