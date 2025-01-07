@@ -4,8 +4,8 @@ export default function App() {
 
 function Sum({ valueA, valueB }) {
   return (
-    <p>
+    <h1>
       {valueA} + {valueB} = {valueA + valueB}
-    </p>
+    </h1>
   );
 }
