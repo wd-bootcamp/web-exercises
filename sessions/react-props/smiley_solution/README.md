@@ -1,17 +1,17 @@
-# Smiley
+# React Props: Smile
 
-Props are versatile: you cannot only pass strings or numbers, but a boolean value as well! Let's use this feature to render smileys ;)
+Props are versatile: you can not only pass strings or numbers but also boolean values! Let's use this feature to render smileys. 😉
 
 ## Tasks
 
-Look at the `./src/App.jsx` file: the `App` component returns a heading which wants to be replaced by a component. Your task is to write a `Smiley` component which renders a smiley depending on a prop called `isHappy`.
+Open the `./src/App.jsx` file: the `App` component currently returns a heading, which should be replaced by a custom component. Your task is to write a `Smiley` component that renders a smiley depending on a prop called `isHappy`.
 
-You can use the following hints as guideline:
+You can use the following hints as guidelines:
 
-- Write the `Smiley` component inside of the `src/App.jsx`.
+- Write the `Smiley` component inside the `src/App.jsx` file:
   - It accepts a prop called `isHappy` (make sure to destructure it).
-  - It returns a semantic HTML element which renders a happy smiley if `isHappy` is `true` and a sad one if its value is `false`.
-- Inside of the return statement of your `App` component, replace the heading with your `Smiley` component and pass it the `isHappy` prop (– or don't, if you want to display the unhappy smiley).
+  - It returns a semantic HTML element that renders a happy smiley if `isHappy` is `true` and a sad one if its value is `false`.
+- Replace the heading in the return statement of your `App` component with your `Smiley` component and pass it the `isHappy` prop (or leave it out if you want to display the sad smiley).
 
 ## Notes
 
@@ -25,6 +25,6 @@ Run `npm run dev` to start a development server and open the displayed URL in a 
 
 ### Scripts
 
-You can use the following commands:
+You can use the following command:
 
 - `npm run dev` to start a development server
