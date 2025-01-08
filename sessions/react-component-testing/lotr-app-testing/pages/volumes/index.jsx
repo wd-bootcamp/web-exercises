@@ -1,5 +1,5 @@
 import Introduction from "../../components/Introduction/Introduction";
-import Main from "../../components/Main";
+import Main from "../../components/Main/Main";
 import Section from "../../components/Section/Section";
 import VolumeList from "../../components/VolumeList/VolumeList";
 import { introduction, volumes } from "../../lib/data";
