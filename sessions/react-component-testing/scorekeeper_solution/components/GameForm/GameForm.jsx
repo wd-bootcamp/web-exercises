@@ -1,4 +1,4 @@
-import Button from "../Button";
+import Button from "../Button/Button";
 import Input from "../Input";
 import styled from "styled-components";
 import { useRouter } from "next/router";
