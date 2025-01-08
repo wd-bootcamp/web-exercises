@@ -2,7 +2,7 @@ import {
   ControlsContainer,
   ControlsButton,
   ControlsDisplay,
-} from "./Controls.styled";
+} from "./Controls";
 
 export default function Controls({ longitude, latitude, onRefresh }) {
   return (

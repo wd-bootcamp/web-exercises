@@ -1,4 +1,4 @@
-import { MapContainer, MapImage, MapISS } from "./Map.styled";
+import { MapContainer, MapImage, MapISS } from "./Map";
 
 export default function Map({ longitude, latitude }) {
   const [x, y] = positionToMapCoordinates(longitude, latitude);
