@@ -43,9 +43,9 @@ Switch to [`pages/api/products/[id].js`](./pages/api/products/[id].js) and write
 
 For now, the `ProductForm` component sends a `POST` request to your database. We want to reuse the component for editing products and sending `PUT` requests as well.
 
-Switch to `./components/ProductForm/index.js`.
+Switch to `./components/ProductForm/ProductForm`.
 
-Lift up all logic regarding the creating of the `productData` to the `./pages/index.js` file.
+Lift up all logic regarding the creating of the `productData` to the `./pages/index.jsx` file.
 
 > 💡 This includes the destructuring of `const { mutate } = useSWR("/api/products");`, the `handleSubmit` function and the import of `useSWR`.
 
@@ -54,7 +54,7 @@ After doing so,
 - rename the `handleSubmit` function to `handleAddProduct`
 - in the return statement, pass `handleAddProduct` to the `ProductForm` component as a prop called `onSubmit`.
 
-Switch back to `./components/ProductForm/index.js` and
+Switch back to `./components/ProductForm/ProductForm` and
 
 - receive the `onSubmit` prop.
 - use `onSubmit` instead of `handleSubmit` in the form
@@ -101,7 +101,7 @@ Switch to [`pages/api/products/[id].js`](./pages/api/products/[id].js) and write
 
 Deleting a product should be possible from the details page.
 
-Switch to `./components/Product/index.js` and implement a delete button:
+Switch to `./pages/[id].jsx` and implement a delete button:
 
 - In the return statement, add a `<button>` with
   - `type="button"`,
