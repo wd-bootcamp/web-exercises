@@ -71,7 +71,7 @@ Switch to `components/GameForm/GameForm.test.js` and write the tests for all acc
   - mock the submit handle function first;
   - `await` all `userEvent`s
   - expect the mocked submit function `toHaveBeenCalledWith(submittedDataObject)`.
-- To find the correct form of the submitted data you are expecting, you might have to check the call of `onCreateGame` in the `components/GameForm/index.js` file.
+- To find the correct form of the submitted data you are expecting, you might have to check the call of `onCreateGame` in the `components/GameForm/GameForm.jsx` file.
 
 #### HistoryEntry
 
@@ -86,7 +86,7 @@ Note that both tests are currently skipped with the help of `test.skip(...)`.
 
 Remove the `.skip` method and run `npm run test`.
 
-You will notice that both tests fail. Read the error message carefully and fix the bug in `components/HistoryEntry/index.js` so that the test passes again. (The tests are correct, but there is something wrong with the component).
+You will notice that both tests fail. Read the error message carefully and fix the bug in `components/HistoryEntry/HistoryEntry.jsx` so that the test passes again. (The tests are correct, but there is something wrong with the component).
 
 Congratulations, you have fixed your first bug according to a failing test! 🎉
 
