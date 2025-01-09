@@ -11,7 +11,8 @@ body {
 }
 
 header {
-  background: rgb(37 38 41 / 100%);
+  background: rgb(131 54 255/ 45%);
+  
 }
 
 h1 {
@@ -82,7 +83,7 @@ a {
 
 a:hover,
 a:focus-visible {
-  background-color: rgb(37 38 41);
+  background-color: #8336ff7b;
   text-decoration: none;
 }
 
