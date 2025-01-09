@@ -9,16 +9,21 @@ body {
   max-width: 1200px;
 }
 
+h2 {
+  color: #3f0097;
+}
+
 .main__title {
   padding: 10px;
-  background: #f3f5f9;
+  background: #fddcd2;
+  color: #3f0097;
 }
 
 .profile__image {
   object-fit: cover;
   border-radius: 999px;
   aspect-ratio: 1 / 1;
-  border: solid black 1px;
+  border: solid #3f0097 1px;
   max-width: 50%;
 }
 
@@ -29,7 +34,7 @@ body {
 
 .tech-stack__list-item {
   padding: 10px;
-  background-color: #252629;
+  background-color: #3f0097;
   color: #ffffff;
   border-radius: 10px;
 }
