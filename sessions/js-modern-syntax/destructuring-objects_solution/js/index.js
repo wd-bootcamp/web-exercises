@@ -73,5 +73,6 @@ function logInfo(city) {
 
 // Usage example:
 console.log(
+  "logInfo: ",
   logInfo({ name: "Marseille", country: "France", population: 861635 })
 );

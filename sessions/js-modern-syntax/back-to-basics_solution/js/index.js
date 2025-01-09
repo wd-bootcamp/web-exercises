@@ -17,12 +17,12 @@ export function getRelocatedCity(city1, city2) {
   for (const key in city1) {
     /*
     💡 Hint
-    The `hasOwnProperty()` method ensures that only the direct properties of `city1` are
+    The `Object.hasOwn()` method ensures that only the direct properties of `city1` are
     copied, excluding any inherited properties from the prototype chain.
-    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwn
     */
 
-    if (city1.hasOwnProperty(key)) {
+    if (Object.hasOwn(city1, key)) {
       relocatedCity[key] = city1[key];
     }
   }
