@@ -1,3 +1,5 @@
+@import './variables.css';
+
 *,
 *::before,
 *::after {
@@ -5,12 +7,32 @@
 }
 
 body {
+  margin: 0;
   font-family: system-ui;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: var(--bg-gradient);
+}
+
+main {
+  width: 550px;
+  height: 700px;
+  padding: 40px;
+  background-color: var(--white);
+  border-radius: 8px;
+  text-align: center;
+}
+
+h1 {
+  color: var(--secondary);
 }
 
 .button {
   all: unset;
-  background-color: rgb(255, 223, 105);
+  background-color: var(--primary);
+  color: var(--white);
   text-align: center;
   padding: 0.5rem;
   border-radius: 5px;
@@ -18,16 +40,17 @@ body {
 }
 
 .button:hover {
-  background-color: rgb(255, 187, 0);
+  background-color: var(--primary-light);
 }
 
 .mathematical-operations {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  max-width: 20rem;
+  justify-content: center;
 }
-.mathematical-operations > .button {
+
+.mathematical-operations>.button {
   width: 8.5rem;
 }
 
@@ -35,5 +58,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  max-width: 20rem;
+  align-items: center;
+}
+
+.update-operand>.button {
+  width: 20rem;
 }
