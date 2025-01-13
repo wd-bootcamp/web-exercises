@@ -1,0 +1,40 @@
+:root {
+    --primary-dark: #2e016d;
+    --primary: #3f0097;
+    --primary-light: #8336ff7b;
+    --secondary-dark: #943215;
+    --secondary: #ff4a11;
+    --secondary-light: #f6997d;
+    --accent: #ffd15d;
+    --error-accent: rgb(255, 0, 47);
+    --black-light: #252629;
+    --black: #000000;
+    --white: #ffffff;
+    --grey-dark: #b6b9c2;
+    --grey-light: #f5f6f6;
+    --bg-gradient: linear-gradient(120deg,
+            hsl(265deg 100% 30%) 1%,
+            hsl(265deg 64% 39%) 33%,
+            hsl(266deg 48% 46%) 42%,
+            hsl(267deg 41% 52%) 46%,
+            hsl(268deg 41% 59%) 49%,
+            hsl(269deg 42% 66%) 50%,
+            hsl(270deg 42% 72%) 51%,
+            hsl(271deg 43% 79%) 51%,
+            hsl(271deg 43% 86%) 51%,
+            hsl(272deg 44% 93%) 50%,
+            hsl(0deg 0% 100%) 50%,
+            hsl(19deg 100% 95%) 50%,
+            hsl(19deg 100% 90%) 49%,
+            hsl(18deg 100% 86%) 49%,
+            hsl(18deg 100% 81%) 49%,
+            hsl(17deg 100% 77%) 50%,
+            hsl(17deg 100% 72%) 51%,
+            hsl(16deg 100% 68%) 54%,
+            hsl(15deg 100% 64%) 58%,
+            hsl(15deg 100% 59%) 67%,
+            hsl(14deg 100% 53%) 99%);
+
+    --ff-primary: sans-serif;
+    --ff-serif: serif;
+}

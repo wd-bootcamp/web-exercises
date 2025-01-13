@@ -1,3 +1,5 @@
+@import './variables.css';
+
 *,
 *::before,
 *::after {
@@ -14,19 +16,19 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  background-color: #eee;
+  background-color: var(--grey-light);
   transition: 0.2s ease-out;
 }
 
 button {
-  background-color: dodgerblue;
-  color: #eee;
+  background-color: var(--secondary);
+  color: var(--white);
   padding: 1rem 2rem;
   border: none;
   border-radius: 12px;
 }
 
 .dark {
-  background-color: #333;
-  color: #eee;
+  background-color: var(--primary-dark);
+  color: var(--white);
 }
