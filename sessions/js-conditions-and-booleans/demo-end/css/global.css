@@ -1,0 +1,51 @@
+@import './variables.css';
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: var(--bg-gradient);
+}
+
+main {
+    width: 80%;
+    min-width: 300px;
+    padding: 10%;
+    background-color: var(--white);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.7rem;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--secondary-light);
+    color: var(--primary);
+}

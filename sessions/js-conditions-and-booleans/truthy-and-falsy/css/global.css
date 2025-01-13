@@ -1,0 +1,54 @@
+@import './variables.css';
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: system-ui;
+    min-height: 100vh;
+    background-image: var(--bg-gradient);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    width: 80%;
+    min-width: 300px;
+    padding: 2rem 3rem;
+    margin-bottom: 2rem;
+    background-color: var(--white);
+    border-radius: 8px;
+    /* text-align: center; */
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--white);
+}
+
+p {
+    font-size: 1.7rem;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--secondary-light);
+    color: var(--primary);
+}
