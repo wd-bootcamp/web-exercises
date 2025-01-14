@@ -71,7 +71,7 @@ You should now have an `App` component returning only your custom components (be
 
 To check, you App.jsx file should look something like this now:
 
-``.jsx
+```.jsx
 import Header from "./components/Header";
 import Avatar from "./components/Avatar";
 import Logo from "./components/Logo";
