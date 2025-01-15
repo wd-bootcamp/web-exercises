@@ -4,7 +4,7 @@ This app provides an interface to check the status of an API.
 
 ## Tasks
 
-Open the `./src/components/StatusCheck/index.jsx` file.
+Open the `./src/components/StatusCheck/StatusCheck` file.
 
 Inside this file, there is a function named `handleCheckApiStatus` that is called when you click the button.
 
@@ -36,7 +36,7 @@ Can you implement error handling to catch such cases and display the 🚨 icon i
 
 ## Notes
 
-- You only have to touch the `./src/components/StatusCheck/index.jsx` file.
+- You only have to touch the `./src/components/StatusCheck/StatusCheck` file.
 
 ## Development
 

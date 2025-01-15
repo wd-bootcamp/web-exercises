@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { uid } from "uid";
-import List from "./components/List";
-import Form from "./components/Form";
+import List from "./components/List/List";
+import Form from "./components/Form/Form";
 import "./styles.css";
 
 export default function App() {

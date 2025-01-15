@@ -50,7 +50,7 @@ Each page will need access to the information from the API. Consider where to fe
 
 <details>
 <summary>Hint ✨</summary>
-In Next.js, the place to store data or states that need to be accessed across the app is in <code>_app.js</code>.
+In Next.js, the place to store data or states that need to be accessed across the app is in <code>_app.jsx</code>.
 
 </details>
 
@@ -171,7 +171,7 @@ Users want the ability to add additional information to each art piece. Consider
 <details>
 <summary>Hint ✨</summary>
 
-In Next.js, the recommended place to store data or states that need to be accessed across the app is in `_app.js`.
+In Next.js, the recommended place to store data or states that need to be accessed across the app is in `_app.jsx`.
 
 </details>
 

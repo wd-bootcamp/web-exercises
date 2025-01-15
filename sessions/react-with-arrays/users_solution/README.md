@@ -1,6 +1,6 @@
 # React Arrays: Users
 
-The `./src/App.jsx` file should dynamically display a card for each of the nine `USERS` imported from the `db.jsx` file.
+The `./src/App.jsx` file should dynamically display a card for each of the nine `USERS` imported from the `db.js` file.
 
 For now, however, there is only one card. Let's fix this with our newly acquired knowledge about arrays in React.
 
@@ -16,7 +16,7 @@ After that, you can implement two more features to make the user overview even m
 
 ## Notes
 
-- You only have to touch the files `./src/App.jsx`, `./src/Card.jsx`, and `./src/Tag.jsx`.
+- You only have to touch the files `./src/App.jsx`, `./src/components/Card.jsx`, and `./src/components/Tag.jsx`.
 
 ## Development
 

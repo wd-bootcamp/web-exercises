@@ -12,18 +12,18 @@ In this project you will build a Tourio App, the best friend of all travelers: i
 
 ### Create Form
 
-- In `pages/create.js`, write the `addPlace` function to start a `POST` request.
+- In `pages/create.jsx`, write the `addPlace` function to start a `POST` request.
 - Write the `POST` API route in `pages/api/places/index.js`.
 - Submitting the form should redirect the user to the homepage `/`.
 
 ### Update Entry
 
-- In `pages/places/[id]/edit.js`, write the `editPlace` function to start a `PATCH` request.
+- In `pages/places/[id]/edit.jsx`, write the `editPlace` function to start a `PATCH` request.
 - Write the `PATCH` API route in `pages/api/[id]/index.js`
 
 ### Delete Entry
 
-- In `pages/places/[id].index.js`, write the `deletePlace` function to start a `DELETE` request.
+- In `pages/places/[id].index.jsx`, write the `deletePlace` function to start a `DELETE` request.
 - Write the `DELETE` API route in `pages/api/places/[id]/index.js`.
 
 ### Deploy your Project to Vercel

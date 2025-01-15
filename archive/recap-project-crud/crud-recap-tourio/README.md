@@ -51,13 +51,13 @@ As is standard practice, each feature should be developed on a separate branch.
   - Include a submit button in the form.
   - Basic styling is sufficient.
 
-- **Move State to `_app.js`**
+- **Move State to `_app.jsx`**
 
-  - To share state across different pages, move the state management for your places (initially in `/pages/index.js`) to `_app.js`. This will make the state accessible throughout your application.
+  - To share state across different pages, move the state management for your places (initially in `/pages/index.js`) to `_app.jsx`. This will make the state accessible throughout your application.
 
 - **Implement the `handleAddPlace` Function**
 
-  - In your `_app.js` write a function named `handleAddPlace` that will be responsible for adding a new place to the state.
+  - In your `_app.jsx` write a function named `handleAddPlace` that will be responsible for adding a new place to the state.
   - This function should accept the form data as an argument, generate a unique ID for the new entry using `uuid`, and then add the new place to the existing state.
 
 - **State and Handler Propagation**
@@ -98,9 +98,9 @@ As is standard practice, each feature should be developed on a separate branch.
 
 ### 4. Delete Places
 
-- **Implement `handleDeletePlace` Function in `_app.js`**
+- **Implement `handleDeletePlace` Function in `_app.jsx`**
 
-  - In the `_app.js` file, write a function named `handleDeletePlace` that updates the state to remove an entry based on its `id`.
+  - In the `_app.jsx` file, write a function named `handleDeletePlace` that updates the state to remove an entry based on its `id`.
   - This function takes the `id` of the place to be deleted as a parameter.
 
 - **Pass the Delete Function to Pages**
@@ -129,9 +129,9 @@ As is standard practice, each feature should be developed on a separate branch.
   - Use this `id` to find the current data of the place from your application's state and pre-fill the form fields with this data. The `defaultValue` attribute of form elements can be useful here.
   - Consider creating a separate component for the form to keep your code organized and reusable.
 
-- **Implement the `handleEditPlace` Function in `_app.js`**
+- **Implement the `handleEditPlace` Function in `_app.jsx`**
 
-  - Define a function named `handleEditPlace` in `_app.js` that takes the updated place data and its `id` as arguments. This function should update the state by replacing the old place data with the new, updated data.
+  - Define a function named `handleEditPlace` in `_app.jsx` that takes the updated place data and its `id` as arguments. This function should update the state by replacing the old place data with the new, updated data.
   - Utilize array manipulation methods, like `.map()`, to achieve this, ensuring that only the place with the matching `id` is updated.
 
 - **Handle Form Submission**
