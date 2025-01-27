@@ -1,0 +1,22 @@
+{
+  "name": "petition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cookie-session": "^2.1.0",
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "jest": "^29.7.0",
+    "spiced-pg": "^1.0.4",
+    "supertest": "^7.0.0"
+  }
+}
