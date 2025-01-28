@@ -107,5 +107,10 @@ test("isAnyoneOlderThan() returns false if no person is older than the given age
 
 test("getFullNamesSortedByAge() returns an array of last names sorted by age", () => {
   const result = getFullNamesSortedByAge(people);
-  expect(result).toEqual(["Doe", "Doe", "Musterfrau", "Mustermann", "Skywalker"])
+  expect(result).toEqual([    
+    "Doe",
+    "Doe",
+    "Skywalker",
+    "Mustermann",
+    "Musterfrau",])
 });
