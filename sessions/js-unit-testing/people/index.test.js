@@ -7,7 +7,7 @@ import {
   getPeopleByLastName,
   findPersonById,
   isAnyoneOlderThan,
-  getFullNamesSortedByAge,
+  getLastNamesSortedByAge,
 } from "./index.js";
 
 const people = [
@@ -66,4 +66,4 @@ test("isAnyoneOlderThan() returns true if any person is older than the given age
 
 test("isAnyoneOlderThan() returns false if no person is older than the given age", () => {});
 
-test("getFullNamesSortedByAge() returns an array of last names sorted by age", () => {});
+test("getLastNamesSortedByAge() returns an array of last names sorted by age", () => {});

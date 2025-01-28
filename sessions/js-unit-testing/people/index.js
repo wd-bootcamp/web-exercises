@@ -16,4 +16,4 @@ export function findPersonById(people, id) {}
 
 export function isAnyoneOlderThan(people, age) {}
 
-export function getFullNamesSortedByAge(people) {}
+export function getLastNamesSortedByAge(people) {}
