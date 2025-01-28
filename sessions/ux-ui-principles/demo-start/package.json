@@ -1,0 +1,13 @@
+{
+  "name": "ux-ui-principles_demo-start",
+  "version": "0.0.0-unreleased",
+  "description": "HTML and CSS",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx -y live-server@latest --port=3000"
+  },
+  "nf": {
+    "template": "html-css"
+  },
+  "private": true
+}

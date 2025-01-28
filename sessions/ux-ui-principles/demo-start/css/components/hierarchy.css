@@ -1,0 +1,27 @@
+.hierarchy {
+  background-color: rgb(35, 35, 97);
+  color: rgb(233, 235, 249);
+
+  .content {
+    padding: 5rem;
+    display: grid;
+    gap: 3rem;
+  }
+
+  .button {
+    padding: 1rem 2rem;
+    font-size: 1.125rem;
+    border: 2px solid;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .button--filled {
+  }
+
+  .button--outlined {
+  }
+
+  .button--ghost {
+  }
+}

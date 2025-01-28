@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui;
+  background-color: #eef;
+  line-height: 1.5;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+h1 {
+  margin: 0;
+  padding: 10rem 0;
+  text-align: center;
+  scroll-snap-align: start;
+  font-size: 3rem;
+  color: #334;
+}
+
+h2 {
+  margin: 0;
+  padding: 2rem;
+  font-size: 3rem;
+  border-bottom: 2px solid currentColor;
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  scroll-snap-align: start;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.content {
+  place-self: center;
+  max-width: 500px;
+  border: solid 2px currentColor;
+}
+
+.updates {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 0.875rem;
+  padding: 0.25rem 0.5rem;
+  background-color: rgb(253, 184, 35);
+  color: rgb(52, 38, 5);
+  border-radius: 999px;
+}

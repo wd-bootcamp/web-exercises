@@ -1,0 +1,41 @@
+.color-and-contrast {
+  background-color: #ccd;
+  color: #334;
+
+  .content {
+    padding: 3rem;
+    width: 650px;
+    max-width: 100%;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  li {
+    position: relative;
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+    background-color: #99a;
+    color: #eef;
+    font-size: 1.125rem;
+    border-radius: 8px;
+  }
+
+  .thriller {
+    background-color: rgb(235, 70, 100);
+  }
+
+  .drama {
+    background-color: rgb(109, 194, 72);
+  }
+  .comedy {
+    background-color: rgb(50, 144, 195);
+  }
+  .art-house {
+    background-color: rgb(95, 30, 147);
+  }
+}

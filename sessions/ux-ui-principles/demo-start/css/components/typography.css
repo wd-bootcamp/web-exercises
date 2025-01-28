@@ -1,0 +1,23 @@
+.typography {
+  background-color: #778;
+  color: white;
+
+  .content {
+    padding: 2.5rem 2rem;
+    max-width: 100%;
+    width: 1000px;
+  }
+
+  h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  h4 {
+    color: #334;
+  }
+
+  p {
+    margin-bottom: 1rem;
+    line-height: 1;
+  }
+}
