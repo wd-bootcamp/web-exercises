@@ -7,7 +7,7 @@ import {
   getPeopleByLastName,
   findPersonById,
   isAnyoneOlderThan,
-  getFullNamesSortedByAge,
+  getLastNamesSortedByAge,
 } from "./index.js";
 
 const people = [
@@ -105,8 +105,8 @@ test("isAnyoneOlderThan() returns false if no person is older than the given age
   expect(result).toBe(false);
 });
 
-test("getFullNamesSortedByAge() returns an array of last names sorted by age", () => {
-  const result = getFullNamesSortedByAge(people);
+test("getLastNamesSortedByAge() returns an array of last names sorted by age", () => {
+  const result = getLastNamesSortedByAge(people);
   expect(result).toEqual([    
     "Doe",
     "Doe",
