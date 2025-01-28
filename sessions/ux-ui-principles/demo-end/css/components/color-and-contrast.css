@@ -3,9 +3,8 @@
   color: #334;
 
   .content {
-    padding: 3rem;
     width: 650px;
-    max-width: 100%;
+    padding: 3rem;
   }
 
   ul {

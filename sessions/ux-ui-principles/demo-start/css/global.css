@@ -52,7 +52,6 @@ h3 {
 
 .content {
   place-self: center;
-  max-width: 500px;
   border: solid 2px currentColor;
 }
 

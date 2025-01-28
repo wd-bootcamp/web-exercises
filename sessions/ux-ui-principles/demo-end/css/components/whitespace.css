@@ -3,6 +3,7 @@
   color: rgb(195, 196, 209);
 
   .content {
+    max-width: 650px;
     padding: 2.5rem 2rem;
   }
 

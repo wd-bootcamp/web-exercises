@@ -3,6 +3,7 @@
   color: rgb(233, 235, 249);
 
   .content {
+    max-width: 500px;
     padding: 5rem;
     display: grid;
     gap: 3rem;
