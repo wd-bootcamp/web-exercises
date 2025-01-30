@@ -1,21 +1,20 @@
 .typography {
   background-color: #778;
-  color: white;
+  color: rgb(241, 242, 254);
 
   .content {
+    max-width: 650px;
     padding: 2.5rem 2rem;
   }
 
   h3 {
+    font-family: "Comic Sans MS";
+    font-size: 2rem;
+    font-weight: bold;
     margin-bottom: 0.5rem;
   }
 
-  h4 {
-    color: #334;
-  }
-
   p {
-    margin-bottom: 1rem;
-    line-height: 1;
+    font-weight: bold;
   }
 }

@@ -4,7 +4,9 @@
 
   .content {
     max-width: 650px;
-    padding: 2.5rem 2rem;
+    padding: 3rem 2rem;
+    background-color: #eef2;
+    border-radius: 16px;
   }
 
   h3 {

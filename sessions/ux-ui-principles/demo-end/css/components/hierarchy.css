@@ -1,43 +1,20 @@
 .hierarchy {
   background-color: rgb(35, 35, 97);
-  color: rgb(233, 235, 249);
+  color: rgb(212, 215, 238);
 
   .content {
-    padding: 5rem;
+    padding: 1rem;
     display: grid;
     gap: 3rem;
   }
 
-  .button {
-    padding: 1rem 2rem;
-    font-size: 1.125rem;
-    border: 2px solid;
-    border-radius: 8px;
-
-    cursor: pointer;
+  h3 {
+    font-family: "Playford Display";
+    color: #f1f1ff;
   }
 
-  .button--filled {
-    background-color: #ccd;
-    border-color: #ccd;
-    color: #112;
-  }
-
-  .button--outlined {
-    background-color: transparent;
-    border-color: #ccd;
-    color: #ccd;
-  }
-
-  .button--ghost {
-    background-color: transparent;
-    border-color: transparent;
-    text-decoration: underline;
-    text-underline-offset: 4px;
-    color: #ccd;
-  }
-  .button--ghost:hover {
-    background-color: #ccd1;
-    color: #eef;
+  h4 {
+    color: rgb(169, 169, 251);
+    margin-bottom: 1rem;
   }
 }

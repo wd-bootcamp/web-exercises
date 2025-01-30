@@ -3,9 +3,8 @@
   color: #334;
 
   .content {
+    width: 100%;
     padding: 3rem;
-    width: 650px;
-    max-width: 100%;
   }
 
   ul {
@@ -20,13 +19,13 @@
     place-items: center;
     padding: 2rem;
     background-color: #99a;
-    color: #eef;
+    color: black;
     font-size: 1.125rem;
     border-radius: 8px;
   }
 
   .thriller {
-    background-color: rgb(235, 70, 100);
+    background-color: rgb(232, 60, 92);
   }
 
   .drama {
