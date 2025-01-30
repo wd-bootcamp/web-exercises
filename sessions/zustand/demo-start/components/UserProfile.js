@@ -1,15 +1,18 @@
 /* components/UserProfile.js */
-import React, { useState } from 'react';
+import React, { useRef } from 'react';
 import { useUser } from '../context/UserContext';
 
 function UserProfile() {
   const { user, login, logout } = useUser();
-  const [inputName, setInputName] = useState('');
   console.log('UserProfile rendered');
 
+  // Use a ref for the input so typing does NOT cause re-renders
+  const inputRef = useRef('');
   const handleLogin = () => {
-    if (inputName) {
-      login(inputName);
+    // Access the DOM value from the ref—no local state needed
+    const name = inputRef.current.value;
+    if (name) {
+      login(name);
     }
   };
 
@@ -23,8 +26,7 @@ function UserProfile() {
           <input
             type="text"
             placeholder="Enter name"
-            value={inputName}
-            onChange={(e) => setInputName(e.target.value)}
+            ref={inputRef}
           />
           <button onClick={handleLogin}>Login</button>
         </>

@@ -1,16 +1,20 @@
 /* components/Cart.js */
-import React, { useState } from 'react';
+import React, { useRef  } from 'react';
 import { useCart } from '../context/CartContext';
 
 function Cart() {
   const { items, addItem, removeItem } = useCart();
-  const [inputItem, setInputItem] = useState('');
   console.log('Cart rendered');
 
+  // Use a ref for the input so typing doesn't cause re-renders
+  const inputRef = useRef('');
+
   const handleAddItem = () => {
-    if (inputItem) {
-      addItem(inputItem);
-      setInputItem('');
+    const itemText = inputRef.current.value;
+    if (itemText) {
+      addItem(itemText);
+      // Clear the input manually since it's uncontrolled
+      inputRef.current.value = '';
     }
   };
 
@@ -27,8 +31,7 @@ function Cart() {
       <input
         type="text"
         placeholder="Add an item"
-        value={inputItem}
-        onChange={(e) => setInputItem(e.target.value)}
+        ref={inputRef} // Uncontrolled input
       />
       <button onClick={handleAddItem}>Add</button>
     </div>
