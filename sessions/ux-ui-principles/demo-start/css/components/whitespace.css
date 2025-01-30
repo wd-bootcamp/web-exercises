@@ -1,0 +1,17 @@
+.whitespace {
+  background-color: rgb(27, 27, 37);
+  color: rgb(195, 196, 209);
+
+  .content {
+    max-width: 650px;
+    padding: 8px;
+    background-color: #eef2;
+    border-radius: 16px;
+  }
+
+  h3 {
+  }
+
+  p {
+  }
+}

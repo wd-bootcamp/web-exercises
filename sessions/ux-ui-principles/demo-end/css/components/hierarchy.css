@@ -1,0 +1,21 @@
+.hierarchy {
+  background-color: rgb(35, 35, 97);
+  color: rgb(212, 215, 238);
+
+  .content {
+    padding: 1rem;
+    display: grid;
+    gap: 3rem;
+  }
+
+  h3 {
+    font-family: "Playford Display";
+    font-size: 2rem;
+    color: #f1f1ff;
+  }
+
+  h4 {
+    color: rgb(169, 169, 251);
+    margin-bottom: 1rem;
+  }
+}
