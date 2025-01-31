@@ -36,71 +36,72 @@ We will fetch all character information from a REST API specifically designed fo
 
 ## Tasks
 
-### 1. Character Card Component
+### 1. Fetch Data from API
 
-For now you have only one hard coded character card for Rick Sanchez in your HTML. We want to create
-them dynamically in our JavaScript.
-
-- Write a function `CharacterCard` inside the `CharacterCard.js` file and export it.
-- You can use `innerHTML` to generate the HTML of the card. Cut and paste the relevant HTML code of the card from the `index.html` and use it in your function.
-- The following elements of the card need to be dynamic and change for each character:
-  - the `src` of the image
-  - the name of the character
-  - the status, type and occurrences values
-- HINT: go to the docs and look where you can find all the information in the character objects you
-  will receive from the API.
-- Think about which input parameter(s) this function will need.
-- The function finally returns the created `li` HTML element.
-
-### 2. Fetch the Data
-
-Now we can fetch the character data from the API and generate our cards with it.
+Let's start by fetching character data from the API, which we will later use to generate character cards dynamically.
 
 - Inside of the `index.js` create a function called `fetchCharacters`.
-- Use your knowledge about fetching to get the first 20 characters from the API. You can find the
-  correct API endpoint in the docs.
-- Import the `CharacterCard` function.
-- After successfully fetching the character data, use array methods to create an HTML card for each
-  character and append it to the `cardContainer`.
-- Make sure that the `cardContainer` is emptied every time new characters are fetched (HINT: you can
-  use `innerHTML = ''` for that).
-- Call the function inside the `index.js`. Now you should see 20 cards in your app.
+- Use your knowledge about fetching to get the first 20 characters from the API. You can find the correct API endpoint in the docs.
+- Inside the `fetchCharacters` function, log the fetched data to the console.
+- Call `fetchCharacters` and check the console of your browser to ensure the data is being fetched correctly.
 
-### 3. Pagination
+### 2. Character Card Component
 
-Great Job! But we want to see not only 20 characters, we want all of them! So lets implement the
-pagination.
+Currently, the HTML contains a hardcoded character card for Rick Sanchez. Instead of hardcoding it, we'll create the card dynamically using JavaScript.
 
-- By adding the string `?page=<pageIndex>` to the end of the fetch URL, you can receive the
-  respective page of characters.
-- Use here the state variable `page` to keep track of the current page index.
+- Inside `CharacterCard.js`, write and export a function called `CharacterCard`.
+- Use `innerHTML` to generate the HTML of the card. Cut and paste the relevant HTML code of the card from the `index.html` and use it in your function.
+- Ensure that `CharacterCard` returns a newly created `<li>` element representing a character card.
+- Inside `index.js`, call the `CharacterCard` function and append its return value to the existing `cardContainer`.
+- Once implemented, the Rick Sanchez card should no longer be hardcoded in `index.html` but instead be created dynamically using JavaScript.
+
+### 3. Make the Character Card Component Dynamic
+
+Right now, the `CharacterCard` function always returns the character Rick Sanchez. We need to update it so that it can generate cards for any character.
+
+- Modify the `CharacterCard` function in `CharacterCard.js` to accept the character data as an argument.
+- Ensure that the following elements of the card dynamically update based on the character data:
+  - the src of the image,
+  - the name of the character,
+  - the status, type and occurrences.
+    > 💡 Hint: The occurrences can be derived from another key in the character object.
+- Switch to the `index.js`.
+- Remove the `console.log` and the single appended `CharacterCard`.
+- Update the `fetchCharacters` function to use an array method to create a character card for each character and append it to the `cardContainer`.
+- Make sure the `cardContainer` is emptied every time new characters are fetched (HINT: you can use `innerHTML = ''` for that).
+- Once implemented, your app should display 20 character cards dynamically.
+
+### 4. Pagination
+
+Great Job! But we want to see not only 20 characters, we want all of them! So lets implement the pagination.
+
+- By adding the string `?page=<pageIndex>` to the end of the fetch URL, you can receive the respective page of characters.
+- Use the state variable `page` to keep track of the current page index.
 - Inside of the `info` part of the received data you can find the max page count.
-- Add an event listener on each of the next and prev buttons which do the following
-  - it is prevented that the page index could go higher than the max page index or below 1
-  - the page index is increased / decreased
-  - the `fetchCharacters` function is called
-- Update the pagination display each time characters are fetched to show the current page index and
-  the current max page index.
+- Add an event listener on each of the next and prev buttons which do the following:
+  - it is prevented that the page index could go higher than the max page index or below 1,
+  - the page index is increased / decreased,
+  - the `fetchCharacters` function is called.
+- Update the pagination display each time characters are fetched to show the current page and the current max page.
 
-### 4. The Search Bar
+### 5. The Search Bar
 
-Now we want even more functionality in our app. We want to find individual characters by typing
-their name into the search bar.
+Now we want even more functionality in our app. We want to find individual characters by typing their name into the search bar.
 
 - Create a 'submit' event listener on the search bar.
-- Update the state variable `searchQuery` with the current text inside the search bar every time
-  this event is triggered.
-- Modify the fetch URL again by adding another url encoded attribute `name`: append
-  `&name=<searchQuery>` to the url. If the search query is an empty string, it will be ignored by
-  the API, so don't worry about that.
+- Update the state variable `searchQuery` with the current text inside the search bar every time this event is triggered.
+- Modify the fetch URL again by adding another URL encoded attribute `name`: append
+  `&name=<searchQuery>` to the URL. If the search query is an empty string, it will be ignored by the API, so don't worry about that.
 - Now trigger the function `fetchCharacters` whenever a submit event happens.
 
-> 💡 You might run into some bugs at this point. Think about how the page and max page index might
-> have to change when you start searching for only subsets of all characters.
+> 💡 When using the search bar, the fetched results may have fewer pages than the full dataset. To handle this:
+>
+> - Update maxPage to match the info.pages value from the API response.
+> - Set `page` to 1 when a new search is submitted.
 
 ## Bonus
 
-### 5. Refactoring your Code
+### 6. Refactoring your Code
 
 You've done it: your app is working as expected. 🚀✨
 
@@ -119,7 +120,7 @@ However, we want to tidy up our code so that not everything is written in a sing
 - Append the created components at the right places in your HTML. All container elements are already
   available in the `index.js`.
 
-### 6. Style Your Project
+### 7. Style Your Project
 
 Congratulations on getting your project up and running! Now, let's take it to the next level by adding some flair and personality through styling. The bonus feature focuses on enhancing the visual appeal of your page with creative design elements. Follow these steps to give your project that extra touch:
 
