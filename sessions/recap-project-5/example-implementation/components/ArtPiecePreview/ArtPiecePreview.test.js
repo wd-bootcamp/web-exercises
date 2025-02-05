@@ -17,7 +17,10 @@ test("renders the image with correct alt attribute", () => {
   const image = screen.getByRole("img", {
     name: `${mockProps.artist}: ${mockProps.title}`,
   });
-  expect(image).toHaveAttribute("alt", "");
+  expect(image).toHaveAttribute(
+    "alt",
+    `${mockProps.artist}: ${mockProps.title}`
+  );
 });
 
 test("displays the artist and title correctly", () => {
