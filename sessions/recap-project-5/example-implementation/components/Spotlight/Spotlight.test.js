@@ -31,12 +31,14 @@ test("calls onToggleFavorite when the favorite button is clicked", async () => {
   render(
     <Spotlight
       onToggleFavorite={mockOnToggleFavorite}
-      isFavorite={false}
+      isFavorite={mockProps.isFavorite}
       image={mockProps.image}
     />
   );
 
-  const favoriteButton = screen.getByRole("button");
+  const favoriteButton = screen.getByRole("button", {
+    name: mockProps.isFavorite ? /unlike/ : /like/,
+  });
   await user.click(favoriteButton);
 
   expect(mockOnToggleFavorite).toHaveBeenCalledTimes(1);

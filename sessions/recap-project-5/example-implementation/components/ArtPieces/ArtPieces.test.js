@@ -41,7 +41,9 @@ test("calls onToggleFavorite with the correct slug when a favorite button is cli
     />
   );
 
-  const favoriteButton = screen.getAllByRole("button")[0];
+  const favoriteButton = screen.getByRole("button", {
+    name: mockArtPiecesInfo[0].isFavorite ? /unlike/ : /like/,
+  });
   await user.click(favoriteButton);
 
   expect(mockOnToggleFavorite).toHaveBeenCalledTimes(1);

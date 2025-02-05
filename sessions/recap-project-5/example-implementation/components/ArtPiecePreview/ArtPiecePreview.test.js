@@ -41,7 +41,9 @@ test("calls onToggleFavorite when the favorite button is clicked", async () => {
   const user = userEvent.setup();
   render(<ArtPiecePreview {...mockProps} />);
 
-  const favoriteButton = screen.getByRole("button");
+  const favoriteButton = screen.getByRole("button", {
+    name: mockProps.isFavorite ? /unlike/ : /like/,
+  });
   await user.click(favoriteButton);
 
   expect(mockProps.onToggleFavorite).toHaveBeenCalledTimes(1);
