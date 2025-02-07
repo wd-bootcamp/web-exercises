@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui;
+  min-height: 100dvh;
+  background-color: rgb(23, 17, 49);
+  align-content: center;
+}
+
+h2 {
+  line-height: 1.5;
+}
+
+p {
+  line-height: 2;
+}
+
+.hero-card {
+  max-width: 550px;
+  margin-inline: auto;
+  background-color: rgb(213, 212, 218);
+  color: rgb(28, 33, 56);
+  padding: 24px 32px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.blob-1 {
+  position: absolute;
+  top: -80px;
+  left: -60px;
+  z-index: -1;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(to bottom left, #f6997d, #ff4a11, #943215);
+  border-radius: 16px;
+  rotate: -15deg;
+}
+
+.blob-2 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: -80px;
+  right: -50px;
+  z-index: -1;
+  background: linear-gradient(
+    to bottom left,
+    #2e016d,
+    #3f0097,
+    #8336ff,
+    #f6997d
+  );
+  border-radius: 999px;
+  rotate: 280deg;
+}
