@@ -39,24 +39,12 @@ main {
   background-color: #aed6f1;
 }
 
-.box--top-center {
-  background-color: #85c1e9;
-}
-
 .box--top-right {
   background-color: #5dade2;
 }
 
-.box--center {
-  background-color: #3498db;
-}
-
 .box--bottom-left {
   background-color: #2874a6;
-}
-
-.box--bottom-center {
-  background-color: #21618c;
 }
 
 .box--bottom-right {
