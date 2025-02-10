@@ -1,0 +1,45 @@
+.info-card {
+  max-width: 500px;
+  background-color: var(--background-elevated);
+  padding: 1rem 2rem;
+  border-radius: var(--rounded-sm);
+}
+
+.info-card h2 {
+  color: var(--primary);
+}
+
+.info-card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  line-height: 1.5;
+}
+
+.info-card ul > li .list-title {
+  font-weight: bold;
+}
+
+.info-card ul .text-highlighted {
+  color: var(--text-highlight);
+  background-color: var(--background-highlight);
+  padding: 3px 5px;
+  border-radius: var(--rounded-sm);
+}
+
+.info-card > .buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.info-card > .buttons > button {
+  padding: 1rem 2rem;
+  border-radius: var(--rounded-lg);
+  font-size: 1rem;
+}
+
+button.primary {
+  background-color: var(--primary);
+  color: var(--primary-text);
+}
