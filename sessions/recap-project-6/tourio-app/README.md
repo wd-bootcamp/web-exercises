@@ -26,6 +26,17 @@ Please follow the instructions given in the `README.md` file.
 
 > 💡 **Reminder**: Work on feature branches to avoid merge conflicts!
 
+### Set up Database
+
+1. Set up a new database "tourio" with a collection "places" in your MongoDB Atlas instance. Use the [`lib/db.json` file](lib/db.json) to insert sample data.
+2. Create a new file `.env.local` and add the following: 
+   ```bash
+   MONGODB_URI=<connection string>
+   ```
+3. Use the connection string from MongoDB Atlas (see the handout of Backend MongoDB for more information).
+3. Make sure to replace `<user>` and `<password>` with your credentials, as well as adding the name of your database `tourio` after the `mongodb.net/` in the URI.
+
+
 ## Deploying Your Project
 
 Follow [these instructions](https://github.com/wd-bootcamp/cohort-template/blob/main/docs/deployment-vercel.md) to deploy the project to Vercel.
@@ -40,30 +51,28 @@ This is why we need to provide Vercel with the access details.
 
 ### Connecting Vercel with MongoDB Atlas
 
-1. In the dashboard of your Vercel project, navigate to "Settings".
+2. Go to vercel.com. In the dashboard of your Vercel project, navigate to "Settings".
+3. In the left-hand navigation, choose "Environment Variables".
 
-2. In the left-hand navigation, choose "Environment Variables".
-
-   1. Add the key (`MONGODB_URI`) and the value (`mongodb+srv...`)
+   1. Add the key (`MONGODB_URI`) and the value (`mongodb+srv...`). You get them from the connect -> drivers page in MongoDB Atlas.
    2. Tick all environments (Production, Preview, and Development).
    3. Click "Save".
 
-3. At the bottom of this page, you should now see a new environment variable
+4. At the bottom of this page, you should now see a new environment variable.
 
-4. Redeploy your application:
+5. Redeploy your application:
 
    1. In the main navigation, choose "Deployments".
    2. Open the three dots next to your last deployment and choose "Redeploy".
 
-5. If there's a popup, hit the "Redeploy" button again.
+6. If there's a popup, hit the "Redeploy" button again.
 
-6. Congratulations, you are done! Open the Vercel URL of your project to see that your deployed application has now access to the cloud database.
+7. Congratulations, you are done! Open the Vercel URL of your project to see that your deployed application has now access to the cloud database.
 
 ## Tasks
 
 ### Read Data
 
-- Set up a database. Use the [`lib/db.json` file](lib/db.json) to insert sample data.
 - In `pages/api/places/index.js`, replace the `places` variable imported from `lib/db.js` with a `GET` request from your database.
 - Do the same in `pages/api/[id]/index.js` for the details page.
 
