@@ -49,7 +49,7 @@ Let's start by fetching character data from the API, which we will later use to 
 
 Currently, the HTML contains a hardcoded character card for Rick Sanchez. Instead of hardcoding it, we'll create the card dynamically using JavaScript.
 
-- Inside `CharacterCard.js`, write and export a function called `CharacterCard`.
+- Inside `CharacterCard.js`, write and export a function called `createCharacterCard`.
 - Use `innerHTML` to generate the HTML of the card. Cut and paste the relevant HTML code of the card from the `index.html` and use it in your function.
 - Ensure that `CharacterCard` returns a newly created `<li>` element representing a character card.
 - Inside `index.js`, call the `CharacterCard` function and append its return value to the existing `cardContainer`.
