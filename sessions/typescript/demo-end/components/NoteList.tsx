@@ -1,4 +1,9 @@
-export default function NoteList({ notes, onDelete }) {
+interface NoteListProps {
+  notes: Note[];
+  onDelete: (id: number) => void
+}
+
+export default function NoteList({ notes, onDelete }: NoteListProps) {
     return (
       <ul>
         {notes.map(note => (
@@ -10,5 +15,5 @@ export default function NoteList({ notes, onDelete }) {
         ))}
       </ul>
     );
-  }
+}
   

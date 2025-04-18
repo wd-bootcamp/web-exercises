@@ -1,10 +1,14 @@
 import { useState } from 'react';
 
-export default function NoteForm({ onAdd }) {
+interface NoteFormProps {
+  onAdd: (note: Note) => void;
+}
+
+export default function NoteForm({ onAdd }: NoteFormProps) {
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     onAdd({ title, content });
     setTitle('');

@@ -3,7 +3,7 @@ import NoteForm from '../components/NoteForm';
 import NoteList from '../components/NoteList';
 
 export default function Home() {
-  const [notes, setNotes] = useState([]);
+  const [notes, setNotes] = useState<Note[]>([]);
 
   const fetchNotes = async () => {
     const res = await fetch('/api/notes');
@@ -15,7 +15,7 @@ export default function Home() {
     fetchNotes();
   }, []);
 
-  const addNote = async (note) => {
+  const addNote = async (note: Note) => {
     await fetch('/api/notes', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -24,7 +24,7 @@ export default function Home() {
     fetchNotes();
   };
 
-  const deleteNote = async (id) => {
+  const deleteNote = async (id: string) => {
     await fetch('/api/notes', {
       method: 'DELETE',
       headers: { 'Content-Type': 'application/json' },
