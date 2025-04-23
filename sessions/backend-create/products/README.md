@@ -43,7 +43,7 @@ Submitting the form will not yet work because the form does not know that you've
 
 ### Send a `POST` request
 
-Switch to `/components/ProductForm/index.js`:
+Switch to `/components/ProductForm.js`:
 
 - There already is a `handleSubmit` function which creates a `productData` object with all relevant data.
 
