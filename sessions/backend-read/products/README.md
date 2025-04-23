@@ -106,7 +106,7 @@ Switch to `pages/api/products/[id].js` and use the `.populate` method to integra
 
 Finally, update the frontend to display the reviews:
 
-- Switch to `components/Product/index.js`.
+- Switch to `components/ProductList.js`.
 - Inside of the return statement, check whether the fetched `data` contain any reviews and if so, display them.
 - Feel free to decide which part of the review data you want to display.
 
