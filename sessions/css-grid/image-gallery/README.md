@@ -16,6 +16,10 @@ Hint
  You need only two lines of code in your grid container
 </details>
 
+## Notes
+
+- You only have to touch the `./css/styles.css` file.
+
 ## Expected Result
 
 ![result](./assets/grid-challenge_image-gallery.png)
