@@ -33,6 +33,8 @@ body {
   margin: 2rem auto;
 
   /* Add styles to the container */
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
 .fish__text {
