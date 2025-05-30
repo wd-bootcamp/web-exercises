@@ -105,20 +105,16 @@ The button that you are working with as an id attribute set in  #hoverButton*/
     position: absolute;
     top: 0;
     right: 0;
-    /* Starts outside the view to the right */
     width: 70%;
-    /* Adjust as needed */
     height: 50px;
     background-color: #ffc107;
-    /* Yellow */
-    border-left: 5px solid #e0a800;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.5em;
     font-weight: bold;
     color: #333;
-
+    margin-top:15px;
 
     /* Add Your solution below */
     transform: translateX(100%);

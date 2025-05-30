@@ -78,10 +78,16 @@ button:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
     background-color: var(--white);
     overflow: hidden;
+    min-height: 350px;
     /* Important for slide-in animation */
     position: relative;
     /* For loader and slide-in positioning */
 }
+
+.section:nth-child(4){
+    justify-content: start;
+}
+
 
 /*  -----------------------------------------------------------
             Challenge 2: Button Hover Size Change
