@@ -50,7 +50,7 @@ why the first step to success is to start with the homepage.
 
 - When done, use the feature branch workflow to merge your results into the main branch.
 - Continue in the same way with the 'question-card' and 'navbar'.
-- Make sure that where the questions cards are is scrollable.
+- Ensure the area containing the question cards is scrollable.
 
 > 💡 Hint: Make sure to use anchor elements for the navbar, so you can link to the other pages later
 > on!
