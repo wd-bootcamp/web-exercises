@@ -21,8 +21,8 @@ changeColorButton.addEventListener("click", () => {
 /*  -----------------------------------------------------------
             Challenge 3: Loading Spinner Toggle
 ---------------------------------------------------------------- */
-const toggleLoaderButton = document.getElementById("toggleLoaderButton");
-const loaderContainer = document.getElementById("loaderContainer");
+const toggleLoaderButton = document.querySelector("[data-js=toggleLoaderButton]");
+const loaderContainer = document.querySelector("[data-js=loaderContainer]");
 let loaderActive = false;
 
 toggleLoaderButton.addEventListener("click", () => {
