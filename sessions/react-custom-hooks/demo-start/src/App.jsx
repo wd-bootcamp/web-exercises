@@ -1,6 +1,7 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
+import "./styles.css";
 
-export default function Joke() {
+export default function App() {
   const [joke, setJoke] = useState();
   const [id, setId] = useState(0);
 
