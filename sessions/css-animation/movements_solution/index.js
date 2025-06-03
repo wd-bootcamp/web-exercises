@@ -31,9 +31,9 @@ toggleLoaderButton.addEventListener('click', () => {
 	// Add your solution below
 	loaderActive = !loaderActive;
 	if (loaderActive) {
-		loaderContainer.classList.add('active');
+		loaderContainer.classList.add('loader-container--active');
 	} else {
-		loaderContainer.classList.remove('active');
+		loaderContainer.classList.remove('loader-container--active');
 	}
 });
 
