@@ -10,7 +10,7 @@ Add here the code for each challenge
 ---------------------------------------------------------------- */
 
 /* --- Section 1: Card Background Color Change --- */
-#colorChangeCard {
+.colorChangeCard {
     width: 250px;
     height: 150px;
     background-color: #e0f7fa;
