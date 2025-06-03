@@ -123,7 +123,7 @@ The button that you are working with as an id attribute set in  #hoverButton*/
     /* Smooth slide transition */
 }
 
-#slideInBox.active {
+.slideInBox--active {
     transform: translateX(0);
     /* Slides it into view */
 }
