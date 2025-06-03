@@ -10,7 +10,7 @@ Add here the code for each challenge
 ---------------------------------------------------------------- */
 
 /* --- Section 1: Card Background Color Change --- */
-#colorChangeCard {
+.colorChangeCard {
     width: 250px;
     height: 150px;
     background-color: #e0f7fa;
@@ -34,12 +34,12 @@ Add here the code for each challenge
 /* Write here your solution for this challenge.
 The button that you are working with as an id attribute set in  #hoverButton*/
 
-#hoverButton:hover {
+.hoverButton:hover {
     transform: scale(1.1);
     background-color: #218838;
 }
 
-#hoverButton:active {
+.hoverButton:active {
     transform: scale(0.95);
     /* Slight shrink on click */
 }
@@ -101,7 +101,7 @@ The button that you are working with as an id attribute set in  #hoverButton*/
 ---------------------------------------------------------------- */
 
 
-#slideInBox {
+.slideInBox {
     position: absolute;
     top: 0;
     right: 0;
@@ -114,7 +114,7 @@ The button that you are working with as an id attribute set in  #hoverButton*/
     font-size: 1.5em;
     font-weight: bold;
     color: #333;
-    margin-top:15px;
+    margin-top: 15px;
 
     /* Add Your solution below */
     transform: translateX(100%);

@@ -21,7 +21,9 @@ changeColorButton.addEventListener("click", () => {
 /*  -----------------------------------------------------------
             Challenge 3: Loading Spinner Toggle
 ---------------------------------------------------------------- */
-const toggleLoaderButton = document.querySelector("[data-js=toggleLoaderButton]");
+const toggleLoaderButton = document.querySelector(
+  "[data-js=toggleLoaderButton]"
+);
 const loaderContainer = document.querySelector("[data-js=loaderContainer]");
 let loaderActive = false;
 
@@ -32,9 +34,8 @@ toggleLoaderButton.addEventListener("click", () => {
 /*  -----------------------------------------------------------
             Challenge 4: Slide-in Div
 ---------------------------------------------------------------- */
-const slideInButton = document.getElementById("slideInButton");
-const slideInBox = document.getElementById("slideInBox");
-let slideInBoxActive = false;
+const slideInButton = document.querySelector("[data-js=slideInButton]");
+const slideInBox = document.querySelector("[data-js=slideInBox]");
 
 slideInButton.addEventListener("click", () => {
   // Add your solution below

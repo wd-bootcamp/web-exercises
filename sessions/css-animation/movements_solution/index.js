@@ -2,15 +2,15 @@
             Challenge 1: Card Background Fade
 ---------------------------------------------------------------- */
 
-const changeColorButton = document.getElementById('changeColorButton');
-const colorChangeCard = document.getElementById('colorChangeCard');
-const colors = ['#e0f7fa', '#ffe0b2', '#c8e6c9', '#ffccbc', '#d1c4e9']; // Light pastel colors
+const changeColorButton = document.querySelector("[data-js=changeColorButton]");
+const colorChangeCard = document.querySelector("[data-js=colorChangeCard]");
+const colors = ["#e0f7fa", "#ffe0b2", "#c8e6c9", "#ffccbc", "#d1c4e9"]; // Light pastel colors
 let currentColorIndex = 0;
 
-changeColorButton.addEventListener('click', () => {
-	// Add your solution below
-	currentColorIndex = (currentColorIndex + 1) % colors.length;
-	colorChangeCard.style.backgroundColor = colors[currentColorIndex];
+changeColorButton.addEventListener("click", () => {
+  // Add your solution below
+  currentColorIndex = (currentColorIndex + 1) % colors.length;
+  colorChangeCard.style.backgroundColor = colors[currentColorIndex];
 });
 
 /*  -----------------------------------------------------------
@@ -23,26 +23,29 @@ changeColorButton.addEventListener('click', () => {
 /*  -----------------------------------------------------------
             Challenge 3: Loading Spinner Toggle
 ---------------------------------------------------------------- */
-const toggleLoaderButton = document.getElementById('toggleLoaderButton');
-const loaderContainer = document.getElementById('loaderContainer');
+const toggleLoaderButton = document.querySelector(
+  "[data-js=toggleLoaderButton]"
+);
+const loaderContainer = document.querySelector("[data-js=loaderContainer]");
 let loaderActive = false;
 
-toggleLoaderButton.addEventListener('click', () => {
-	// Add your solution below
-	loaderActive = !loaderActive;
-	if (loaderActive) {
-		loaderContainer.classList.add('loader-container--active');
-	} else {
-		loaderContainer.classList.remove('loader-container--active');
-	}
+toggleLoaderButton.addEventListener("click", () => {
+  // Add your solution below
+  loaderActive = !loaderActive;
+  if (loaderActive) {
+    loaderContainer.classList.add("loader-container--active");
+  } else {
+    loaderContainer.classList.remove("loader-container--active");
+  }
 });
 
 /*  -----------------------------------------------------------
             Challenge 4: Slide-in Div
 ---------------------------------------------------------------- */
-const slideInButton = document.getElementById('slideInButton');
-const slideInBox = document.getElementById('slideInBox');
-slideInButton.addEventListener('click', () => {
-	// Add your solution below
-		slideInBox.classList.toggle('slideInBox--active');
+const slideInButton = document.querySelector("[data-js=slideInButton]");
+const slideInBox = document.querySelector("[data-js=slideInBox]");
+
+slideInButton.addEventListener("click", () => {
+  // Add your solution below
+  slideInBox.classList.toggle("slideInBox--active");
 });

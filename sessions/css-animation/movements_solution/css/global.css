@@ -84,7 +84,7 @@ button:hover {
     /* For loader and slide-in positioning */
 }
 
-.section:nth-child(4){
+.section:nth-child(4) {
     justify-content: start;
 }
 
@@ -92,7 +92,7 @@ button:hover {
 /*  -----------------------------------------------------------
             Challenge 2: Button Hover Size Change
 ---------------------------------------------------------------- */
-#hoverButton {
+.hoverButton {
     background-color: var(--secondary);
 }
 
