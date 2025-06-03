@@ -68,7 +68,7 @@ The button that you are working with as an id attribute set in  #hoverButton*/
 }
 
 
-.loader-container.active {
+.loader-container--active {
     opacity: 1;
     visibility: visible;
 }
