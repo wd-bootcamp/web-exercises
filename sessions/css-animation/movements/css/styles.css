@@ -82,7 +82,7 @@ The button that you are working with as an id attribute set in  #hoverButton*/
             Challenge 4: Slide-in Div
 ---------------------------------------------------------------- */
 
-#slideInBox {
+.slideInBox {
     position: absolute;
     top: 0;
     right: 0;
