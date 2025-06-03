@@ -42,14 +42,7 @@ toggleLoaderButton.addEventListener('click', () => {
 ---------------------------------------------------------------- */
 const slideInButton = document.getElementById('slideInButton');
 const slideInBox = document.getElementById('slideInBox');
-let slideInBoxActive = false;
-
 slideInButton.addEventListener('click', () => {
 	// Add your solution below
-	slideInBoxActive = !slideInBoxActive;
-	if (slideInBoxActive) {
-		slideInBox.classList.add('active');
-	} else {
-		slideInBox.classList.remove('active');
-	}
+		slideInBox.classList.toggle('slideInBox--active');
 });
