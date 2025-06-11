@@ -6,7 +6,9 @@ const errorElement = document.querySelector("[data-js='error']");
 
 async function fetchUserData(url) {
   try {
-    const response = await fetch(url);
+    const response = await fetch(url, {
+      headers: { "x-api-key": "reqres-free-v1" },
+    });
     // Bonus:
     const contentType = response.headers.get("content-type");
 
