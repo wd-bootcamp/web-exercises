@@ -46,9 +46,16 @@ async function fetchCharacters() {
     `https://rickandmortyapi.com/api/character/?page=${page}&name=${searchQuery}`
   );
   const data = await result.json();
-  maxPage = data.info.pages;
-  const characters = data.results;
+  if (data.error){
+    page=0;
+    maxPage=0;
+    cardContainer.textContent="No data found";
+  } else {
+    maxPage = data.info.pages;
+    const characters = data.results;
+    cardContainer.innerHTML = "";
+    characters.map(CharacterCard).forEach((card) => cardContainer.append(card));
+  }
   pagination.textContent = `${page} / ${maxPage}`;
-  cardContainer.innerHTML = "";
-  characters.map(CharacterCard).forEach((card) => cardContainer.append(card));
+  window.scroll({top: 0});
 }
