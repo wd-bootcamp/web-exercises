@@ -6,7 +6,7 @@ This websites is using components to structure the elements, but the CSS itself 
 
 Some general guidelines for using BEM:
 
-- Every styled element inside a component needs a class, no type selectors!
+- Every styled element inside a component needs a **class**, no type selectors!
 - Every class name for a given component hast to start with the BLOCK name (the name of the component).
 - Element names are separated with two underscores `__`, modifiers are prefixed with two dashes `--`.
 - Modifier classes are added as a second class to the base element class. They modify the already existing element CSS, for example changing the background color. So they cannot stand on their own, but always appear together with their `BASE__ELEMENT` class.
