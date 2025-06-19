@@ -1,0 +1,13 @@
+{
+  "name": "css-structure_bem",
+  "version": "0.0.0-unreleased",
+  "description": "CSS Structure: Custom Properties",
+  "main": "index.html",
+  "nf": {
+    "template": "html-css"
+  },
+  "private": true,
+  "scripts": {
+    "start": "npx -y live-server@latest --port=3000"
+  }
+}

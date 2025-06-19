@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="./public/favicon.png" type="image/png" />
+    <title>CSS Structure: BEM</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <article class="info-card">
+      <h2>Learning BEM</h2>
+      <p>
+        BEM stands for Block-Element-Modifier, which is a naming convention for
+        css classes.
+      </p>
+      <ul>
+        <li>
+          <span class="list-title">Block</span>: The name of a component, for
+          example "card". It defines the scope of the classes and prevents
+          accidental duplicated name usage.
+        </li>
+        <li>
+          <span class="list-title">Element</span>: One element inside the block,
+          for example the title of the card. the naming for this class is then
+          <span class="text-highlighted">BLOCK__ELEMENT</span> e.g.
+          "card__title".
+        </li>
+        <li>
+          <span class="list-title">Modifier</span>: To distinguish between
+          different variants of an element, for example if you have a regular
+          button and a special one with the primary color, then you can
+          overwrite elements of the regular button with the modifier class
+          <span class="text-highlighted">BLOCK__ELEMENT--modifier</span> or
+          <span class="text-highlighted">BLOCK--modifier</span> if the block
+          itself has multiple variants. An example would be "card__button" for
+          one button and two classes for the variant "card__button
+          card__button--primary". The modifier class cannot stand on its own,
+          its only overwriting parts of the regular element that should be
+          different.
+        </li>
+      </ul>
+      <div class="buttons">
+        <button class="primary">I got it</button>
+        <button>I need more practice</button>
+      </div>
+    </article>
+  </body>
+</html>

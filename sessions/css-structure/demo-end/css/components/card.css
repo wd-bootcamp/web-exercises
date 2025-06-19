@@ -1,0 +1,35 @@
+.card {
+  padding: 20px;
+  border-radius: var(--rounded-lg);
+  border: solid 2px var(--primary);
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.highlight {
+  color: var(--primary);
+  font-size: 1.5rem;
+}
+
+.definition {
+  max-width: 300px;
+  border: dashed 2px var(--primary);
+  border-radius: var(--rounded-sm);
+  padding: 10px;
+}
+
+.tag {
+  background-color: var(--background-elevated);
+  color: var(--text-elevated);
+  padding: 10px;
+  border-radius: var(--rounded-sm);
+}
+
+.tag--highlighted {
+  background-color: var(--primary);
+}
