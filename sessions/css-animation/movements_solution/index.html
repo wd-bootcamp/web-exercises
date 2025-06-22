@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Four Animations Page</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <section class="section">
+      <h2>Card Background Fade</h2>
+      <div class="colorChangeCard" data-js="colorChangeCard">
+        Click to Change Color
+      </div>
+      <button class="changeColorButton" data-js="changeColorButton">
+        Change Card Color
+      </button>
+    </section>
+
+    <section class="section">
+      <h2>Button Hover Effect</h2>
+      <p>Hover over the button to see it grow.</p>
+      <button class="hoverButton" data-js="hoverButton">Hover Me!</button>
+    </section>
+
+    <section class="section">
+      <h2>Loading Spinner</h2>
+      <p>Click the button to show/hide the loader.</p>
+      <button class="toggleLoaderButton" data-js="toggleLoaderButton">
+        Toggle Loader
+      </button>
+      <div class="loader-container" data-js="loaderContainer">
+        <div class="loader"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Slide-in Div</h2>
+      <p>Click the button to slide in a div from the right.</p>
+      <button class="slideInButton" data-js="slideInButton">
+        Toggle Slide-in Div
+      </button>
+      <div class="slide-container">
+        <div class="slideInBox" data-js="slideInBox">I slid in!</div>
+      </div>
+    </section>
+  </body>
+</html>

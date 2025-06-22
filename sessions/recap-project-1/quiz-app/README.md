@@ -50,6 +50,7 @@ why the first step to success is to start with the homepage.
 
 - When done, use the feature branch workflow to merge your results into the main branch.
 - Continue in the same way with the 'question-card' and 'navbar'.
+- Ensure the area containing the question cards is scrollable.
 
 > 💡 Hint: Make sure to use anchor elements for the navbar, so you can link to the other pages later
 > on!
@@ -88,6 +89,13 @@ Create the profile page in the same way you created the other two pages.
 > 💡 The counter and switch don't have to work for now, we will implement this later.
 
 ## Recommendations
+
+### Semantic Element and Accessibility
+
+- Ensure that semantic HTML is used wherever possible.
+- Verify that all interactive elements have an accessible name. For instance, an icon that the user can click might still lack an accessible name.
+- Make sure each page includes a single `<h1>` element, and that heading levels are not skipped.
+- Check that the text content of your interactive elements is clear and descriptive.
 
 ### Separate the Quiz App CSS code into different files
 

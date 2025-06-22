@@ -5,22 +5,23 @@
 }
 
 :root {
-  --primary-color: #ff4a11;
-  --secondary-color: #e4e8f0;
-  --tertiary-color: #9ca3af;
-  --background-color: #2e016d;
+  --primary: #ff4a11;
+  --background: #e4e8f0;
+  --text: #091429;
+  --background-elevated: #9ca3af;
+  --text-elevated: #282828;
+
+  --rounded-sm: 8px;
+  --rounded-lg: 16px;
 }
 
 body {
   font-family: system-ui;
-  color: var(--secondary-color) /*red*/;
-  background-color: var(--background-color);
-}
-
-.flex {
+  color: var(--text);
+  background-color: var(--background);
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
   align-items: center;
   flex-direction: column;

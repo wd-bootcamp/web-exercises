@@ -1,0 +1,60 @@
+
+
+:root {
+  --primary-dark: #2e016d;
+  --primary: #3f0097;
+  --primary-light: #8236ff;
+
+  --secondary-dark: #38ccda;
+  --secondary: #7fd9e2;
+
+  --accent: #ffd15d;
+  --black-light: #303030;
+  --black: #000000;
+  --white: #ffffff;
+  --grey-dark: #b6b9c2;
+  --grey-light: #f5f6f6;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui;
+
+  background-color: var(--grey-dark);
+}
+
+.cards {
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 50rem;
+
+  /* Add styles to the container */
+}
+
+.cards__option {
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 6px;
+}
+
+.cards__option--highlight {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.cards__name {
+  margin: 0 0 1rem 0;
+  font-size: 1rem;
+}
+
+.cards__price {
+  font-size: 2.5rem;
+  font-weight: bold;
+}

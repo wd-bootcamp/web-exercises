@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #ff4a11;
+  --primary-text: #ffeae3;
+  --background: #e4e8f0;
+  --text: #091429;
+  --background-elevated: #9ca3af;
+  --text-elevated: #282828;
+  --background-highlight: #484f5b;
+  --text-highlight: #e6e8ec;
+
+  --rounded-sm: 8px;
+  --rounded-lg: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+  font-family: system-ui;
+  color: var(--text);
+  background-color: var(--background);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  border: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
