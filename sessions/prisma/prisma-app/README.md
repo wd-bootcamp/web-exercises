@@ -1,8 +1,45 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
+### 1️⃣ Install dependencies: 
+```bash
+npm i
+```
+---
+### 2️⃣ Configure PostgreSQL Connection
 
-First, run the development server:
+Create an **.env** file and update the `DATABASE_URL` to your PostgreSQL database:
+```
+DATABASE_URL="postgresql://user:password@localhost:5432/mydatabase?schema=public"
+```
+💡 Replace `user`, `password`, and `mydatabase` with your actual database credentials. If you don't have postgres locally on your machine, please follow the steps [here](https://github.com/spiced-academy/wd-advanced-syllabus/blob/main/sessions/prisma/use-docker.md) to utilize Docker to quickly create a postgresSQL database.
+
+⚠️ If the link doesn't work, then check this file [here](./use-docker.md).
+
+---
+### 3️⃣ Run Migrations to Update the Database
+Run the following command to create the database tables:
+
+```bash
+npx prisma migrate dev --name init
+```
+✅ This applies the schema changes and creates the necessary tables in PostgreSQL.
+Note: if you don't have a local tool to visualize the tables and modify it, feel free to use the following command: 
+```
+npx prisma studio
+```
+✅ This opens a local GUI in your browser where you can view & edit database records & Add, update, and delete rows visually. 
+
+---
+### 4️⃣ Generate the Prisma Client
+
+Generate the Prisma Client, which allows Next.js to interact with the database:
+
+```bash
+npx prisma generate
+```
+
+### 5️⃣ Run the development server
 
 ```bash
 npm run dev
@@ -14,23 +51,11 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 6️⃣ Available pages
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+/users
+/users/new
+/users/edit
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
