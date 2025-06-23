@@ -1,4 +1,4 @@
-import CarRace from "../components/CarRace";
+import CarRace from "../components/CarRace/CarRace";
 import Layout from "../components/Layout";
 
 export default function HomePage() {
