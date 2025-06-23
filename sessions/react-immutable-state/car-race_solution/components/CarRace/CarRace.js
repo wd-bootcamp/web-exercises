@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 import Winner from "../Winner";
 import {
   CarButton,
@@ -8,6 +8,9 @@ import {
   Track,
 } from "./CarRace.styled";
 import { initialCars, getRandomDistance } from "../../utils/utils";
+
+// Solution: Updating with Spread Syntax
+// import { useState } from "react";
 
 // Solution: Updating with immer
 import { useImmer } from "use-immer";
