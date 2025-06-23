@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import Form from "../components/Form";
+import Form from "../components/Form/Form";
 
 export default function HomePage() {
   return (
