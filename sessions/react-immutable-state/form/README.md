@@ -6,7 +6,7 @@ In this challenge you will move mountains - well, at least figuratively.
 
 - Start the development server and make yourself familiar with the application.
 - Open your browser and try to edit the text in the input fields. It won't work.
-- Check the [`Form component`](components/Form/index.js): The three input fields have predefined values, but you cannot change them yet.
+- Check the [`Form component`](components/Form/Form.js): The three input fields have predefined values, but you cannot change them yet.
 - Your task is to write the logic for the `handle` functions in order to update the state accordingly.
 
 > 💡 The `Form` component uses "controlled components" for the inputs. It has a state to constantly store the input values. It re-renders on every change of an input to refresh the value displayed in the UI.
@@ -31,13 +31,13 @@ Refactor the `handle` functions with the help of the `useImmer` hook.
 
 You can use the following hints as guideline:
 
-- `immer` and `useImmer` are already installed, so you just have to import the `useImmer` hook into the [`Form`](components/Form/index.js) component.
+- `immer` and `useImmer` are already installed, so you just have to import the `useImmer` hook into the [`Form`](components/Form/Form.js) component.
 - Update the state declaration: change `setMountain` to `updateMountain` and `useState({...})` to `useImmer({...})`.
 - Rewrite the `handle` functions: use the `draft` object and dot-notation to reach the keys to which you want to assign a new value.
 
 ## Notes
 
-- You only have to touch the `./components/Form/index.js` file.
+- You only have to touch the `./components/Form/Form.js` file.
 
 ## Development
 

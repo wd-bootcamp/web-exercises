@@ -7,14 +7,12 @@ Everyone loves (electric) car racing, right? Let's become the champion!
 - Start the development server and make yourself familiar with the application.
 - Open the browser: there are five cars, each has its own track with a finish line and a number how long the last distance driven was.
 - Try to click a car: it's not yet moving.
-- Check the [`CarRace component`](components/CarRace/index.js): the `moveCar` function is not working.
-- Check the `utils/utils.js`: it#s an array with five car objects; each car contains two keys: the `emoji` as string and the `position` object. This object determines the exact position of the car on its track (`x` key) and the distance covered with the last button click.
+- Check the [`CarRace component`](components/CarRace/CarRace.js): the `moveCar` function is not working.
+- Check the `utils/utils.js`: it's an array with five car objects, each car contains two keys: the `emoji` as string and the `position` object. This object determines the exact position of the car on its track (`x` key) and the distance covered with the last button click.
 
-Switch to the [`CarRace component`](components/CarRace/index.js) again:
+Switch to the [`CarRace component`](components/CarRace/CarRace.js) again.
 
 Your task is to implement the `moveCar` function so that the `position` object of the clicked car is updated.
-
-Use spread syntax first, refactor with `immer` afterwards.
 
 ### Updating with Spread Syntax
 
@@ -36,14 +34,14 @@ You can use the following hints as guideline:
 
 - `immer` and `useImmer` are already installed, so you just have to import what you need.
 - Update the state declaration: change `setCars` to `updateCars` and `useState()` to `useImmer()`.
-- Use the `draft` array to find the index of the car you want to update. Can you imagine which array method with a speaking name could be useful here?
-- Combine the `draft` array with the found `index` to assign the same values to `position.x` and `position.lastDistance` as before.
+- Use the `draft` array to find the index of the car or the car you want to update. Which method comes to mind for finding an element or it index?
+- Combine the `draft` array with the found `index` or element to assign the same values to `position.x` and `position.lastDistance` as before.
 
 > ✨ Congratulations, your app works as before, but uses the `useImmer` hook now! Do you see any advantages of this hook as soon as the state becomes more complex?
 
 ## Notes
 
-- You only have to touch the `./components/CarRace/index.js` file.
+- You only have to touch the `./components/CarRace/CarRace.js` file.
 
 ## Development
 

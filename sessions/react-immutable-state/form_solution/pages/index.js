@@ -1,11 +1,11 @@
-import CarRace from "../components/CarRace";
 import Layout from "../components/Layout";
+import Form from "../components/Form/Form";
 
 export default function HomePage() {
   return (
     <Layout>
-      <h1>Car Race</h1>
-      <CarRace />
+      <h1>Mountain Values</h1>
+      <Form />
     </Layout>
   );
 }
