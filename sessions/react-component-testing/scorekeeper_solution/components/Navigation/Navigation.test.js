@@ -3,7 +3,7 @@ import Navigation from ".";
 
 jest.mock("next/router", () => ({
   useRouter() {
-    return { pathname: jest.fn() };
+    return { pathname: "/" };
   },
 }));
 
