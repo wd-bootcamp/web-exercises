@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  padding: 2rem;
+  display: grid;
+  place-items: center;
+  gap: 2rem;
+  align-content: center;
+}
+
+form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+label div {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+label button {
+  padding: 4px 8px;
+}
+
+input {
+  font-size: 1rem;
+}
+
+button {
+  font-size: larger;
+  padding: 0.5rem 1rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 2rem;
+}
