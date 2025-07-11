@@ -29,6 +29,8 @@ git add .
 git commit -m 'initial commit'
 ```
 
+Create a new Repository in your Github account and link it to your local version.
+
 ### Deployment
 
 Deploy the React App on the Cloud Platform [Vercel](https://www.vercel.com). Follow the instructions in the Vercel Deployment Guide in your Cohort repository. 
