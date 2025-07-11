@@ -2,7 +2,40 @@
 
 In this recap project you will create a fully functioning theme creator application. With it you can browse different color themes, create new Themes and even display an example page to test how the colors look and feel.
 
-## Preparation
+## Setup
+
+### Create Vite
+Setup your project by using the command: 
+
+```bash
+npm create vite@latest theme-creator
+```
+
+From the list, first choose react and then Javascript. The project will be setup for you. You can open the project by typing `cd theme-creator`. 
+> ⚠️ Make sure to create the project in your `wd-bootcamp` folder to avoid nested git repositories.
+
+Install all necessary npm packages and check if the project successfully starts:
+```bash
+npm i
+npm run dev
+```
+
+### Git init
+Afterwards, you can go into your new project folder and initialize it as a git repository: 
+
+```bash
+git init
+git add .
+git commit -m 'initial commit'
+```
+
+### Deployment
+
+Deploy the React App on the Cloud Platform [Vercel](https://www.vercel.com). Follow the instructions in the Vercel Deployment Guide in your Cohort repository. 
+
+Finally, check if your App is accessible online. 
+
+## Project Phases
 
 The recap project is split into 8 separate parts. Each part extends on the previous one and adds a specific functionality to the app. For each part a feature description and list of hints is provided. You can find everything in the following table.
 

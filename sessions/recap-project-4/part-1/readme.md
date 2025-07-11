@@ -31,14 +31,7 @@
 
 ## Notes
 
-- Start your project with using the `npx create-react-app` command. Remove all unnecessary boilerplate files and start with a fresh empty react project. You can delete the following:
-  - reportWebVitals.js
-  - logo.svg
-  - App.test.js
-  - setupTests.js
-  - the import of reportWebVitals in index.js
-  - the import of Logo.svg in App.js
 - Create a new file called `db.js` inside your projects `src` folder and copy the theme data from [this source](../assets/db.js) into it.
 - Always work on your app in the **mobile view** of your browser. In firefox, you can activate it with the shortcut `cmd+alt+m`.
 - For every component, create a corresponding `css` file with the same name and import it at the top of your component file. Write all styles for the component in this css file.
-  > 💡 Take a look at the data in the `db.js`. How is it structured? What keys belong to what element in the list? Make sure to understand the data structure before using it.
+> 💡 Take a look at the data in the `db.js`. How is it structured? What keys belong to what element in the list? Make sure to understand the data structure before using it.
