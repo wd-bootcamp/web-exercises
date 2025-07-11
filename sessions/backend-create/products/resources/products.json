@@ -7,9 +7,7 @@
     "description": "Prefers to live in pairs",
     "price": 19,
     "currency": "EUR",
-    "reviews": [{"_id": {
-      "$oid": "63b598370e7740872e8c10c1"
-    }}]
+    "reviews": [{ "$oid": "63b598370e7740872e8c10c1" }]
   },
   {
     "_id": {
