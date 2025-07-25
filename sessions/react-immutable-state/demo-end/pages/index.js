@@ -50,52 +50,52 @@ const initialSeasons = [
     number: 2,
     episodes: [
       {
-        number: 9,
+        number: 1,
         title: "The Austere Academy: Part One",
         hasSeen: false,
       },
       {
-        number: 10,
+        number: 2,
         title: "The Austere Academy: Part Two",
         hasSeen: false,
       },
       {
-        number: 11,
+        number: 3,
         title: "The Ersatz Elevator: Part One",
         hasSeen: false,
       },
       {
-        number: 12,
+        number: 4,
         title: "The Ersatz Elevator: Part Two",
         hasSeen: false,
       },
       {
-        number: 13,
+        number: 5,
         title: "The Vile Village: Part One",
         hasSeen: false,
       },
       {
-        number: 14,
+        number: 6,
         title: "The Vile Village: Part Two",
         hasSeen: false,
       },
       {
-        number: 15,
+        number: 7,
         title: "The Hostile Hospital: Part One",
         hasSeen: false,
       },
       {
-        number: 16,
+        number: 8,
         title: "The Hostile Hospital: Part Two",
         hasSeen: false,
       },
       {
-        number: 17,
+        number: 9,
         title: "Carnivorous Carnival: Part One",
         hasSeen: false,
       },
       {
-        number: 18,
+        number: 10,
         title: "Carnivorous Carnival: Part Two",
         hasSeen: false,
       },
@@ -105,37 +105,37 @@ const initialSeasons = [
     number: 3,
     episodes: [
       {
-        number: 19,
+        number: 1,
         title: "Slippery Slope: Part One",
         hasSeen: false,
       },
       {
-        number: 20,
+        number: 2,
         title: "Slippery Slope: Part Two",
         hasSeen: false,
       },
       {
-        number: 21,
+        number: 3,
         title: "Grim Grotto: Part One",
         hasSeen: false,
       },
       {
-        number: 22,
+        number: 4,
         title: "Grim Grotto: Part Two",
         hasSeen: false,
       },
       {
-        number: 23,
+        number: 5,
         title: "Penultimate Peril: Part One",
         hasSeen: false,
       },
       {
-        number: 24,
+        number: 6,
         title: "Penultimate Peril: Part Two",
         hasSeen: false,
       },
       {
-        number: 25,
+        number: 7,
         title: "The End",
         hasSeen: false,
       },
