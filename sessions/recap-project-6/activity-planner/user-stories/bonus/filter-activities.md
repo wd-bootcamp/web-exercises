@@ -10,7 +10,7 @@
 
 ## Description
 
-Capstone Group Todo: Add wireframes
+Group Todo: Add wireframes
 
 ## Acceptance Criteria
 
@@ -25,4 +25,4 @@ Capstone Group Todo: Add wireframes
 ## Tasks
 
 - [ ] Create feature branch `feature/filter-activities`
-- [ ] Capstone Group Todo: Add tasks
+- [ ] Group Todo: Add tasks
