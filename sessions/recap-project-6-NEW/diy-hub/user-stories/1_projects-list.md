@@ -28,7 +28,6 @@ The projects list page serves as the main entry point of the application. It dis
 
 - [ ] Create feature branch `feature/projects-list`
 - [ ] Set up MongoDB connection in the project
-  - [ ] Create MongoDB Atlas account if not exists
   - [ ] Set up a new cluster
   - [ ] Configure environment variables for MongoDB connection
 - [ ] Create Project model with Mongoose schema:

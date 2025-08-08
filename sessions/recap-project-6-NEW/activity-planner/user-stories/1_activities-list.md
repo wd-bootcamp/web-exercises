@@ -22,13 +22,11 @@ The activities list page serves as the main entry point of the application. It d
   - Activity categories
 - The list supports vertical scrolling to accommodate multiple entries.
 - Activities are fetched from the MongoDB database.
-- The list updates in real-time when activities are added, modified, or deleted.
 
 ## Tasks
 
 - [ ] Create feature branch `feature/activities-list`
 - [ ] Set up MongoDB connection in the project
-  - [ ] Create MongoDB Atlas account if not exists
   - [ ] Set up a new cluster
   - [ ] Configure environment variables for MongoDB connection
 - [ ] Create Activity model with Mongoose schema:
