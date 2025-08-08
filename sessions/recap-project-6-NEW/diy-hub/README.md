@@ -11,13 +11,13 @@ The DIY Hub enables users to create, organise, and plan their DIY projects. It p
 - **Create Project:** Add new projects, enriching the projects catalogue.
 - **Delete Project:** Remove outdated or unwanted projects.
 - **Update Project:** Update and modify existing projects.
-- **Bookmark Project:** Save and showcase your favourite projects.
-- **Filter Projects:** Filter projects by various criteria.
 
 ### Additional Features Inspiration
 
 These features are optional and should serve as a conversation starter for upcoming features of the app.
 
+- **Bookmark Project:** Save and showcase your favourite projects.
+- **Filter Projects:** Filter projects by various criteria.
 - **Upload Project Images:** Add images to projects to provide visual aids and inspiration.
 - **Add Project Notes:** Include private notes to projects to keep track of ideas, modifications, and personal insights.
 - **Track Progress:** Monitor the progress of projects with status updates (e.g., planning, in progress, completed).

@@ -11,13 +11,13 @@ Activity Planner is a user-friendly application designed for outdoor enthusiasts
 - **Activity Details:** View detailed information about each activity.
 - **Delete Activity:** Remove outdated or unwanted activities.
 - **Update Activity:** Update and modify existing activities.
-- **Bookmark Activity:** Save and showcase your favourite activities.
-- **Filter Activities:** Filter activities based on various criteria.
 
 ### Additional Features Inspiration
 
 These features are optional and should serve as a conversation starter for upcoming features of the app.
 
+- **Bookmark Activity:** Save and showcase your favourite activities.
+- **Filter Activities:** Filter activities based on various criteria.
 - **Activity Images:** Upload and display images related to activities.
 - **Plan Your Activity:** Add start and end dates to bookmarked activities for better planning and organisation.
 - **Activity Location:** Add and view the location of an activity on a map.
