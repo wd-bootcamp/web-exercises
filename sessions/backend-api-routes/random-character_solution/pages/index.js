@@ -1,3 +1,12 @@
+const fetcher = (url) => fetch(url).then(response => response.json())
+
 export default function HomePage() {
-  return <h1>Hello from Next.js!</h1>;
+  const {data, isLoading} = useSWR('/api/random-character',fetcher)
+
+  if(isLoading) return 'loading...'
+  if(!data) return 'error'
+
+  return <pre>
+    {JSON.stringify(data,null,4)}
+    </pre>;
 }
