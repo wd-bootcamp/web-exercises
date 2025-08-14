@@ -45,12 +45,12 @@ Check your api route:
 
 You have now prepared two api routes: let's use them to display the data on two pages, an overview and a details page for our products!
 
-#### All Listings Page
+#### All Listings Page (Homepage)
 
-- Create the file `/pages/products/index.js`.
+- Open the file `/pages/index.js`.
 - Import the `useSWR` hook, create a fetcher and fetch `/api/products`.
 - Map over the fetched `data` object to create a list of all products where you display their information.
-- Switch to the browser and open `/products`: you should now see a (rarely styled) list of all products.
+- Switch to the browser and open `localhost:3000`: you should now see a (rarely styled) list of all products.
 
 ✨ Great work, you've consumed your own api route to display its data in the frontend!
 
@@ -58,12 +58,12 @@ You have now prepared two api routes: let's use them to display the data on two 
 
 The details page works quite similar to the All Listings Page, but there are some minor adaptions:
 
-- Create the file `/pages/products/[id].js`.
+- Create the file `/pages/[id].js`.
 - Use the `useRouter` hook to access the `id` query parameter from `router.query`.
 - Fetch from `/api/products/[id]` (you need to interpolate the query `id` accordingly).
 - The return statement does not return a list, but a single product.
 
-Switch to the browser and open `/products/[someId]`: you should now see the product with the id you've passed in the url.
+Switch to the browser and open `localhost:3000/[someId]`: you should now see the product with the id you've passed in the url.
 
 ## Development
 
