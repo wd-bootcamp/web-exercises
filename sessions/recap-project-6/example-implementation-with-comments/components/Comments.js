@@ -23,13 +23,13 @@ const CommentText = styled.p`
 export default function Comments({ locationName }) {
   const router = useRouter();
   const { isReady } = router;
-  const { id } = router.query;
+  const { id: placeId } = router.query;
   const {
     data: comments,
     mutate,
     isLoading,
     error,
-  } = useSWR(`/api/comments/${id}`);
+  } = useSWR(`/api/comments/${placeId}`);
 
   if (!isReady || isLoading || error) return <h2>Loading...</h2>;
 
@@ -37,12 +37,12 @@ export default function Comments({ locationName }) {
     event.preventDefault();
     const formData = new FormData(event.target);
     const commentData = Object.fromEntries(formData);
-    const response = await fetch(`/api/comments/${id}`, {
+    const response = await fetch(`/api/comments/${placeId}`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ ...commentData, place: id }),
+      body: JSON.stringify({ ...commentData }),
     });
     if (response.ok) {
       mutate();
@@ -54,7 +54,7 @@ export default function Comments({ locationName }) {
 
   async function handleDeleteComment(comment_id) {
     const response = await fetch(
-      `/api/comments/${id}?comment_id=${comment_id}`,
+      `/api/comments/${placeId}?comment_id=${comment_id}`,
       {
         method: "DELETE",
       }
