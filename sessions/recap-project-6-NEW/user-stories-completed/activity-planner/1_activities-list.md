@@ -10,7 +10,7 @@
 
 ## Description
 
-![wireframe](./assets/activities-list.png)
+The activities list page serves as the main entry point of the application. It displays a scrollable grid of activity cards, each showing an image, title, and associated categories. The activities are fetched from MongoDB and displayed in chronological order (newest first).
 
 ## Acceptance Criteria
 

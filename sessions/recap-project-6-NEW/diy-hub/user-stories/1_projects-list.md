@@ -10,7 +10,7 @@
 
 ## Description
 
-The projects list page serves as the main entry point of the application. It displays a scrollable grid of project cards, each showing an image, title, and complexity level. The projects are fetched from MongoDB and displayed in chronological order (newest first).
+![wireframe](./assets/projects-list.png)
 
 ## Acceptance Criteria
 
