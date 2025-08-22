@@ -6,18 +6,19 @@ Activity Planner is a user-friendly application designed for outdoor enthusiasts
 
 ### Main Features
 
-- **Activities List:** Browse a well-organised collection of activities.
-- **Create Activity:** Add new activities, enriching the activity catalogue.
-- **Activity Details:** View detailed information about each activity.
-- **Delete Activity:** Remove outdated or unwanted activities.
-- **Update Activity:** Update and modify existing activities.
+- **[Database Connection](./user-stories/0_database-connection.md):** Set up MongoDB connection and data models.
+- **[Activities List](./user-stories/1_activities-list.md):** Browse a well-organised collection of activities.
+- **[Activity Details](./user-stories/2_activity-details.md):** View detailed information about each activity.
+- **[Create Activity](./user-stories/3_create-activity.md):** Add new activities, enriching the activity catalogue.
+- **[Update Activity](./user-stories/4_update-activity.md):** Update and modify existing activities.
+- **[Delete Activity](./user-stories/5_delete-activity.md):** Remove outdated or unwanted activities.
 
 ### Additional Features Inspiration
 
 These features are optional and should serve as a conversation starter for upcoming features of the app.
 
-- **Bookmark Activity:** Save and showcase your favourite activities.
-- **Filter Activities:** Filter activities based on various criteria.
+- **[Bookmark Activity](./user-stories/additional-tasks/bookmark-activity.md):** Save and showcase your favourite activities.
+- **[Filter Activities](./user-stories/additional-tasks/filter-activities.md):** Filter activities based on various criteria.
 - **Activity Images:** Upload and display images related to activities.
 - **Plan Your Activity:** Add start and end dates to bookmarked activities for better planning and organisation.
 - **Activity Location:** Add and view the location of an activity on a map.
