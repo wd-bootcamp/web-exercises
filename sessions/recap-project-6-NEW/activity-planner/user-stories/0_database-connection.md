@@ -22,7 +22,9 @@ The Activity Planner app should have two MongoDB collections: one to store the "
     -   country: Country where the activity takes place (optional, string)
 -   [ ] Categories collection should have the following field:
     -   name: Name of the category (e.g., 'Outdoor', 'Sport', 'Water', 'Nature', 'Adventure', 'Winter')
--   [ ] Create the GET endpoint API for each collection.
+-   [ ] The following data is accessible via GET API endpoints:
+	- a list of all activities
+	- a list of all categories
 
 ## Tasks
 
