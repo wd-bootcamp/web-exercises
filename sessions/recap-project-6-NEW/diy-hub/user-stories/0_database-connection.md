@@ -20,7 +20,6 @@ The DIY Hub app should have a MongoDB collection to store DIY projects. Each pro
     -   description: A detailed description of the project (optional, string)
     -   materials: Array of required materials (optional, array of strings)
     -   steps: Array of project steps (optional, array of strings)
-
 -   [ ] Create the GET endpoint API for the projects collection.
 
 ## Tasks
@@ -32,8 +31,4 @@ The DIY Hub app should have a MongoDB collection to store DIY projects. Each pro
 -   [ ] Define the Mongoose Schema for projects in db/models/Project.js with the fields mentioned above
 -   [ ] Create the API endpoint "api/projects"
 -   [ ] Connect to API endpoint "api/projects" to read the data from the database
--   [ ] Add proper validation for required fields and data types:
-    -   [ ] Ensure title has minimum length of 3 characters
-    -   [ ] Validate complexity against allowed values
-    -   [ ] Set default image placeholder
 -   [ ] Implement error handling for database connection issues
