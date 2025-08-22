@@ -26,22 +26,8 @@
 ## Tasks
 
 - [ ] Create feature branch `feature/activities-list`
-- [ ] Set up MongoDB connection in the project
-  - [ ] Set up a new cluster
-  - [ ] Configure environment variables for MongoDB connection
-- [ ] Create Activity model with Mongoose schema:
-  ```javascript
-  {
-    title: { type: String, required: true },
-    imageUrl: { type: String, required: true },
-    categories: [{ type: String, required: true }],
-    description: String,
-    area: String,
-    country: String,
-  }
-  ```
-- [ ] Create API endpoint to fetch activities
+- [ ] Connect to existing API endpoint to fetch activities
 - [ ] Implement server-side sorting (newest first)
-- [ ] Add error handling for database connection issues
+- [ ] Add error handling for database queries
 - [ ] Add loading states for data fetching
 - [ ] Add error states for failed data fetching
