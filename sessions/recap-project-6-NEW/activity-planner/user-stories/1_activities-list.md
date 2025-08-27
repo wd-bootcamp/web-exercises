@@ -26,8 +26,32 @@
 ## Tasks
 
 - [ ] Create feature branch `feature/activities-list`
-- [ ] Connect to existing API endpoint to fetch activities
-- [ ] Implement server-side sorting (newest first)
-- [ ] Add error handling for database queries
-- [ ] Add loading states for data fetching
-- [ ] Add error states for failed data fetching
+- [ ] Create API endpoint for fetching activities
+  - [ ] Connect to existing MongoDB collection
+  - [ ] Implement server-side sorting (newest first)
+  - [ ] Add error handling for database queries
+- [ ] Create frontend components
+  - [ ] Create `ActivityList` component
+  - [ ] Create `ActivityCard` component for individual activity display
+  - [ ] Design props interface for `ActivityCard`:
+    - `id`: string (MongoDB ObjectId)
+    - `title`: string
+    - `imageUrl`: string
+    - `categories`: string array
+- [ ] Implement data fetching and state management
+  - [ ] Use SWR hook to fetch activities: `useSWR('/api/activities', fetcher)`
+  - [ ] Handle SWR loading state (`isLoading`) and error state (`error`)
+  - [ ] Implement conditional rendering based on SWR states
+  - [ ] Handle SWR data validation and transformation
+- [ ] Implement data mapping and rendering
+  - [ ] Map through activities array using `.map()` method
+  - [ ] Pass individual activity data as props to `ActivityCard` components
+  - [ ] Use unique keys (MongoDB `_id`) for React list rendering
+- [ ] Add loading and error states
+  - [ ] Create loading state component/UI
+  - [ ] Create error state component/UI
+  - [ ] Implement conditional rendering based on state
+- [ ] Style components
+  - [ ] Implement responsive grid/list layout
+  - [ ] Style activity cards with proper spacing and visual hierarchy
+  - [ ] Ensure mobile-friendly design
