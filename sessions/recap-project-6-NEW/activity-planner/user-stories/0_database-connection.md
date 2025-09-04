@@ -35,5 +35,4 @@ The Activity Planner app should have two MongoDB collections: one to store the "
 -   [ ] Define the Mongoose Schema for activities in db/models/Activity.js with the fields mentioned above
 -   [ ] Define the Mongoose Schema for categories in db/models/Category.js with the fields mentioned above
 -   [ ] Create the API endpoints "api/activities" and "api/categories"
--   [ ] Connect to API endpoints "api/activities" and "api/categories" to read the data from the database
 -   [ ] Implement error handling for database connection issues

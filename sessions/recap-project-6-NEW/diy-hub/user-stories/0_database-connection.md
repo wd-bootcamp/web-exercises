@@ -30,5 +30,4 @@ The DIY Hub app should have a MongoDB collection to store DIY projects. Each pro
 -   [ ] Connect the "diy-hub" database to your app by using connect.js from previous projects and provide the MongoDB_URI in ".env.local" file
 -   [ ] Define the Mongoose Schema for projects in db/models/Project.js with the fields mentioned above
 -   [ ] Create the API endpoint "api/projects"
--   [ ] Connect to API endpoint "api/projects" to read the data from the database
 -   [ ] Implement error handling for database connection issues
