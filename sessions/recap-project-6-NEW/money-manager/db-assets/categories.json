@@ -1,0 +1,80 @@
+[
+    {
+        "_id": {
+            "$oid": "68230fbc0a5e71225b7b9fbd"
+        },
+        "category": "Education"
+    },
+    {
+        "_id": {
+            "$oid": "68230fbc0a5e71225b7b9fbe"
+        },
+        "category": "Entertainment"
+    },
+    {
+        "_id": {
+            "$oid": "68230fbc0a5e71225b7b9fbf"
+        },
+        "category": "Groceries"
+    },
+    {
+        "_id": {
+            "$oid": "68230fbc0a5e71225b7b9fc0"
+        },
+        "category": "Health"
+    },
+    {
+        "_id": {
+            "$oid": "68230fbc0a5e71225b7b9fc1"
+        },
+        "category": "Insurance"
+    },
+    {
+        "_id": {
+            "$oid": "68230fbc0a5e71225b7b9fc2"
+        },
+        "category": "Investment"
+    },
+    {
+        "_id": {
+            "$oid": "68230fbc0a5e71225b7b9fc3"
+        },
+        "category": "Miscellaneous"
+    },
+    {
+        "_id": {
+            "$oid": "68230fbc0a5e71225b7b9fc4"
+        },
+        "category": "Rent"
+    },
+    {
+        "_id": {
+            "$oid": "68230fbc0a5e71225b7b9fc5"
+        },
+        "category": "Restaurants"
+    },
+    {
+        "_id": {
+            "$oid": "68230fbc0a5e71225b7b9fc6"
+        },
+        "category": "Salary"
+    },
+    {
+        "_id": {
+            "$oid": "68230fbc0a5e71225b7b9fc7"
+        },
+        "category": "Savings"
+    },
+    {
+        "_id": {
+            "$oid": "68230fbc0a5e71225b7b9fc8"
+        },
+        "category": "Transportation"
+    },
+    {
+        "_id": {
+            "$oid": "68230fbc0a5e71225b7b9fc9"
+        },
+        "category": "Utilities"
+    }
+]

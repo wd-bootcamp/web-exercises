@@ -1,0 +1,92 @@
+[
+    {
+        "_id": {
+            "$oid": "6822f1fa565fb7dec523d653"
+        },
+        "amount": -50.75,
+        "category": "68230fbc0a5e71225b7b9fbf",
+        "type": "expense",
+        "date": "2024-07-01T00:00:00"
+    },
+    {
+        "_id": {
+            "$oid": "6822f1fa565fb7dec523d654"
+        },
+        "amount": -1200,
+        "category": "68230fbc0a5e71225b7b9fc4",
+        "type": "expense",
+        "date": "2024-07-02T00:00:00"
+    },
+    {
+        "_id": {
+            "$oid": "6822f1fa565fb7dec523d655"
+        },
+        "amount": 1500,
+        "category": "68230fbc0a5e71225b7b9fc6",
+        "type": "income",
+        "date": "2024-07-03T00:00:00"
+    },
+    {
+        "_id": {
+            "$oid": "6822f1fa565fb7dec523d656"
+        },
+        "amount": -200.5,
+        "category": "68230fbc0a5e71225b7b9fc1",
+        "type": "expense",
+        "date": "2024-07-04T00:00:00"
+    },
+    {
+        "_id": {
+            "$oid": "6822f1fa565fb7dec523d657"
+        },
+        "amount": -75.25,
+        "category": "68230fbc0a5e71225b7b9fbe",
+        "type": "expense",
+        "date": "2024-07-05T00:00:00"
+    },
+    {
+        "_id": {
+            "$oid": "6822f1fa565fb7dec523d658"
+        },
+        "amount": -60,
+        "category": "68230fbc0a5e71225b7b9fc5",
+        "type": "expense",
+        "date": "2024-07-06T00:00:00"
+    },
+    {
+        "_id": {
+            "$oid": "6822f1fa565fb7dec523d659"
+        },
+        "amount": 500,
+        "category": "68230fbc0a5e71225b7b9fc2",
+        "type": "income",
+        "date": "2024-07-07T00:00:00"
+    },
+    {
+        "_id": {
+            "$oid": "6822f1fa565fb7dec523d65a"
+        },
+        "amount": -30,
+        "category": "68230fbc0a5e71225b7b9fc8",
+        "type": "expense",
+        "date": "2024-07-08T00:00:00"
+    },
+    {
+        "_id": {
+            "$oid": "6822f1fa565fb7dec523d65b"
+        },
+        "amount": -100,
+        "category": "68230fbc0a5e71225b7b9fbd",
+        "type": "expense",
+        "date": "2024-07-09T00:00:00"
+    },
+    {
+        "_id": {
+            "$oid": "6822f1fa565fb7dec523d65c"
+        },
+        "amount": 200,
+        "category": "68230fbc0a5e71225b7b9fc7",
+        "type": "income",
+        "date": "2024-07-10T00:00:00"
+    }
+]

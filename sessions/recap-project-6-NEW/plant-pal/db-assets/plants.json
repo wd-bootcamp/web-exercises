@@ -1,0 +1,362 @@
+[
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807ade7"
+        },
+        "name": "Snake Plant",
+        "botanicalName": "Sansevieria trifasciata",
+        "imageUrl": "",
+        "waterNeed": "Low",
+        "lightNeed": "Partial Shade",
+        "fertiliserSeason": ["Spring", "Summer"],
+        "description": "The Snake Plant, also known as Mother-in-Law's Tongue, is a hardy and low-maintenance plant that can thrive in low light and requires minimal watering."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807ade8"
+        },
+        "name": "Fiddle Leaf Fig",
+        "botanicalName": "Ficus lyrata",
+        "imageUrl": "",
+        "waterNeed": "Medium",
+        "lightNeed": "Full Sun",
+        "fertiliserSeason": ["Spring"],
+        "description": "The Fiddle Leaf Fig is a popular indoor tree known for its large, violin-shaped leaves. It prefers bright, indirect light and consistent watering."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807ade9"
+        },
+        "name": "Aloe Vera",
+        "botanicalName": "Aloe barbadensis miller",
+        "imageUrl": "",
+        "waterNeed": "Low",
+        "lightNeed": "Full Sun",
+        "fertiliserSeason": ["Summer"],
+        "description": "Aloe Vera is a succulent plant species known for its medicinal properties. It requires bright light and minimal water, making it easy to care for."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807adea"
+        },
+        "name": "Spider Plant",
+        "botanicalName": "Chlorophytum comosum",
+        "imageUrl": "",
+        "waterNeed": "Low",
+        "lightNeed": "Partial Shade",
+        "fertiliserSeason": ["Spring", "Summer"],
+        "description": "The Spider Plant is a resilient houseplant known for its air-purifying qualities and ability to thrive in a variety of light conditions."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807adeb"
+        },
+        "name": "Peace Lily",
+        "botanicalName": "Spathiphyllum",
+        "imageUrl": "",
+        "waterNeed": "High",
+        "lightNeed": "Full Shade",
+        "fertiliserSeason": ["Spring", "Summer"],
+        "description": "Peace Lilies are known for their beautiful white flowers and ability to thrive in low light. They require frequent watering to maintain their lush foliage."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807adec"
+        },
+        "name": "Rubber Plant",
+        "botanicalName": "Ficus elastica",
+        "imageUrl": "",
+        "waterNeed": "Medium",
+        "lightNeed": "Partial Shade",
+        "fertiliserSeason": ["Spring", "Fall"],
+        "description": "The Rubber Plant is a popular indoor tree with large, glossy leaves. It thrives in medium to bright light and needs regular watering."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807aded"
+        },
+        "name": "ZZ Plant",
+        "botanicalName": "Zamioculcas zamiifolia",
+        "imageUrl": "",
+        "waterNeed": "Low",
+        "lightNeed": "Partial Shade",
+        "fertiliserSeason": ["Spring", "Summer"],
+        "description": "The ZZ Plant is a hardy and drought-tolerant plant that can survive in low light and requires minimal watering, making it perfect for beginners."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807adee"
+        },
+        "name": "Monstera Deliciosa",
+        "botanicalName": "Monstera deliciosa",
+        "imageUrl": "",
+        "waterNeed": "Medium",
+        "lightNeed": "Partial Shade",
+        "fertiliserSeason": ["Spring", "Summer"],
+        "description": "Monstera Deliciosa, also known as the Swiss Cheese Plant, is famous for its large, split leaves. It prefers indirect light and moderate watering."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807adef"
+        },
+        "name": "Pothos",
+        "botanicalName": "Epipremnum aureum",
+        "imageUrl": "",
+        "waterNeed": "Low",
+        "lightNeed": "Partial Shade",
+        "fertiliserSeason": ["Spring", "Summer"],
+        "description": "Pothos is a versatile and low-maintenance plant that can thrive in low light and requires infrequent watering. It's known for its trailing vines."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807adf0"
+        },
+        "name": "Boston Fern",
+        "botanicalName": "Nephrolepis exaltata",
+        "imageUrl": "",
+        "waterNeed": "High",
+        "lightNeed": "Partial Shade",
+        "fertiliserSeason": ["Spring", "Summer"],
+        "description": "Boston Ferns are lush, green plants that thrive in humid environments with bright, indirect light. They need regular watering to keep their fronds healthy."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807adf1"
+        },
+        "name": "Orchid",
+        "botanicalName": "Orchidaceae",
+        "imageUrl": "",
+        "waterNeed": "Low",
+        "lightNeed": "Partial Shade",
+        "fertiliserSeason": ["Spring", "Summer"],
+        "description": "Orchids are elegant flowering plants that prefer bright, indirect light and minimal watering. They are known for their beautiful and long-lasting blooms."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807adf2"
+        },
+        "name": "Jade Plant",
+        "botanicalName": "Crassula ovata",
+        "imageUrl": "",
+        "waterNeed": "Low",
+        "lightNeed": "Full Sun",
+        "fertiliserSeason": ["Spring", "Fall"],
+        "description": "The Jade Plant is a succulent known for its thick, fleshy leaves. It thrives in bright light and requires minimal watering, making it easy to care for."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807adf3"
+        },
+        "name": "Philodendron",
+        "botanicalName": "Philodendron spp.",
+        "imageUrl": "",
+        "waterNeed": "Medium",
+        "lightNeed": "Partial Shade",
+        "fertiliserSeason": ["Spring", "Summer"],
+        "description": "Philodendrons are popular houseplants known for their heart-shaped leaves. They prefer indirect light and consistent watering."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807adf4"
+        },
+        "name": "Cactus",
+        "botanicalName": "Cactaceae",
+        "imageUrl": "",
+        "waterNeed": "Low",
+        "lightNeed": "Full Sun",
+        "fertiliserSeason": ["Summer"],
+        "description": "Cacti are desert plants that thrive in bright light and require very little water. They are known for their unique shapes and spines."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807adf5"
+        },
+        "name": "Lavender",
+        "botanicalName": "Lavandula",
+        "imageUrl": "",
+        "waterNeed": "Low",
+        "lightNeed": "Full Sun",
+        "fertiliserSeason": ["Spring"],
+        "description": "Lavender is a fragrant herb known for its purple flowers and soothing scent. It requires full sun and minimal watering."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807adf6"
+        },
+        "name": "Succulent",
+        "botanicalName": "Succulents",
+        "imageUrl": "",
+        "waterNeed": "Low",
+        "lightNeed": "Full Sun",
+        "fertiliserSeason": ["Summer", "Fall"],
+        "description": "Succulents are a diverse group of plants known for their water-storing capabilities. They thrive in bright light and require minimal watering."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807adf7"
+        },
+        "name": "Calathea",
+        "botanicalName": "Calathea spp.",
+        "imageUrl": "",
+        "waterNeed": "High",
+        "lightNeed": "Full Shade",
+        "fertiliserSeason": ["Spring", "Summer"],
+        "description": "Calatheas are known for their stunning, patterned leaves. They thrive in low light and high humidity, requiring regular watering to keep their foliage vibrant."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807adf8"
+        },
+        "name": "Yucca",
+        "botanicalName": "Yucca",
+        "imageUrl": "",
+        "waterNeed": "Low",
+        "lightNeed": "Full Sun",
+        "fertiliserSeason": ["Spring"],
+        "description": "Yucca plants are hardy and drought-tolerant, known for their long, sword-shaped leaves. They thrive in bright light and require minimal watering."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807adf9"
+        },
+        "name": "Bamboo",
+        "botanicalName": "Bambusoideae",
+        "imageUrl": "",
+        "waterNeed": "Medium",
+        "lightNeed": "Full Sun",
+        "fertiliserSeason": ["Spring", "Summer"],
+        "description": "Bamboo plants are fast-growing and known for their tall, graceful stalks. They prefer bright light and consistent watering, especially during the growing season."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807adfa"
+        },
+        "name": "Anthurium",
+        "botanicalName": "Anthurium",
+        "imageUrl": "",
+        "waterNeed": "Medium",
+        "lightNeed": "Partial Shade",
+        "fertiliserSeason": ["Spring", "Fall"],
+        "description": "Anthuriums are known for their striking, heart-shaped flowers and glossy leaves. They prefer bright, indirect light and moderate watering."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807adfb"
+        },
+        "name": "English Ivy",
+        "botanicalName": "Hedera helix",
+        "imageUrl": "",
+        "waterNeed": "Medium",
+        "lightNeed": "Full Shade",
+        "fertiliserSeason": ["Spring", "Summer"],
+        "description": "English Ivy is a versatile plant known for its trailing vines and ability to thrive in shaded areas. It requires moderate watering."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807adfc"
+        },
+        "name": "Dumb Cane",
+        "botanicalName": "Dieffenbachia",
+        "imageUrl": "",
+        "waterNeed": "High",
+        "lightNeed": "Partial Shade",
+        "fertiliserSeason": ["Spring", "Summer"],
+        "description": "Dumb Cane is a popular houseplant known for its large, variegated leaves. It prefers indirect light and regular watering."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807adfd"
+        },
+        "name": "Golden Pothos",
+        "botanicalName": "Epipremnum aureum",
+        "imageUrl": "",
+        "waterNeed": "Low",
+        "lightNeed": "Partial Shade",
+        "fertiliserSeason": ["Spring", "Summer"],
+        "description": "Golden Pothos is a low-maintenance plant that can thrive in low light and requires infrequent watering. It's known for its trailing vines."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807adfe"
+        },
+        "name": "Peace Lily",
+        "botanicalName": "Spathiphyllum",
+        "imageUrl": "",
+        "waterNeed": "High",
+        "lightNeed": "Full Shade",
+        "fertiliserSeason": ["Spring", "Summer"],
+        "description": "Peace Lilies are known for their beautiful white flowers and ability to thrive in low light. They require frequent watering to maintain their lush foliage."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807adff"
+        },
+        "name": "Areca Palm",
+        "botanicalName": "Dypsis lutescens",
+        "imageUrl": "",
+        "waterNeed": "Medium",
+        "lightNeed": "Partial Shade",
+        "fertiliserSeason": ["Spring", "Summer"],
+        "description": "Areca Palms are popular indoor palms known for their feathery, arching fronds. They prefer indirect light and regular watering."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807ae00"
+        },
+        "name": "Swiss Cheese Plant",
+        "botanicalName": "Monstera adansonii",
+        "imageUrl": "",
+        "waterNeed": "Medium",
+        "lightNeed": "Partial Shade",
+        "fertiliserSeason": ["Spring", "Summer"],
+        "description": "The Swiss Cheese Plant is known for its unique, perforated leaves. It prefers bright, indirect light and moderate watering."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807ae01"
+        },
+        "name": "Chinese Money Plant",
+        "botanicalName": "Pilea peperomioides",
+        "imageUrl": "",
+        "waterNeed": "Low",
+        "lightNeed": "Partial Shade",
+        "fertiliserSeason": ["Spring", "Summer"],
+        "description": "The Chinese Money Plant is a trendy houseplant known for its round, coin-shaped leaves. It thrives in bright, indirect light and requires minimal watering."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807ae02"
+        },
+        "name": "Bird of Paradise",
+        "botanicalName": "Strelitzia reginae",
+        "imageUrl": "",
+        "waterNeed": "High",
+        "lightNeed": "Full Sun",
+        "fertiliserSeason": ["Spring", "Summer"],
+        "description": "Bird of Paradise is known for its striking, tropical flowers. It requires bright light and regular watering to thrive."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807ae03"
+        },
+        "name": "Jade Plant",
+        "botanicalName": "Crassula ovata",
+        "imageUrl": "",
+        "waterNeed": "Low",
+        "lightNeed": "Full Sun",
+        "fertiliserSeason": ["Spring", "Fall"],
+        "description": "The Jade Plant is a succulent known for its thick, fleshy leaves. It thrives in bright light and requires minimal watering, making it easy to care for."
+    },
+    {
+        "_id": {
+            "$oid": "6822f456bd4662a0e807ae04"
+        },
+        "name": "African Violet",
+        "botanicalName": "Saintpaulia",
+        "imageUrl": "",
+        "waterNeed": "Medium",
+        "lightNeed": "Partial Shade",
+        "fertiliserSeason": ["Spring", "Summer"],
+        "description": "African Violets are popular indoor flowering plants known for their vibrant, velvety flowers. They prefer indirect light and moderate watering."
+    }
+]
