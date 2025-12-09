@@ -32,7 +32,7 @@ Download the required Icon: [Lucide](https://lucide.dev/icons/) or [Flaticon](ht
 
 ## Deploying Your Project
 
-🚀 Project Deployment to GitHub Pages is required: Please adhere to the deployment guidelines outlined in your repository's documentation (`docs/deployment-github-pages.md`) for detailed instructions.
+🚀 Project Deployment to **GitHub Pages** is required: Please adhere to the [deployment guidelines](https://web-bootcamp-docs.neuefische.de/deployment) for detailed instructions.
 
 ## Tasks
 
