@@ -4,12 +4,15 @@
 
 This websites is using components to structure the elements, but the CSS itself is not very coherent. Use the BEM class naming pattern to restructure the CSS. Keep in mind you need to add classes in the HTML as well!
 
+Go to `css/components/info-class.css`. The `.info-card` class will be your Block class so you don't have to touch it. All other selectors should be replaced by class selectors in BEM style (`.info-class__headline` could be nice for the first one). Don't forget to identify the HTML elements that use these styles and add the new classes to them.
+
 Some general guidelines for using BEM:
 
 - Every styled element inside a component needs a **class**, no type selectors!
-- Every class name for a given component hast to start with the BLOCK name (the name of the component).
+- Every class name for a given component hast to start with the BLOCK name (the name of the component, here: `info-class`).
 - Element names are separated with two underscores `__`, modifiers are prefixed with two dashes `--`.
 - Modifier classes are added as a second class to the base element class. They modify the already existing element CSS, for example changing the background color. So they cannot stand on their own, but always appear together with their `BASE__ELEMENT` class.
+
 
 > 💡 This example is quite small, therefore the upsides of BEM are not as visible as possible. In larger projects this naming pattern helps you to scope the css to the correct elements.
 
