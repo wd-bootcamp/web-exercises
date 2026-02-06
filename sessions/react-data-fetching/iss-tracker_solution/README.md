@@ -36,7 +36,7 @@ You will need to fetch on interval and refetch on click of a button.
 The only thing not working yet is the "Refresh" button because the `getISSCords` function does not exist anymore.
 
 - Destructure the `mutate` function provided by the `useSWR` hook.
-- Pass it to the `onRefresh` prop of the `Controls` component. You can use an inline function as in `onReload={() => handleReload()}`.
+- Pass it to the `onRefresh` prop of the `Controls` component.
 
 ✨ Congratulations, you can now see the exact position of the ISS whenever you want with the help of `SWR`!
 
