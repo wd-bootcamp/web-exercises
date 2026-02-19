@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Biology",
+    "color": "#8B9467"
+  },
+  {
+    "name": "Chemistry",
+    "color": "#FFC107"
+  },
+  {
+    "name": "Geography",
+    "color": "#34A85A"
+  },
+  {
+    "name": "Math",
+    "color": "#4B5154"
+  },
+  {
+    "name": "Physics",
+    "color": "#FFA07A"
+  },
+  {
+    "name": "Technology",
+    "color": "#456778"
+  },
+  {
+    "name": "Art",
+    "color": "#8F8E94"
+  },
+  {
+    "name": "Music",
+    "color": "#FF69B4"
+  }
+]
