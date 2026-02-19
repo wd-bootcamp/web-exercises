@@ -10,12 +10,12 @@
 
 ## Description
 
-Capstone Group Todo: Add wireframes
+![plant list](./assets/plants-list.png)
 
 ## Acceptance Criteria
 
 - The homepage displays a list of plants.
-- The plant list is headlined with its purpose.
+- The title of the app is displayed clearly at the top of the page.
 - Each plant listing includes:
   - Plant name
   - Plant botanical name

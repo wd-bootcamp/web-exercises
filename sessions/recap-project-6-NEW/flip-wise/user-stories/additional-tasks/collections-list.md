@@ -15,7 +15,7 @@ Capstone Group Todo: Add wireframes
 ## Acceptance Criteria
 
 - The homepage displays a list of flashcard collections.
-- The collections list is headlined with its purpose.
+- The title of the app is displayed clearly at the top of the page.
 - Each collection listing includes:
   - Collection title
   - Number of flashcards in the collection

@@ -15,7 +15,7 @@
 ## Acceptance Criteria
 
 - The homepage displays a list of projects fetched from MongoDB.
-- The projects list is headlined with its purpose.
+- The title of the app is displayed clearly at the top of the page.
 - Each project listing includes:
   - Project title
   - Project image

@@ -15,7 +15,7 @@
 ## Acceptance Criteria
 
 - The homepage displays a list of activities fetched from MongoDB.
-- The activities list is headlined with its purpose.
+- The title of the app is displayed clearly at the top of the page.
 - Each activity listing includes:
   - Activity title
   - Activity image
