@@ -13,13 +13,9 @@ The app should have a MongoDB collection to store flashcards. Each project conta
 - [ ] MongoDB should have one database named "flip-wise" with the following collection:
   - [ ] flashcards
 - [ ] flashcards collection should have the following fields:
-  - title: Title of the project (required, string, min length 3)
-  - imageUrl: Link to the project image (required, string, default: '/placeholder.jpg')
-  - complexity: Difficulty level of the project (required, enum: ['Beginner', 'Intermediate', 'Advanced'])
-  - duration: Estimated time to complete (required, string)
-  - description: A detailed description of the project (optional, string)
-  - materials: Array of required materials (optional, array of strings)
-  - steps: Array of project steps (optional, array of strings)
+  - collection: String,
+  - question: String,
+  - answer: String,
 - [ ] Create the GET endpoint API for the flashcards collection.
 
 ## Tasks

@@ -10,7 +10,7 @@
 
 ## Description
 
-Capstone Group Todo: Add wireframes
+![transactions list](./assets/transactions-list.png)
 
 ## Acceptance Criteria
 
@@ -18,14 +18,13 @@ Capstone Group Todo: Add wireframes
 - The transactions list is headlined with its purpose.
 - Each transaction listing includes:
   - Transaction Amount
-  - Transaction Category
-  - Transaction Type (income or expense)
+  - Transaction Title
   - Transaction Date
-- Income and expense transactions are visually differentiated (e.g., using different colours or icons).
+- Income and expense transactions (negative or positive) are visually differentiated (e.g., using different colours).
 - The list supports vertical scrolling to accommodate multiple entries.
 
 ## Tasks
 
 - [ ] Create feature branch `feature/transactions-list`
-- [ ] Inspect and adapt the example data in the [assets folder](./assets/transactions.json)
+- [ ] Inspect and adapt the example data in the [assets folder](../db-assets/transactions.json)
 - [ ] Capstone Group Todo: Add tasks
