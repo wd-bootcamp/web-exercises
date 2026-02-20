@@ -30,3 +30,8 @@ These features are optional and should serve as a conversation starter for upcom
 
 - You can find some example data for MongoDb in the [assets folder](./db-assets/) to get you started.
 
+## Download this Project Info
+
+```bash
+npx ghcd@latest wd-bootcamp/web-exercises/tree/main/sessions/recap-project-6/activity-planner project-info
+```
