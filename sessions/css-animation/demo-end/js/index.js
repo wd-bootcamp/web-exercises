@@ -1,12 +1,9 @@
 const button = document.querySelector('[data-js="button-position"]');
 
-let positionIndex = 0;
+let position = 0;
 
 button.addEventListener("click", () => {
-  const newPositionIndex = (positionIndex + 1) % 3;
-  button.className = button.className.replace(
-    `position--${positionIndex}`,
-    `position--${newPositionIndex}`
-  );
-  positionIndex = newPositionIndex;
+  const newPosition = (position + 1) % 3; //Because 3 positions got defined in CSS
+  button.classList.replace(`position--${position}`, `position--${newPosition}`);
+  position = newPosition;
 });
