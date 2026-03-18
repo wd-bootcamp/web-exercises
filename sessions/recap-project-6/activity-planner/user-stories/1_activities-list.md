@@ -37,3 +37,5 @@
   - [ ] Map through activities array using `.map()` method
   - [ ] Pass individual activity data as props to `ActivityCard` components
   - [ ] Use unique keys (MongoDB `_id`) for React list rendering
+
+

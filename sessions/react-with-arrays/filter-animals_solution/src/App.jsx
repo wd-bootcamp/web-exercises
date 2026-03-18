@@ -42,7 +42,7 @@ export default function App() {
       {habitats.map((habitat) => (
         <button
           type="button"
-          key={habitat.id}
+          key={habitat}
           className={`button ${habitat === selectedHabitat ? "highlight" : ""}`}
           onClick={() => setSelectedHabitat(habitat)}
         >
