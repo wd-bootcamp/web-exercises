@@ -8,7 +8,7 @@ To process the complaint effectively, the company requires certain information.
 
 Ensure that the user provides all the necessary information in the correct format by applying validation. Follow these guidelines:
 
-- **First and Last Name:** These fields are required. Each must be at least 4 characters and no more than 30 characters long.
+- **First and Last Name:** These fields are required. Each must be at least 2 characters and no more than 30 characters long.
 - **Age:** The user must be at least 14 years old.
 - **Email Address:** A valid email address is required, containing an `@` symbol.
 - **Terms of Service:** The user must confirm that they have read and agree to the terms of service.
