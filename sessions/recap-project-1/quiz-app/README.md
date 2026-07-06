@@ -25,6 +25,7 @@ To begin, perform the following tasks:
 - Create a remote repository and connect it to the local repository.
 - Create the `index.html` and `styles.css` files.
 - Ensure that the CSS file is loaded in the HTML document.
+- Set up a deployment for the project (see [Deploying Your Project](#deploying-your-project) below) right after your initial setup.
 
 ## Resources
 
