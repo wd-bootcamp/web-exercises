@@ -42,7 +42,7 @@ Download the required [Icons](https://lucide.dev/icons/) and save them in an "as
 
 ## Deploying Your Project
 
-If you are using the template, you will need to deploy you project.
+If you are using the template, you will need to deploy you project. Set up the deployment right after you've set up the template.
 
 🚀 Project Deployment to GitHub Pages is required: Please adhere to the deployment guidelines outlined in your repository's documentation (`docs/deployment-github-pages.md`) for detailed instructions.
 
