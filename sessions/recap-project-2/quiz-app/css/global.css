@@ -1,0 +1,125 @@
+:root {
+  --bg-color: #f5f6fa;
+  --surface-color: #ffffff;
+  --text-color: #1e293b;
+  --muted-color: #64748b;
+  --border-color: #e2e8f0;
+  --accent-color: #eef2ff;
+  --active-color: #4f46e5;
+  --active-color-hover: #4338ca;
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-pill: 999px;
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 1px 3px rgba(15, 23, 42, 0.06),
+    0 8px 24px rgba(15, 23, 42, 0.06);
+
+  --fs-500: 1rem;
+  --fs-600: 1.25rem;
+  --fs-900: 1.75rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+}
+
+h1 {
+  margin: 0;
+  font-size: var(--fs-600);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+header,
+footer {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+header {
+  top: 0;
+  padding: 18px 24px;
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 96px 20px 100px 20px;
+}
+
+section {
+  position: relative;
+  background-color: var(--surface-color);
+  padding: 24px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 16px;
+  border-top: 1px solid var(--border-color);
+}
+
+.footer__icon {
+  height: 28px;
+  object-fit: scale-down;
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+}
+
+.footer__link {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 96px;
+  padding: 10px 0;
+  border-radius: var(--radius-pill);
+  transition: background-color 0.2s ease;
+}
+
+.footer__link:hover .footer__icon {
+  opacity: 0.9;
+}
+
+.footer__link:focus-visible {
+  outline: 2px solid var(--active-color);
+  outline-offset: 2px;
+}
+
+.footer__link.footer__link--active {
+  background-color: var(--accent-color);
+}
+
+.footer__link--active .footer__icon {
+  opacity: 1;
+}

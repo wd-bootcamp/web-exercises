@@ -9,16 +9,17 @@ async function fetchUserData(url) {
     const response = await fetch(url, {
       headers: { "x-api-key": "reqres_c0aaf46c1fa2400e8fb8669bacd63171" },
     });
+
     // Bonus:
     const contentType = response.headers.get("content-type");
 
-    if(!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`)
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
     }
-     // Bonus:
-     else if(!contentType.includes("application/json")) {
+    // Bonus:
+    else if (!contentType.includes("application/json")) {
       throw new Error("Expected JSON response but received: " + contentType);
-     }
+    }
 
     return await response.json();
   } catch (error) {
@@ -39,7 +40,6 @@ endpoints.forEach((endpoint) => {
   actionsElement.append(button);
 
   button.addEventListener("click", async () => {
-
     const result = await fetchUserData(endpoint.url);
 
     if (result.error) {
