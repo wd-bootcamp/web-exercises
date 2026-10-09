@@ -28,3 +28,18 @@ const animalFood = ["Meat", "Apple", "Banana", "Carrot"];
 const newAnimalFood = "Fish";
 
 // Spread for concatenating two arrays
+
+/* ---------- Destructuring in functions ----------- */
+
+const coach = { name:'Coachy MCCoach', age:18, favAnimal:'cat'};
+
+export function logInfo(person) { //this can be shorter
+  const name = person.name;
+  const age = person.age;
+  const favAnimal = person.favAnimal;
+  
+  return `${name} is ${age} and likes ${favAnimal}.`;
+}
+
+console.log(logInfo(coach));
+

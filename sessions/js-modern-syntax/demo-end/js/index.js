@@ -87,3 +87,15 @@ const allMyAnimals = [...newAnimals, ...animals];
 console.log("allMyAnimals: ", allMyAnimals);
 
 console.log("showZooAnimals: ", showZooAnimals(...allMyAnimals));
+
+
+/* ---------- Destructuring in functions ----------- */
+
+const coach = { name:'Coachy MCCoach', age:18, favAnimal:'cat'};
+
+export function logInfo({name, age, favAnimal}) {
+  return `${name} is ${age} and likes ${favAnimal}.`;
+}
+
+console.log(logInfo(coach));
+
