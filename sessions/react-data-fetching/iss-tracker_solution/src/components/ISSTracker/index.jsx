@@ -25,21 +25,6 @@ export default function ISSTracker() {
     mutate,
   } = useSWR(URL, fetcher, { refreshInterval: 5000 });
 
-  // Alternative Solution
-  // function useCoords() {
-  //   const { data, error, isLoading } = useSWR(URL, fetcher, {
-  //     refreshInterval: 5000,
-  //   });
-
-  //   return {
-  //     coords: data,
-  //     isLoading,
-  //     error,
-  //   };
-  // }
-
-  // const { coords, isLoading, error } = useCoords();
-
   if (error) return <p>Something went wrong...</p>;
   if (isLoading || !coords) return <p>Loading...</p>;
 
